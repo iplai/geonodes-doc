@@ -33,8 +33,8 @@ html_theme_options = {
     "light_logo": "logo-light.png",
     "dark_logo": "logo-dark.png",
     "sidebar_hide_name": True,
-    "source_repository": "https://github.com/iplai/geonodes_bilibili",
+    "source_repository": "https://github.com/iplai/gn",
     "source_branch": "main",
-    "source_directory": "source/",
+    "source_directory": "docs/",
 }
 html_favicon = "_static/favicon-light.png"
