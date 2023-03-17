@@ -16,7 +16,30 @@ release = '3.4.1.0'
 
 extensions = [
     "sphinx_copybutton",
+    "myst_parser",
 ]
+
+myst_enable_extensions = [
+    # "amsmath",
+    # "attrs_inline",
+    "colon_fence",
+    # "deflist",
+    "dollarmath",
+    # "fieldlist",
+    # "html_admonition",
+    # "html_image",
+    # "linkify",
+    # "replacements",
+    # "smartquotes",
+    # "strikethrough",
+    # "substitution",
+    # "tasklist",
+]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 templates_path = ['_templates']
 exclude_patterns = []
