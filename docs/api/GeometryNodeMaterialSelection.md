@@ -13,7 +13,7 @@ from geonodes import nodes
 node = nodes.MaterialSelection(material=None)
 ```
 
-![Blender Image](https://docs.blender.org/manual/en/latest/_images/node-types_GeometryNodeMaterialSelection.webp)
+![Blender Image](https://docs.blender.org/manual/en/latest/_images/modeling_geometry-nodes_material_material-selection_node.png)
 
 ### Args:
 
