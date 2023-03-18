@@ -13,7 +13,8 @@ from geonodes import nodes
 node = nodes.GroupInput()
 ```
 
-![Blender Image](https://docs.blender.org/manual/en/latest/_images/node-types_NodeGroupInput.webp)
+![Blender Image](
+https://docs.blender.org/manual/en/3.4/_images/interface_controls_nodes_groups_interface-panel.png)
 
 ### Output sockets:
 

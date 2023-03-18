@@ -13,7 +13,7 @@ from geonodes import nodes
 node = nodes.GroupOutput(geometry=None, is_active_output=True)
 ```
 
-![Blender Image](https://docs.blender.org/manual/en/latest/_images/node-types_NodeGroupOutput.webp)
+![Blender Image](https://docs.blender.org/manual/en/3.4/_images/interface_controls_nodes_groups_interface-panel.png)
 
 ### Args:
 

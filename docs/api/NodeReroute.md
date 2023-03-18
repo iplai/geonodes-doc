@@ -13,7 +13,6 @@ from geonodes import nodes
 node = nodes.Reroute(input=None)
 ```
 
-![Blender Image](https://docs.blender.org/manual/en/latest/_images/node-types_NodeReroute.webp)
 
 ### Args:
 
