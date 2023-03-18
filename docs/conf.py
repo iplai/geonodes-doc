@@ -14,6 +14,8 @@ release = '3.4.1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+
+
 extensions = [
     "sphinx_copybutton",
     "myst_parser",
@@ -22,7 +24,7 @@ extensions = [
 myst_enable_extensions = [
     # "amsmath",
     # "attrs_inline",
-    "colon_fence",
+    # "colon_fence",
     # "deflist",
     "dollarmath",
     # "fieldlist",
@@ -61,3 +63,7 @@ html_theme_options = {
     "source_directory": "docs/",
 }
 html_favicon = "_static/favicon-light.png"
+
+from docutils.nodes import make_id
+myst_heading_slug_func = make_id
+myst_heading_anchors = 3
