@@ -1,4 +1,4 @@
-![](_static/images/geonodes.png)
+[![](_static/images/geonodes.png)](https://github.com/iplai/geonodes)
 # 程序化几何节点说明文档
 
 目录

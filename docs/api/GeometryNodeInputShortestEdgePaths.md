@@ -13,7 +13,7 @@ from geonodes import nodes
 node = nodes.ShortestEdgePaths(end_vertex=None, edge_cost=None)
 ```
 
-![Blender Image](https://docs.blender.org/manual/en/latest/_images/node-types_GeometryNodeInputShortestEdgePaths.webp)
+![Blender Image](https://docs.blender.org/manual/en/latest/_images/node-types_GeometryNodeInputShortestEdgePaths.png)
 
 ### Args:
 
