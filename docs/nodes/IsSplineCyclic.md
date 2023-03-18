@@ -4,7 +4,7 @@
 > Geometry node name: [Is Spline Cyclic](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/is_spline_cyclic.html)<br>
   Blender type: [Is Spline Cyclic](https://docs.blender.org/api/current/bpy.types.GeometryNodeInputSplineCyclic.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

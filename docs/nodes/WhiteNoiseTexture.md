@@ -4,7 +4,7 @@
 > Geometry node name: [White Noise Texture](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/texture/white_noise.html)<br>
   Blender type: [White Noise Texture](https://docs.blender.org/api/current/bpy.types.ShaderNodeTexWhiteNoise.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

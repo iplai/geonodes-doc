@@ -4,7 +4,7 @@
 > Geometry node name: [Face Set Boundaries](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh/face_set_boundaries.html)<br>
   Blender type: [Face Set Boundaries](https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshFaceSetBoundaries.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

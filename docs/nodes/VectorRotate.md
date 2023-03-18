@@ -4,7 +4,7 @@
 > Geometry node name: [Vector Rotate](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/vector/vector_rotate.html)<br>
   Blender type: [Vector Rotate](https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorRotate.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

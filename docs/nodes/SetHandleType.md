@@ -4,7 +4,7 @@
 > Geometry node name: [Set Handle Type](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/set_handle_type.html)<br>
   Blender type: [Set Handle Type](https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveSetHandles.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

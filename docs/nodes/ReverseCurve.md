@@ -4,7 +4,7 @@
 > Geometry node name: [Reverse Curve](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/reverse_curve.html)<br>
   Blender type: [Reverse Curve](https://docs.blender.org/api/current/bpy.types.GeometryNodeReverseCurve.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

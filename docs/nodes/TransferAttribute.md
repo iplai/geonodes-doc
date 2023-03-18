@@ -4,7 +4,7 @@
 > Geometry node name: [Transfer Attribute](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/attribute/transfer_attribute.html)<br>
   Blender type: [Transfer Attribute](https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeTransfer.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 
@@ -53,9 +53,9 @@ node = nodes.TransferAttribute(source=None, attribute=None, source_position=None
 > Data socket classes implementing this node.
   
   
-- [Geometry](/docs/sockets/Geometry.md).[transfer_boolean](/docs/sockets/Geometry.md#transfer_boolean) : Method
-- [Geometry](/docs/sockets/Geometry.md).[transfer_color](/docs/sockets/Geometry.md#transfer_color) : Method
-- [Geometry](/docs/sockets/Geometry.md).[transfer_float](/docs/sockets/Geometry.md#transfer_float) : Method
-- [Geometry](/docs/sockets/Geometry.md).[transfer_integer](/docs/sockets/Geometry.md#transfer_integer) : Method
-- [Geometry](/docs/sockets/Geometry.md).[transfer_vector](/docs/sockets/Geometry.md#transfer_vector) : Method
+- [Geometry](sockets/Geometry.md).[transfer_boolean](oolean) : Method
+- [Geometry](sockets/Geometry.md).[transfer_color](s/Geometry.md#transfer_color) : Method
+- [Geometry](sockets/Geometry.md).[transfer_float](s/Geometry.md#transfer_float) : Method
+- [Geometry](sockets/Geometry.md).[transfer_integer](s/Geometry.md#transfer_integer) : Method
+- [Geometry](sockets/Geometry.md).[transfer_vector](s/Geometry.md#transfer_vector) : Method
   

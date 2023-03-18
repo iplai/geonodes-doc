@@ -4,7 +4,7 @@
 > Geometry node name: [Realize Instances](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/instances/realize_instances.html)<br>
   Blender type: [Realize Instances](https://docs.blender.org/api/current/bpy.types.GeometryNodeRealizeInstances.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

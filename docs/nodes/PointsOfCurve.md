@@ -4,7 +4,7 @@
 > Geometry node name: [Points of Curve](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve_topology/points_of_curve.html)<br>
   Blender type: [Points of Curve](https://docs.blender.org/api/current/bpy.types.GeometryNodePointsOfCurve.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

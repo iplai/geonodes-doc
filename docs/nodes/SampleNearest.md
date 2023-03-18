@@ -4,7 +4,7 @@
 > Geometry node name: [Sample Nearest](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/geometry/sample_nearest.html)<br>
   Blender type: [Sample Nearest](https://docs.blender.org/api/current/bpy.types.GeometryNodeSampleNearest.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

@@ -4,7 +4,7 @@
 > Geometry node name: [Vertex of Corner](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh_topology/vertex_of_corner.html)<br>
   Blender type: [Vertex of Corner](https://docs.blender.org/api/current/bpy.types.GeometryNodeVertexOfCorner.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

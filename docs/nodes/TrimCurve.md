@@ -4,7 +4,7 @@
 > Geometry node name: [Trim Curve](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/trim_curve.html)<br>
   Blender type: [Trim Curve](https://docs.blender.org/api/current/bpy.types.GeometryNodeTrimCurve.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

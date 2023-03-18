@@ -4,7 +4,7 @@
 > Geometry node name: [Combine Color](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/color/combine_color.html)<br>
   Blender type: [Combine Color](https://docs.blender.org/api/current/bpy.types.FunctionNodeCombineColor.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

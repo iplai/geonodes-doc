@@ -4,7 +4,7 @@
 > Geometry node name: [Mesh Circle](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh_primitives/mesh_circle.html)<br>
   Blender type: [Mesh Circle](https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshCircle.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

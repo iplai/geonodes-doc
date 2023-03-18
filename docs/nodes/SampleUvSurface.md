@@ -4,7 +4,7 @@
 > Geometry node name: [Sample UV Surface](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh/sample_uv_surface.html)<br>
   Blender type: [Sample UV Surface](https://docs.blender.org/api/current/bpy.types.GeometryNodeSampleUVSurface.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

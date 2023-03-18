@@ -4,7 +4,7 @@
 > Geometry node name: [Extrude Mesh](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh/extrude_mesh.html)<br>
   Blender type: [Extrude Mesh](https://docs.blender.org/api/current/bpy.types.GeometryNodeExtrudeMesh.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

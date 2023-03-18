@@ -4,7 +4,7 @@
 > Geometry node name: [Brick Texture](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/texture/brick.html)<br>
   Blender type: [Brick Texture](https://docs.blender.org/api/current/bpy.types.ShaderNodeTexBrick.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

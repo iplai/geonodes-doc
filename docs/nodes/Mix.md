@@ -4,7 +4,7 @@
 > Geometry node name: [Mix](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/color/mix.html)<br>
   Blender type: [Mix](https://docs.blender.org/api/current/bpy.types.ShaderNodeMix.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

@@ -4,7 +4,7 @@
 > Geometry node name: [Set Material](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/material/set_material.html)<br>
   Blender type: [Set Material](https://docs.blender.org/api/current/bpy.types.GeometryNodeSetMaterial.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

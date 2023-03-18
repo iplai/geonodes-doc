@@ -4,7 +4,7 @@
 > Geometry node name: [Grid](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh_primitives/grid.html)<br>
   Blender type: [Grid](https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshGrid.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

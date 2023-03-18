@@ -4,7 +4,7 @@
 > Geometry node name: [Offset Corner in Face](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh_topology/offset_corner_in_face.html)<br>
   Blender type: [Offset Corner in Face](https://docs.blender.org/api/current/bpy.types.GeometryNodeOffsetCornerInFace.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

@@ -4,7 +4,7 @@
 > Geometry node name: [Index](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/input/input_index.html)<br>
   Blender type: [Index](https://docs.blender.org/api/current/bpy.types.GeometryNodeInputIndex.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

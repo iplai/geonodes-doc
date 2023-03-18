@@ -4,7 +4,7 @@
 > Geometry node name: [Points](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/point/points.html)<br>
   Blender type: [Points](https://docs.blender.org/api/current/bpy.types.GeometryNodePoints.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

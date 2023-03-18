@@ -4,7 +4,7 @@
 > Geometry node name: [Replace Material](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/material/replace_material.html)<br>
   Blender type: [Replace Material](https://docs.blender.org/api/current/bpy.types.GeometryNodeReplaceMaterial.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

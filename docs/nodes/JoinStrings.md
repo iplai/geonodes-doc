@@ -4,7 +4,7 @@
 > Geometry node name: [Join Strings](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/text/join_strings.html)<br>
   Blender type: [Join Strings](https://docs.blender.org/api/current/bpy.types.GeometryNodeStringJoin.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

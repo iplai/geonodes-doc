@@ -4,7 +4,7 @@
 > Geometry node name: [String Length](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/text/string_length.html)<br>
   Blender type: [String Length](https://docs.blender.org/api/current/bpy.types.FunctionNodeStringLength.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

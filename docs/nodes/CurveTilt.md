@@ -4,7 +4,7 @@
 > Geometry node name: [Curve Tilt](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/curve_tilt.html)<br>
   Blender type: [Curve Tilt](https://docs.blender.org/api/current/bpy.types.GeometryNodeInputCurveTilt.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

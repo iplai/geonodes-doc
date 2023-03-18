@@ -4,7 +4,7 @@
 > Geometry node name: [Scale Instances](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/instances/scale_instances.html)<br>
   Blender type: [Scale Instances](https://docs.blender.org/api/current/bpy.types.GeometryNodeScaleInstances.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

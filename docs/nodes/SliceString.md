@@ -4,7 +4,7 @@
 > Geometry node name: [Slice String](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/text/slice_string.html)<br>
   Blender type: [Slice String](https://docs.blender.org/api/current/bpy.types.FunctionNodeSliceString.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

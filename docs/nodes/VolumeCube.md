@@ -4,7 +4,7 @@
 > Geometry node name: [Volume Cube](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/volume/volume_cube.html)<br>
   Blender type: [Volume Cube](https://docs.blender.org/api/current/bpy.types.GeometryNodeVolumeCube.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

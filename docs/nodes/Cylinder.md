@@ -4,7 +4,7 @@
 > Geometry node name: [Cylinder](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh_primitives/cylinder.html)<br>
   Blender type: [Cylinder](https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshCylinder.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 

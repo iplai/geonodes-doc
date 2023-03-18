@@ -4,7 +4,7 @@
 > Geometry node name: [Image Texture](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/texture/image.html)<br>
   Blender type: [Image Texture](https://docs.blender.org/api/current/bpy.types.GeometryNodeImageTexture.html)
   
-<sub>go to [index](/docs/index.md)</sub>
+<sub>go to [index](index.md)</sub>
 
 ## Initialization
 
