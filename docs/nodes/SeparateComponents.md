@@ -4,7 +4,7 @@
 > Geometry node name: [Separate Components](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/geometry/separate_components.html)<br>
   Blender type: [Separate Components](https://docs.blender.org/api/current/bpy.types.GeometryNodeSeparateComponents.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

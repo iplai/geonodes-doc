@@ -101,7 +101,7 @@ DataSocket(self, socket, node=None, label=None)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### bnode
 
@@ -112,7 +112,7 @@ DataSocket(self, socket, node=None, label=None)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### is_multi_input
 
@@ -123,7 +123,7 @@ DataSocket(self, socket, node=None, label=None)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### is_output
 
@@ -134,7 +134,7 @@ DataSocket(self, socket, node=None, label=None)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### is_plugged
 
@@ -147,7 +147,7 @@ Raise an exception if called on an output socket.
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### links
 
@@ -158,7 +158,7 @@ Raise an exception if called on an output socket.
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### name
 
@@ -169,7 +169,7 @@ Raise an exception if called on an output socket.
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### node_chain_label
 
@@ -177,7 +177,7 @@ Raise an exception if called on an output socket.
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### socket_index
 
@@ -192,7 +192,7 @@ Depending on the _is_output_ property, the socket belongs either to *node.inputs
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ## Class and static methods
 
@@ -231,7 +231,7 @@ These additional values allow to enter angle, distance, factor... as group input
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### get_class_name
 
@@ -274,7 +274,7 @@ the name is chosen as the class name.
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### gives_bsocket
 
@@ -294,7 +294,7 @@ def gives_bsocket(value)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### is_socket
 
@@ -313,7 +313,7 @@ def is_socket(value)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### is_vector
 
@@ -333,7 +333,7 @@ def is_vector(value)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### python_type_to_socket
 
@@ -378,7 +378,7 @@ mesh.faces.material = bpy.data.materials["Material"]
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### value_data_type
 
@@ -418,7 +418,7 @@ This methods is used to compute the **data_type** value in nodes accepting multi
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ## Methods
 
@@ -436,7 +436,7 @@ def connected_sockets(self)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### get_blender_socket
 
@@ -452,7 +452,7 @@ def get_blender_socket(self)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### init_domains
 
@@ -466,7 +466,7 @@ To be overloaded by sub classes.
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### init_socket
 
@@ -480,7 +480,7 @@ Called at the end of initialization for further operations.
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### plug
 
@@ -498,7 +498,7 @@ def plug(self, *values)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### reroute
 
@@ -510,7 +510,7 @@ def reroute(self)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### reset_properties
 
@@ -528,7 +528,7 @@ After a change, the cache is erased.
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### stack
 
@@ -563,7 +563,7 @@ mesh.set_shade_smooth(True)
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### to_output
 
@@ -590,5 +590,5 @@ The created socket can be read from within another [Tree](Tree.md) by:
 
 
 
-<sub>Go to [top](#class-DataSocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-datasocket) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

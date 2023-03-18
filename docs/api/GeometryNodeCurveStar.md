@@ -36,5 +36,5 @@ node = nodes.Star(points=None, inner_radius=None, outer_radius=None, twist=None)
 | **[Curve](Curve.md)** |
 | [Star](Curve.md#Star) | `@classmethod`<br> `def Star(cls, points=None, inner_radius=None, outer_radius=None, twist=None):` |
 
-<sub>Go to [top](#node-Star) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-star) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

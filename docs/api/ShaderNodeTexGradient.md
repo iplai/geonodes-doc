@@ -44,5 +44,5 @@ node = nodes.GradientTexture(vector=None, gradient_type='LINEAR')
 | [gradient_quadratic_sphere](Texture.md#gradient_quadratic_sphere) | `@staticmethod`<br> `def gradient_quadratic_sphere(vector=None):` |
 | [gradient_radial](Texture.md#gradient_radial) | `@staticmethod`<br> `def gradient_radial(vector=None):` |
 
-<sub>Go to [top](#node-Gradient-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-gradient-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

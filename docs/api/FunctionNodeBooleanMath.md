@@ -55,5 +55,5 @@ node = nodes.BooleanMath(boolean0=None, boolean1=None, operation='AND')
 | [imply](functions.md#imply) | `def imply(boolean0=None, boolean1=None):` |
 | [nimply](functions.md#nimply) | `def nimply(boolean0=None, boolean1=None):` |
 
-<sub>Go to [top](#node-Boolean-Math) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-boolean-math) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

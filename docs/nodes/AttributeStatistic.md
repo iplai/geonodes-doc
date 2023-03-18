@@ -4,7 +4,7 @@
 > Geometry node name: [Attribute Statistic](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/attribute/attribute_statistic.html)<br>
   Blender type: [Attribute Statistic](https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeStatistic.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

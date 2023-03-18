@@ -55,7 +55,7 @@ bobject returns the blender object for this node.
 
 
 
-<sub>Go to [top](#class-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ## Class and static methods
 
@@ -78,7 +78,7 @@ def Input(cls, value=None, name="Object", description="")
 
 
 
-<sub>Go to [top](#class-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### Self
 
@@ -99,7 +99,7 @@ def Self(cls)
 
 
 
-<sub>Go to [top](#class-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ## Methods
 
@@ -125,7 +125,7 @@ def geometry(self, as_instance=None, transform_space='ORIGINAL')
 
 
 
-<sub>Go to [top](#class-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### info
 
@@ -149,7 +149,7 @@ def info(self, as_instance=None, transform_space='ORIGINAL')
 
 
 
-<sub>Go to [top](#class-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### location
 
@@ -173,7 +173,7 @@ def location(self, as_instance=None, transform_space='ORIGINAL')
 
 
 
-<sub>Go to [top](#class-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### rotation
 
@@ -197,7 +197,7 @@ def rotation(self, as_instance=None, transform_space='ORIGINAL')
 
 
 
-<sub>Go to [top](#class-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### scale
 
@@ -221,7 +221,7 @@ def scale(self, as_instance=None, transform_space='ORIGINAL')
 
 
 
-<sub>Go to [top](#class-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### switch
 
@@ -245,5 +245,5 @@ def switch(self, switch=None, true=None)
 
 
 
-<sub>Go to [top](#class-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

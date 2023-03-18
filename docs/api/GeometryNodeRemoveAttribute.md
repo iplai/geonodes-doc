@@ -35,5 +35,5 @@ node = nodes.RemoveNamedAttribute(geometry=None, name=None)
 | **[Geometry](Geometry.md)** |
 | [remove_named_attribute](Geometry.md#remove_named_attribute) | `def remove_named_attribute(self, name=None):` |
 
-<sub>Go to [top](#node-Remove-Named-Attribute) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-remove-named-attribute) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

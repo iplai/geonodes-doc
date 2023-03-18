@@ -28,5 +28,5 @@ node = nodes.SpecialCharacters()
 | [LineBreak](String.md#LineBreak) | `@staticmethod`<br> `def LineBreak():` |
 | [Tab](String.md#Tab) | `@staticmethod`<br> `def Tab():` |
 
-<sub>Go to [top](#node-Special-Characters) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-special-characters) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

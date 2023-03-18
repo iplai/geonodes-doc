@@ -29,5 +29,5 @@ node = nodes.Index()
 | **[Geometry](Geometry.md)** |
 | [index](Geometry.md#index) | `@property`<br> `def index(self):` |
 
-<sub>Go to [top](#node-Index) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-index) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

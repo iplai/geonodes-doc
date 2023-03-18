@@ -42,5 +42,5 @@ node = nodes.AlignEulerToVector(rotation=None, factor=None, vector=None, axis='X
 | Global functions |
 | [align_euler_to_vector](functions.md#align_euler_to_vector) | `def align_euler_to_vector(rotation=None, factor=None, vector=None, axis='X', pivot_axis='AUTO'):` |
 
-<sub>Go to [top](#node-Align-Euler-to-Vector) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-align-euler-to-vector) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

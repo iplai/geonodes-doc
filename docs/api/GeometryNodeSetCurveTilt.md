@@ -36,5 +36,5 @@ node = nodes.SetCurveTilt(curve=None, selection=None, tilt=None)
 | [tilt](ControlPoint.md#tilt) | `@tilt.setter
 `<br> `def tilt(self, attr_value):` |
 
-<sub>Go to [top](#node-Set-Curve-Tilt) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-set-curve-tilt) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

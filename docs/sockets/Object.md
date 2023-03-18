@@ -3,7 +3,7 @@
 
 > Inherits from dsock.Object
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 
 

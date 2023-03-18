@@ -4,6 +4,8 @@
 :maxdepth: 1
 :glob:
 classes
+nodes
+sockets
 api/functions
 api/nodes
 api/nodes_menus

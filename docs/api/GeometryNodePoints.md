@@ -34,5 +34,5 @@ node = nodes.Points(count=None, position=None, radius=None)
 | **[Points](Points.md)** |
 | [Points](Points.md#Points) | `@classmethod`<br> `def Points(cls, count=None, position=None, radius=None):` |
 
-<sub>Go to [top](#node-Points) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-points) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

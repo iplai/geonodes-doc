@@ -26,5 +26,5 @@ node = nodes.SplineResolution()
 | **[Spline](Spline.md)** |
 | [resolution](Spline.md#resolution) | `@property`<br> `def resolution(self):` |
 
-<sub>Go to [top](#node-Spline-Resolution) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-spline-resolution) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -41,5 +41,5 @@ node = nodes.UvUnwrap(selection=None, seam=None, margin=None, fill_holes=None, m
 | **[Mesh](Mesh.md)** |
 | [uv_unwrap](Mesh.md#uv_unwrap) | `def uv_unwrap(self, selection=None, seam=None, margin=None, fill_holes=None, method='ANGLE_BASED'):` |
 
-<sub>Go to [top](#node-UV-Unwrap) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-uv-unwrap) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

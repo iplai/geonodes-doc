@@ -26,5 +26,5 @@ node = nodes.IsSplineCyclic()
 | **[Spline](Spline.md)** |
 | [cyclic](Spline.md#cyclic) | `@property`<br> `def cyclic(self):` |
 
-<sub>Go to [top](#node-Is-Spline-Cyclic) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-is-spline-cyclic) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -35,5 +35,5 @@ node = nodes.RgbCurves(fac=None, color=None)
 | Global functions |
 | [rgb_curves](functions.md#rgb_curves) | `def rgb_curves(fac=None, color=None):` |
 
-<sub>Go to [top](#node-RGB-Curves) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-rgb-curves) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

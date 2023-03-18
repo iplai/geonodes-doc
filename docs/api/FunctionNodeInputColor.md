@@ -26,5 +26,5 @@ node = nodes.Color()
 | **[Color](Color.md)** |
 | [Color](Color.md#Color) | `@classmethod`<br> `def Color(cls):` |
 
-<sub>Go to [top](#node-Color) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-color) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

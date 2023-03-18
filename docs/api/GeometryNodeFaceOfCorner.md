@@ -37,5 +37,5 @@ node = nodes.FaceOfCorner(corner_index=None)
 | **[Mesh](Mesh.md)** |
 | [face_of_corner](Mesh.md#face_of_corner) | `def face_of_corner(self, corner_index=None):` |
 
-<sub>Go to [top](#node-Face-of-Corner) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-face-of-corner) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

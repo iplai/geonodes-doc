@@ -38,5 +38,5 @@ node = nodes.VolumeCube(density=None, background=None, min=None, max=None, resol
 | **[Volume](Volume.md)** |
 | [Cube](Volume.md#Cube) | `@classmethod`<br> `def Cube(cls, density=None, background=None, min=None, max=None, resolution_x=None, resolution_y=None, resolution_z=None):` |
 
-<sub>Go to [top](#node-Volume-Cube) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-volume-cube) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

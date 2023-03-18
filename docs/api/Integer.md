@@ -61,7 +61,7 @@ def Input(cls, value = 0, name = "Integer", min_value = None, max_value = None, 
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### Integer
 
@@ -85,7 +85,7 @@ def Integer(cls, integer=0)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### Random
 
@@ -112,7 +112,7 @@ def Random(cls, min=None, max=None, ID=None, seed=None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### Unsigned
 
@@ -135,7 +135,7 @@ def Unsigned(cls, value = 0, name = "Unsigned", min_value = 0, max_value = None,
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ## Methods
 
@@ -160,7 +160,7 @@ def abs(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### absolute
 
@@ -183,7 +183,7 @@ def absolute(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### add
 
@@ -206,7 +206,7 @@ def add(self, value=None, node_label = None, node_color = None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### arccos
 
@@ -230,7 +230,7 @@ def arccos(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### arccosine
 
@@ -254,7 +254,7 @@ def arccosine(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### arcsin
 
@@ -278,7 +278,7 @@ def arcsin(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### arcsine
 
@@ -302,7 +302,7 @@ def arcsine(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### arctan
 
@@ -326,7 +326,7 @@ def arctan(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### arctan2
 
@@ -350,7 +350,7 @@ def arctan2(self, value1=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### arctangent
 
@@ -374,7 +374,7 @@ def arctangent(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### compare
 
@@ -398,7 +398,7 @@ def compare(self, b=None, operation='GREATER_THAN')
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### cos
 
@@ -422,7 +422,7 @@ def cos(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### cosh
 
@@ -446,7 +446,7 @@ def cosh(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### cosine
 
@@ -470,7 +470,7 @@ def cosine(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### divide
 
@@ -493,7 +493,7 @@ def divide(self, value=None, node_label = None, node_color = None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### equal
 
@@ -516,7 +516,7 @@ def equal(self, b=None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### exp
 
@@ -539,7 +539,7 @@ def exp(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### exponent
 
@@ -562,7 +562,7 @@ def exponent(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### fact
 
@@ -585,7 +585,7 @@ def fact(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### fraction
 
@@ -608,7 +608,7 @@ def fraction(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### greater_equal
 
@@ -631,7 +631,7 @@ def greater_equal(self, b=None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### greater_than
 
@@ -654,7 +654,7 @@ def greater_than(self, b=None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### inverse_sqrt
 
@@ -677,7 +677,7 @@ def inverse_sqrt(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### less_equal
 
@@ -700,7 +700,7 @@ def less_equal(self, b=None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### less_than
 
@@ -723,7 +723,7 @@ def less_than(self, b=None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### log
 
@@ -747,7 +747,7 @@ def log(self, base=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### logarithm
 
@@ -771,7 +771,7 @@ def logarithm(self, base=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### math_ceil
 
@@ -794,7 +794,7 @@ def math_ceil(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### math_compare
 
@@ -819,7 +819,7 @@ def math_compare(self, value=None, epsilon=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### math_floor
 
@@ -842,7 +842,7 @@ def math_floor(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### math_greater_than
 
@@ -866,7 +866,7 @@ def math_greater_than(self, threshold=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### math_less_than
 
@@ -890,7 +890,7 @@ def math_less_than(self, threshold=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### math_round
 
@@ -913,7 +913,7 @@ def math_round(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### math_trunc
 
@@ -936,7 +936,7 @@ def math_trunc(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### math_truncate
 
@@ -959,7 +959,7 @@ def math_truncate(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### max
 
@@ -983,7 +983,7 @@ def max(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### maximum
 
@@ -1007,7 +1007,7 @@ def maximum(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### min
 
@@ -1031,7 +1031,7 @@ def min(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### minimum
 
@@ -1055,7 +1055,7 @@ def minimum(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### modulo
 
@@ -1079,7 +1079,7 @@ def modulo(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### mul_add
 
@@ -1104,7 +1104,7 @@ def mul_add(self, multiplier=None, addend=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### multiply
 
@@ -1127,7 +1127,7 @@ def multiply(self, value=None, node_label = None, node_color = None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### multiply_add
 
@@ -1152,7 +1152,7 @@ def multiply_add(self, multiplier=None, addend=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### not_equal
 
@@ -1175,7 +1175,7 @@ def not_equal(self, b=None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### ping_pong
 
@@ -1199,7 +1199,7 @@ def ping_pong(self, scale=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### pow
 
@@ -1223,7 +1223,7 @@ def pow(self, exponent=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### power
 
@@ -1247,7 +1247,7 @@ def power(self, exponent=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### sign
 
@@ -1270,7 +1270,7 @@ def sign(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### sin
 
@@ -1294,7 +1294,7 @@ def sin(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### sine
 
@@ -1318,7 +1318,7 @@ def sine(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### sinh
 
@@ -1342,7 +1342,7 @@ def sinh(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### smooth_maximum
 
@@ -1367,7 +1367,7 @@ def smooth_maximum(self, value=None, distance=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### smooth_minimum
 
@@ -1392,7 +1392,7 @@ def smooth_minimum(self, value=None, distance=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### snap
 
@@ -1416,7 +1416,7 @@ def snap(self, increment=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### sqrt
 
@@ -1439,7 +1439,7 @@ def sqrt(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### subtract
 
@@ -1462,7 +1462,7 @@ def subtract(self, value=None, node_label = None, node_color = None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### switch
 
@@ -1486,7 +1486,7 @@ def switch(self, switch=None, true=None)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### tan
 
@@ -1510,7 +1510,7 @@ def tan(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### tangent
 
@@ -1534,7 +1534,7 @@ def tangent(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### tanh
 
@@ -1558,7 +1558,7 @@ def tanh(self, value=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### to_degrees
 
@@ -1581,7 +1581,7 @@ def to_degrees(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### to_radians
 
@@ -1604,7 +1604,7 @@ def to_radians(self, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### to_string
 
@@ -1624,7 +1624,7 @@ def to_string(self)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wrap
 
@@ -1649,5 +1649,5 @@ def wrap(self, max=None, min=None, clamp=False)
 
 
 
-<sub>Go to [top](#class-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

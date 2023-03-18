@@ -32,5 +32,5 @@ node = nodes.DeformCurvesOnSurface(curves=None)
 | **[Curve](Curve.md)** |
 | [deform_on_surface](Curve.md#deform_on_surface) | `def deform_on_surface(self):` |
 
-<sub>Go to [top](#node-Deform-Curves-on-Surface) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-deform-curves-on-surface) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

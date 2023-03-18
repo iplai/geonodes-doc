@@ -4,7 +4,7 @@
 > Geometry node name: [Distribute Points in Volume](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/point/distribute_points_in_volume.html)<br>
   Blender type: [Distribute Points in Volume](https://docs.blender.org/api/current/bpy.types.GeometryNodeDistributePointsInVolume.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

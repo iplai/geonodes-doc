@@ -26,5 +26,5 @@ node = nodes.FaceArea()
 | **[Face](Face.md)** |
 | [area](Face.md#area) | `@property`<br> `def area(self):` |
 
-<sub>Go to [top](#node-Face-Area) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-face-area) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

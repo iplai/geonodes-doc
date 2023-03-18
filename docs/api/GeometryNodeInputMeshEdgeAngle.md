@@ -29,5 +29,5 @@ node = nodes.EdgeAngle()
 | [unsigned_angle](Edge.md#unsigned_angle) | `@property`<br> `def unsigned_angle(self):` |
 | [signed_angle](Edge.md#signed_angle) | `@property`<br> `def signed_angle(self):` |
 
-<sub>Go to [top](#node-Edge-Angle) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-edge-angle) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

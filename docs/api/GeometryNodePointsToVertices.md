@@ -35,5 +35,5 @@ node = nodes.PointsToVertices(points=None, selection=None)
 | **[Points](Points.md)** |
 | [to_vertices](Points.md#to_vertices) | `def to_vertices(self, selection=None):` |
 
-<sub>Go to [top](#node-Points-to-Vertices) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-points-to-vertices) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

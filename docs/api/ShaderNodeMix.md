@@ -91,5 +91,5 @@ node = nodes.Mix(factor=None, a=None, b=None, blend_type='MIX', clamp_factor=Tru
 | [color_color](functions.md#color_color) | `def color_color(factor=None, a=None, b=None, clamp_factor=True, clamp_result=False):` |
 | [color_value](functions.md#color_value) | `def color_value(factor=None, a=None, b=None, clamp_factor=True, clamp_result=False):` |
 
-<sub>Go to [top](#node-Mix) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-mix) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

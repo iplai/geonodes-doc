@@ -35,5 +35,5 @@ node = nodes.Grid(size_x=None, size_y=None, vertices_x=None, vertices_y=None)
 | **[Mesh](Mesh.md)** |
 | [Grid](Mesh.md#Grid) | `@classmethod`<br> `def Grid(cls, size_x=None, size_y=None, vertices_x=None, vertices_y=None):` |
 
-<sub>Go to [top](#node-Grid) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-grid) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

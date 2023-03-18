@@ -35,5 +35,5 @@ node = nodes.QuadraticBezier(resolution=None, start=None, middle=None, end=None)
 | **[Curve](Curve.md)** |
 | [QuadraticBezier](Curve.md#QuadraticBezier) | `@classmethod`<br> `def QuadraticBezier(cls, resolution=None, start=None, middle=None, end=None):` |
 
-<sub>Go to [top](#node-Quadratic-Bezier) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-quadratic-bezier) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

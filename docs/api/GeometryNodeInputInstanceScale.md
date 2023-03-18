@@ -28,5 +28,5 @@ node = nodes.InstanceScale()
 | **[Instances](Instances.md)** |
 | [scale](Instances.md#scale) | `@property`<br> `def scale(self):` |
 
-<sub>Go to [top](#node-Instance-Scale) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-instance-scale) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

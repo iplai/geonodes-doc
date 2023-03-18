@@ -50,5 +50,5 @@ node = nodes.SeparateGeometry(geometry=None, selection=None, domain='POINT')
 | **[Vertex](Vertex.md)** |
 | [separate](Vertex.md#separate) | `def separate(self):` |
 
-<sub>Go to [top](#node-Separate-Geometry) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-separate-geometry) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

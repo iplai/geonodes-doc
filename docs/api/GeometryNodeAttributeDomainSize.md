@@ -71,5 +71,5 @@ node = nodes.DomainSize(geometry=None, component='MESH')
 | **[Vertex](Vertex.md)** |
 | [count](Vertex.md#count) | `@property`<br> `def count(self):` |
 
-<sub>Go to [top](#node-Domain-Size) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-domain-size) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

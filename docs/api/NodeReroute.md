@@ -26,5 +26,5 @@ node = nodes.Reroute(input=None)
 - **output** : [Color](Color.md)
 
 
-<sub>Go to [top](#node-Reroute) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-reroute) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -69,7 +69,7 @@ String(self, value = "Text", label = None)
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ## Class and static methods
 
@@ -92,7 +92,7 @@ def Input(cls, value = "Text", name = "String", description = "")
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### LineBreak
 
@@ -113,7 +113,7 @@ def LineBreak()
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### String
 
@@ -137,7 +137,7 @@ def String(cls, string='')
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### Tab
 
@@ -158,7 +158,7 @@ def Tab()
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### Value
 
@@ -179,7 +179,7 @@ s = String.Value(Float(12.34), decimal=2)
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ## Methods
 
@@ -204,7 +204,7 @@ def equal(self, b=None)
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### join
 
@@ -227,7 +227,7 @@ def join(self, *strings)
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### join_strings
 
@@ -265,7 +265,7 @@ s = delimiter.join(s0, s1, s2, "EFG")
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### not_equal
 
@@ -288,7 +288,7 @@ def not_equal(self, b=None)
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### replace
 
@@ -312,7 +312,7 @@ def replace(self, find=None, replace=None)
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### slice
 
@@ -336,7 +336,7 @@ def slice(self, position=None, length=None)
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### string_join
 
@@ -360,7 +360,7 @@ def string_join(*strings, delimiter=None)
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### switch
 
@@ -384,7 +384,7 @@ def switch(self, switch=None, true=None)
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### to_curves
 
@@ -418,5 +418,5 @@ def to_curves(self, size=None, character_spacing=None, word_spacing=None, line_s
 
 
 
-<sub>Go to [top](#class-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

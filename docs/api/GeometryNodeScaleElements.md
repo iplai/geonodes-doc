@@ -49,5 +49,5 @@ node = nodes.ScaleElements(geometry=None, selection=None, scale=None, center=Non
 | [scale_uniform](Mesh.md#scale_uniform) | `def scale_uniform(self, selection=None, scale=None, center=None, domain='FACE'):` |
 | [scale_single_axis](Mesh.md#scale_single_axis) | `def scale_single_axis(self, selection=None, scale=None, center=None, axis=None, domain='FACE'):` |
 
-<sub>Go to [top](#node-Scale-Elements) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-scale-elements) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

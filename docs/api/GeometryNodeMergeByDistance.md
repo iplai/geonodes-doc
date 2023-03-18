@@ -41,5 +41,5 @@ node = nodes.MergeByDistance(geometry=None, selection=None, distance=None, mode=
 | [merge_by_distance](Vertex.md#merge_by_distance) | `def merge_by_distance(self, distance=None, mode='ALL'):` |
 | [merge_by_distance_connected](Vertex.md#merge_by_distance_connected) | `def merge_by_distance_connected(self, distance=None):` |
 
-<sub>Go to [top](#node-Merge-by-Distance) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-merge-by-distance) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -79,5 +79,5 @@ node = nodes.VectorMath(vector0=None, vector1=None, vector2=None, scale=None, op
 | [tangent](Vector.md#tangent) | `def tangent(self):` |
 | [tan](Vector.md#tan) | `def tan(self):` |
 
-<sub>Go to [top](#node-Vector-Math) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-vector-math) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -4,7 +4,7 @@
 > Geometry node name: [Triangulate](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh/triangulate.html)<br>
   Blender type: [Triangulate](https://docs.blender.org/api/current/bpy.types.GeometryNodeTriangulate.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

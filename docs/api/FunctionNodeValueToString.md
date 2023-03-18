@@ -37,5 +37,5 @@ node = nodes.ValueToString(value=None, decimals=None)
 | Global functions |
 | [value_to_string](functions.md#value_to_string) | `def value_to_string(value=None, decimals=None):` |
 
-<sub>Go to [top](#node-Value-to-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-value-to-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -32,5 +32,5 @@ node = nodes.CurveLength(curve=None)
 | **[Curve](Curve.md)** |
 | [length](Curve.md#length) | `@property`<br> `def length(self):` |
 
-<sub>Go to [top](#node-Curve-Length) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-curve-length) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

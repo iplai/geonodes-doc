@@ -3,7 +3,7 @@
 
 > Inherits from dsock.String
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 
 

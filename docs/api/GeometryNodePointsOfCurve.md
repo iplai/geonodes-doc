@@ -37,5 +37,5 @@ node = nodes.PointsOfCurve(curve_index=None, weights=None, sort_index=None)
 | **[Spline](Spline.md)** |
 | [points](Spline.md#points) | `def points(self, weights=None, sort_index=None):` |
 
-<sub>Go to [top](#node-Points-of-Curve) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-points-of-curve) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

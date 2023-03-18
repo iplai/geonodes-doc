@@ -45,5 +45,5 @@ node = nodes.SetHandlePositions(curve=None, selection=None, position=None, offse
 | [right_handle_positions](ControlPoint.md#right_handle_positions) | `@right_handle_positions.setter
 `<br> `def right_handle_positions(self, attr_value):` |
 
-<sub>Go to [top](#node-Set-Handle-Positions) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-set-handle-positions) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

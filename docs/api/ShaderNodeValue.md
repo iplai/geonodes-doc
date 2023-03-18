@@ -26,5 +26,5 @@ node = nodes.Value()
 | **[Float](Float.md)** |
 | [Value](Float.md#Value) | `@classmethod`<br> `def Value(cls):` |
 
-<sub>Go to [top](#node-Value) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-value) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

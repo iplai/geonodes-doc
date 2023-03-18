@@ -34,5 +34,5 @@ node = nodes.FaceIsPlanar(threshold=None)
 | **[Mesh](Mesh.md)** |
 | [face_is_planar](Mesh.md#face_is_planar) | `def face_is_planar(self, threshold=None):` |
 
-<sub>Go to [top](#node-Face-is-Planar) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-face-is-planar) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

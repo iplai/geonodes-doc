@@ -4,7 +4,7 @@
 > Geometry node name: [Flip Faces](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh/flip_faces.html)<br>
   Blender type: [Flip Faces](https://docs.blender.org/api/current/bpy.types.GeometryNodeFlipFaces.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

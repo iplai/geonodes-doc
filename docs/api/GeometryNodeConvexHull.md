@@ -32,5 +32,5 @@ node = nodes.ConvexHull(geometry=None)
 | **[Geometry](Geometry.md)** |
 | [convex_hull](Geometry.md#convex_hull) | `@property`<br> `def convex_hull(self):` |
 
-<sub>Go to [top](#node-Convex-Hull) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-convex-hull) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

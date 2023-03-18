@@ -35,5 +35,5 @@ node = nodes.OffsetCornerInFace(corner_index=None, offset=None)
 | **[Mesh](Mesh.md)** |
 | [offset_corner_in_face](Mesh.md#offset_corner_in_face) | `def offset_corner_in_face(self, corner_index=None, offset=None):` |
 
-<sub>Go to [top](#node-Offset-Corner-in-Face) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-offset-corner-in-face) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

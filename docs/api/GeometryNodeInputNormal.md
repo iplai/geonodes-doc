@@ -30,5 +30,5 @@ node = nodes.Normal()
 | **[Spline](Spline.md)** |
 | [normal](Spline.md#normal) | `@property`<br> `def normal(self):` |
 
-<sub>Go to [top](#node-Normal) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-normal) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

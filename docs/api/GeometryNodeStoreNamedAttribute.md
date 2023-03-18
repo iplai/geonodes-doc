@@ -51,5 +51,5 @@ node = nodes.StoreNamedAttribute(geometry=None, name=None, value=None, data_type
 | [store_named_vector](Geometry.md#store_named_vector) | `def store_named_vector(self, name=None, value=None, domain='POINT'):` |
 | [store_named_color](Geometry.md#store_named_color) | `def store_named_color(self, name=None, value=None, domain='POINT'):` |
 
-<sub>Go to [top](#node-Store-Named-Attribute) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-store-named-attribute) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

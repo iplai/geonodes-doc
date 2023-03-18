@@ -31,5 +31,5 @@ node = nodes.SplineParameter()
 | [parameter_length](ControlPoint.md#parameter_length) | `@property`<br> `def parameter_length(self):` |
 | [parameter_index](ControlPoint.md#parameter_index) | `@property`<br> `def parameter_index(self):` |
 
-<sub>Go to [top](#node-Spline-Parameter) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-spline-parameter) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

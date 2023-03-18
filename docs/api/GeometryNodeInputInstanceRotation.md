@@ -28,5 +28,5 @@ node = nodes.InstanceRotation()
 | **[Instances](Instances.md)** |
 | [rotation](Instances.md#rotation) | `@property`<br> `def rotation(self):` |
 
-<sub>Go to [top](#node-Instance-Rotation) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-instance-rotation) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

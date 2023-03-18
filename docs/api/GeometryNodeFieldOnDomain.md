@@ -44,5 +44,5 @@ node = nodes.InterpolateDomain(value=None, data_type='FLOAT', domain='POINT')
 | **[Geometry](Geometry.md)** |
 | [interpolate_domain](Geometry.md#interpolate_domain) | `def interpolate_domain(self, value=None, domain='POINT'):` |
 
-<sub>Go to [top](#node-Interpolate-Domain) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-interpolate-domain) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -44,5 +44,5 @@ node = nodes.MeshToVolume(mesh=None, density=None, voxel_size=None, voxel_amount
 | **[Vertex](Vertex.md)** |
 | [to_volume](Vertex.md#to_volume) | `def to_volume(self, density=None, voxel_size=None, voxel_amount=None, exterior_band_width=None, interior_band_width=None, fill_volume=None, resolution_mode='VOXEL_AMOUNT'):` |
 
-<sub>Go to [top](#node-Mesh-to-Volume) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-mesh-to-volume) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

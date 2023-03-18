@@ -4,7 +4,7 @@
 > Geometry node name: [Store Named Attribute](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/attribute/store_named_attribute.html)<br>
   Blender type: [Store Named Attribute](https://docs.blender.org/api/current/bpy.types.GeometryNodeStoreNamedAttribute.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

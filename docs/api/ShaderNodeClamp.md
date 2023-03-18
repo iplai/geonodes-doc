@@ -44,5 +44,5 @@ node = nodes.Clamp(value=None, min=None, max=None, clamp_type='MINMAX')
 | [clamp_min_max](functions.md#clamp_min_max) | `def clamp_min_max(value=None, min=None, max=None):` |
 | [clamp_range](functions.md#clamp_range) | `def clamp_range(value=None, min=None, max=None):` |
 
-<sub>Go to [top](#node-Clamp) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-clamp) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

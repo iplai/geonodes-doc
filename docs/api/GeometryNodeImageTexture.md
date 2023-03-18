@@ -42,5 +42,5 @@ node = nodes.ImageTexture(image=None, vector=None, frame=None, extension='REPEAT
 | **[Texture](Texture.md)** |
 | [image](Texture.md#image) | `@staticmethod`<br> `def image(image=None, vector=None, frame=None, extension='REPEAT', interpolation='Linear'):` |
 
-<sub>Go to [top](#node-Image-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-image-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

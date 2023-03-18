@@ -27,5 +27,5 @@ node = nodes.SplineLength()
 | **[Spline](Spline.md)** |
 | [length](Spline.md#length) | `@property`<br> `def length(self):` |
 
-<sub>Go to [top](#node-Spline-Length) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-spline-length) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

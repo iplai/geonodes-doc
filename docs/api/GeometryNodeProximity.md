@@ -51,5 +51,5 @@ node = nodes.GeometryProximity(target=None, source_position=None, target_element
 | **[Vertex](Vertex.md)** |
 | [proximity](Vertex.md#proximity) | `def proximity(self, target=None, source_position=None):` |
 
-<sub>Go to [top](#node-Geometry-Proximity) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-geometry-proximity) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

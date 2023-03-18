@@ -38,5 +38,5 @@ node = nodes.FillCurve(curve=None, mode='TRIANGLES')
 | [fill_triangles](Curve.md#fill_triangles) | `def fill_triangles(self):` |
 | [fill_ngons](Curve.md#fill_ngons) | `def fill_ngons(self):` |
 
-<sub>Go to [top](#node-Fill-Curve) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-fill-curve) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

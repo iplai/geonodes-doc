@@ -36,5 +36,5 @@ node = nodes.CheckerTexture(vector=None, color1=None, color2=None, scale=None)
 | **[Texture](Texture.md)** |
 | [checker](Texture.md#checker) | `@staticmethod`<br> `def checker(vector=None, color1=None, color2=None, scale=None):` |
 
-<sub>Go to [top](#node-Checker-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-checker-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

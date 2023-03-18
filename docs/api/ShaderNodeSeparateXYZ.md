@@ -13,7 +13,7 @@ from geonodes import nodes
 node = nodes.SeparateXyz(vector=None)
 ```
 
-![Blender Image](https://docs.blender.org/manual/en/latest/_images/node-types_ShaderNodeSeparateXYZ.webp)
+![Blender Image](https://docs.blender.org/manual/en/latest/_images/compositing_node-types_CompositorNodeCombineXYZ.webp)
 
 ### Args:
 
@@ -34,5 +34,5 @@ node = nodes.SeparateXyz(vector=None)
 | **[Vector](Vector.md)** |
 | [separate](Vector.md#separate) | `@property`<br> `def separate(self):` |
 
-<sub>Go to [top](#node-Separate-XYZ) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-separate-xyz) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

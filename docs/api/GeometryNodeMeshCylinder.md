@@ -43,5 +43,5 @@ node = nodes.Cylinder(vertices=None, side_segments=None, fill_segments=None, rad
 | **[Mesh](Mesh.md)** |
 | [Cylinder](Mesh.md#Cylinder) | `@staticmethod`<br> `def Cylinder(vertices=None, side_segments=None, fill_segments=None, radius=None, depth=None, fill_type='NGON'):` |
 
-<sub>Go to [top](#node-Cylinder) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-cylinder) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

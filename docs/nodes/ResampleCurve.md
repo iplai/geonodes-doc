@@ -4,7 +4,7 @@
 > Geometry node name: [Resample Curve](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/resample_curve.html)<br>
   Blender type: [Resample Curve](https://docs.blender.org/api/current/bpy.types.GeometryNodeResampleCurve.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

@@ -39,5 +39,5 @@ node = nodes.CornersOfVertex(vertex_index=None, weights=None, sort_index=None)
 | [corners_index](Vertex.md#corners_index) | `def corners_index(self, weights=None, sort_index=None):` |
 | [corners_total](Vertex.md#corners_total) | `def corners_total(self, weights=None, sort_index=None):` |
 
-<sub>Go to [top](#node-Corners-of-Vertex) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-corners-of-vertex) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

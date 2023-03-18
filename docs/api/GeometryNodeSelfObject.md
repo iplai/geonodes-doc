@@ -26,5 +26,5 @@ node = nodes.SelfObject()
 | **[Object](Object.md)** |
 | [Self](Object.md#Self) | `@classmethod`<br> `def Self(cls):` |
 
-<sub>Go to [top](#node-Self-Object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-self-object) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

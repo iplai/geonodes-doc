@@ -43,5 +43,5 @@ node = nodes.MeshLine(count=None, resolution=None, start_location=None, offset=N
 | [LineEndPointsResolution](Mesh.md#LineEndPointsResolution) | `@classmethod`<br> `def LineEndPointsResolution(cls, resolution=None, start_location=None, end_location=None):` |
 | [LineOffset](Mesh.md#LineOffset) | `@classmethod`<br> `def LineOffset(cls, count=None, start_location=None, offset=None):` |
 
-<sub>Go to [top](#node-Mesh-Line) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-mesh-line) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

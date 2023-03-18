@@ -36,5 +36,5 @@ node = nodes.SetCurveRadius(curve=None, selection=None, radius=None)
 | [radius](ControlPoint.md#radius) | `@radius.setter
 `<br> `def radius(self, attr_value):` |
 
-<sub>Go to [top](#node-Set-Curve-Radius) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-set-curve-radius) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -4,7 +4,7 @@
 > Geometry node name: [Edges of Corner](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh_topology/edges_of_corner.html)<br>
   Blender type: [Edges of Corner](https://docs.blender.org/api/current/bpy.types.GeometryNodeEdgesOfCorner.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

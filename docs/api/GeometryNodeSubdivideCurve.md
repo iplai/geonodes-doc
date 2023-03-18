@@ -33,5 +33,5 @@ node = nodes.SubdivideCurve(curve=None, cuts=None)
 | **[Curve](Curve.md)** |
 | [subdivide](Curve.md#subdivide) | `def subdivide(self, cuts=None):` |
 
-<sub>Go to [top](#node-Subdivide-Curve) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-subdivide-curve) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

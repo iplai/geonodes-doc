@@ -37,5 +37,5 @@ node = nodes.PackUvIslands(uv=None, selection=None, margin=None, rotate=None)
 | **[Mesh](Mesh.md)** |
 | [pack_uv_islands](Mesh.md#pack_uv_islands) | `def pack_uv_islands(self, uv=None, selection=None, margin=None, rotate=None):` |
 
-<sub>Go to [top](#node-Pack-UV-Islands) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-pack-uv-islands) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

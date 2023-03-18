@@ -4,7 +4,7 @@
 > Geometry node name: [Checker Texture](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/texture/checker.html)<br>
   Blender type: [Checker Texture](https://docs.blender.org/api/current/bpy.types.ShaderNodeTexChecker.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

@@ -36,5 +36,5 @@ node = nodes.JoinStrings(*strings, delimiter=None)
 | Global functions |
 | [join_strings](functions.md#join_strings) | `def join_strings(*strings, delimiter=None):` |
 
-<sub>Go to [top](#node-Join-Strings) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-join-strings) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

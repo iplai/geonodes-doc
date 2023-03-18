@@ -34,5 +34,5 @@ node = nodes.StringLength(string=None)
 | Global functions |
 | [string_length](functions.md#string_length) | `def string_length(string=None):` |
 
-<sub>Go to [top](#node-String-Length) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-string-length) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

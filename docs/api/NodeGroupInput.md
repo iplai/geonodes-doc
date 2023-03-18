@@ -32,5 +32,5 @@ node = nodes.GroupInput()
 - **color** : [Color](Color.md)
 
 
-<sub>Go to [top](#node-Group-Input) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-group-input) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

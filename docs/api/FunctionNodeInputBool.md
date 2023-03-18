@@ -32,5 +32,5 @@ node = nodes.Boolean(boolean=False)
 | **[Boolean](Boolean.md)** |
 | [Boolean](Boolean.md#Boolean) | `@classmethod`<br> `def Boolean(cls, boolean=False):` |
 
-<sub>Go to [top](#node-Boolean) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-boolean) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

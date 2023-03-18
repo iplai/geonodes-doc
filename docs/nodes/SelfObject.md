@@ -4,7 +4,7 @@
 > Geometry node name: [Self Object](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/input/self_object.html)<br>
   Blender type: [Self Object](https://docs.blender.org/api/current/bpy.types.GeometryNodeSelfObject.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

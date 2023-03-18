@@ -4,7 +4,7 @@
 > Geometry node name: [Mesh Line](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh_primitives/mesh_line.html)<br>
   Blender type: [Mesh Line](https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshLine.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

@@ -4,7 +4,7 @@
 > Geometry node name: [Musgrave Texture](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/texture/musgrave.html)<br>
   Blender type: [Musgrave Texture](https://docs.blender.org/api/current/bpy.types.ShaderNodeTexMusgrave.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

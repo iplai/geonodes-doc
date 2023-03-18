@@ -47,5 +47,5 @@ node = nodes.CaptureAttribute(geometry=None, value=None, data_type='FLOAT', doma
 | [capture_attribute](Geometry.md#capture_attribute) | `def capture_attribute(self, value=None, domain='POINT'):` |
 | [capture_attribute_node](Geometry.md#capture_attribute_node) | `@staticmethod`<br> `def capture_attribute_node(geometry=None, value=None, data_type='FLOAT', domain='POINT'):` |
 
-<sub>Go to [top](#node-Capture-Attribute) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-capture-attribute) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -42,5 +42,5 @@ node = nodes.SetMaterialIndex(geometry=None, selection=None, material_index=None
 | [material_index](Spline.md#material_index) | `@material_index.setter
 `<br> `def material_index(self, attr_value):` |
 
-<sub>Go to [top](#node-Set-Material-Index) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-set-material-index) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

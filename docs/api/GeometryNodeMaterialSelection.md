@@ -34,5 +34,5 @@ node = nodes.MaterialSelection(material=None)
 | **[Geometry](Geometry.md)** |
 | [material_selection](Geometry.md#material_selection) | `def material_selection(self, material=None):` |
 
-<sub>Go to [top](#node-Material-Selection) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-material-selection) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

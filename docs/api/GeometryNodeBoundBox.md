@@ -36,5 +36,5 @@ node = nodes.BoundingBox(geometry=None)
 | [bounding_box_min](Geometry.md#bounding_box_min) | `@property`<br> `def bounding_box_min(self):` |
 | [bounding_box_min](Geometry.md#bounding_box_min) | `@property`<br> `def bounding_box_min(self):` |
 
-<sub>Go to [top](#node-Bounding-Box) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-bounding-box) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

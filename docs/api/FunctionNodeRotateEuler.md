@@ -41,5 +41,5 @@ node = nodes.RotateEuler(rotation=None, rotate_by=None, axis=None, angle=None, s
 | [rotate_euler](functions.md#rotate_euler) | `def rotate_euler(rotation=None, rotate_by=None, space='OBJECT'):` |
 | [rotate_axis_angle](functions.md#rotate_axis_angle) | `def rotate_axis_angle(rotation=None, axis=None, angle=None, space='OBJECT'):` |
 
-<sub>Go to [top](#node-Rotate-Euler) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-rotate-euler) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

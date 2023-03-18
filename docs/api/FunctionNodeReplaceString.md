@@ -36,5 +36,5 @@ node = nodes.ReplaceString(string=None, find=None, replace=None)
 | Global functions |
 | [replace_string](functions.md#replace_string) | `def replace_string(string=None, find=None, replace=None):` |
 
-<sub>Go to [top](#node-Replace-String) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-replace-string) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

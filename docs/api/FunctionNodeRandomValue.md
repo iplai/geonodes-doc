@@ -66,5 +66,5 @@ node = nodes.RandomValue(min=None, max=None, probability=None, ID=None, seed=Non
 | [random_vector](functions.md#random_vector) | `def random_vector(min=None, max=None, ID=None, seed=None):` |
 | [random_boolean](functions.md#random_boolean) | `def random_boolean(probability=None, ID=None, seed=None):` |
 
-<sub>Go to [top](#node-Random-Value) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-random-value) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

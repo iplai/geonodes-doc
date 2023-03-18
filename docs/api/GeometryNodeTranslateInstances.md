@@ -37,5 +37,5 @@ node = nodes.TranslateInstances(instances=None, selection=None, translation=None
 | **[Instances](Instances.md)** |
 | [translate](Instances.md#translate) | `def translate(self, selection=None, translation=None, local_space=None):` |
 
-<sub>Go to [top](#node-Translate-Instances) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-translate-instances) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

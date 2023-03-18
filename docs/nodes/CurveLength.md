@@ -4,7 +4,7 @@
 > Geometry node name: [Curve Length](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/curve_length.html)<br>
   Blender type: [Curve Length](https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveLength.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

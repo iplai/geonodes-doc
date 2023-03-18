@@ -45,5 +45,5 @@ node = nodes.SampleNearest(geometry=None, sample_position=None, domain='POINT')
 | **[Vertex](Vertex.md)** |
 | [sample_nearest](Vertex.md#sample_nearest) | `def sample_nearest(self, sample_position=None):` |
 
-<sub>Go to [top](#node-Sample-Nearest) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-sample-nearest) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -4,7 +4,7 @@
 > Geometry node name: [Sample Curve](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/sample_curve.html)<br>
   Blender type: [Sample Curve](https://docs.blender.org/api/current/bpy.types.GeometryNodeSampleCurve.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

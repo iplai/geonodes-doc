@@ -40,5 +40,5 @@ node = nodes.FloatToInteger(float=None, rounding_mode='ROUND')
 | [ceiling](Float.md#ceiling) | `def ceiling(self):` |
 | [truncate](Float.md#truncate) | `def truncate(self):` |
 
-<sub>Go to [top](#node-Float-to-Integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-float-to-integer) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

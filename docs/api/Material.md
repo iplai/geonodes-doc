@@ -58,7 +58,7 @@ def Input(cls, value=None, name="Material", description="")
 
 
 
-<sub>Go to [top](#class-Material) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-material) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### Material
 
@@ -79,7 +79,7 @@ def Material(cls)
 
 
 
-<sub>Go to [top](#class-Material) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-material) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ## Methods
 
@@ -105,5 +105,5 @@ def switch(self, switch=None, true=None)
 
 
 
-<sub>Go to [top](#class-Material) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-material) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

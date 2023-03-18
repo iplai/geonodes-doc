@@ -42,5 +42,5 @@ node = nodes.CurveCircle(resolution=None, point_1=None, point_2=None, point_3=No
 | [Circle](Curve.md#Circle) | `@classmethod`<br> `def Circle(cls, resolution=None, radius=None):` |
 | [CircleFromPoints](Curve.md#CircleFromPoints) | `@staticmethod`<br> `def CircleFromPoints(resolution=None, point_1=None, point_2=None, point_3=None):` |
 
-<sub>Go to [top](#node-Curve-Circle) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-curve-circle) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

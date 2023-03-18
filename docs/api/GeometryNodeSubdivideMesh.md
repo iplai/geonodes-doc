@@ -33,5 +33,5 @@ node = nodes.SubdivideMesh(mesh=None, level=None)
 | **[Mesh](Mesh.md)** |
 | [subdivide](Mesh.md#subdivide) | `def subdivide(self, level=None):` |
 
-<sub>Go to [top](#node-Subdivide-Mesh) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-subdivide-mesh) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

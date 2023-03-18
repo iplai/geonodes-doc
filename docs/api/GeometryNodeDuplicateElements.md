@@ -53,5 +53,5 @@ node = nodes.DuplicateElements(geometry=None, selection=None, amount=None, domai
 | **[Vertex](Vertex.md)** |
 | [duplicate](Vertex.md#duplicate) | `def duplicate(self, amount=None):` |
 
-<sub>Go to [top](#node-Duplicate-Elements) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-duplicate-elements) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

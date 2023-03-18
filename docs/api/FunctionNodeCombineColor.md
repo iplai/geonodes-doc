@@ -45,5 +45,5 @@ node = nodes.CombineColor(red=None, green=None, blue=None, alpha=None, mode='RGB
 | [combine_hsv](functions.md#combine_hsv) | `def combine_hsv(hue=None, saturation=None, value=None, alpha=None):` |
 | [combine_hsl](functions.md#combine_hsl) | `def combine_hsl(hue=None, saturation=None, lightness=None, alpha=None):` |
 
-<sub>Go to [top](#node-Combine-Color) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-combine-color) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

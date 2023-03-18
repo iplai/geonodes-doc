@@ -41,5 +41,5 @@ node = nodes.Triangulate(mesh=None, selection=None, minimum_vertices=None, ngon_
 | **[Mesh](Mesh.md)** |
 | [triangulate](Mesh.md#triangulate) | `def triangulate(self, selection=None, minimum_vertices=None, ngon_method='BEAUTY', quad_method='SHORTEST_DIAGONAL'):` |
 
-<sub>Go to [top](#node-Triangulate) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-triangulate) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

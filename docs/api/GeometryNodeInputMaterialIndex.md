@@ -30,5 +30,5 @@ node = nodes.MaterialIndex()
 | **[Spline](Spline.md)** |
 | [material_index](Spline.md#material_index) | `@property`<br> `def material_index(self):` |
 
-<sub>Go to [top](#node-Material-Index) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-material-index) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

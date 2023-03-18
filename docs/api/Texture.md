@@ -47,7 +47,7 @@ def Input(cls, value=None, name="Texture", description="")
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### brick
 
@@ -86,7 +86,7 @@ def brick(vector=None, color1=None, color2=None, mortar=None, scale=None, mortar
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### checker
 
@@ -115,7 +115,7 @@ def checker(vector=None, color1=None, color2=None, scale=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### gradient
 
@@ -142,7 +142,7 @@ def gradient(vector=None, gradient_type='LINEAR')
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### gradient_diagonal
 
@@ -168,7 +168,7 @@ def gradient_diagonal(vector=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### gradient_easing
 
@@ -194,7 +194,7 @@ def gradient_easing(vector=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### gradient_linear
 
@@ -220,7 +220,7 @@ def gradient_linear(vector=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### gradient_quadratic
 
@@ -246,7 +246,7 @@ def gradient_quadratic(vector=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### gradient_quadratic_sphere
 
@@ -272,7 +272,7 @@ def gradient_quadratic_sphere(vector=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### gradient_radial
 
@@ -298,7 +298,7 @@ def gradient_radial(vector=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### gradient_spherical
 
@@ -324,7 +324,7 @@ def gradient_spherical(vector=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### image
 
@@ -354,7 +354,7 @@ def image(image=None, vector=None, frame=None, extension='REPEAT', interpolation
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### magic
 
@@ -383,7 +383,7 @@ def magic(vector=None, scale=None, distortion=None, turbulence_depth=2)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### musgrave
 
@@ -416,7 +416,7 @@ def musgrave(vector=None, w=None, scale=None, detail=None, dimension=None, lacun
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### noise
 
@@ -448,7 +448,7 @@ def noise(vector=None, w=None, scale=None, detail=None, roughness=None, distorti
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### noise_1D
 
@@ -478,7 +478,7 @@ def noise_1D(w=None, scale=None, detail=None, roughness=None, distortion=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### noise_2D
 
@@ -508,7 +508,7 @@ def noise_2D(vector=None, scale=None, detail=None, roughness=None, distortion=No
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### noise_3D
 
@@ -538,7 +538,7 @@ def noise_3D(vector=None, scale=None, detail=None, roughness=None, distortion=No
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### noise_4D
 
@@ -569,7 +569,7 @@ def noise_4D(vector=None, w=None, scale=None, detail=None, roughness=None, disto
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### voronoi
 
@@ -603,7 +603,7 @@ def voronoi(vector=None, w=None, scale=None, smoothness=None, exponent=None, ran
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### voronoi_1D
 
@@ -636,7 +636,7 @@ def voronoi_1D(w=None, scale=None, smoothness=None, exponent=None, randomness=No
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### voronoi_2D
 
@@ -669,7 +669,7 @@ def voronoi_2D(vector=None, scale=None, smoothness=None, exponent=None, randomne
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### voronoi_3D
 
@@ -702,7 +702,7 @@ def voronoi_3D(vector=None, scale=None, smoothness=None, exponent=None, randomne
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### voronoi_4D
 
@@ -736,7 +736,7 @@ def voronoi_4D(vector=None, w=None, scale=None, smoothness=None, exponent=None, 
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wave
 
@@ -772,7 +772,7 @@ def wave(vector=None, scale=None, distortion=None, detail=None, detail_scale=Non
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wave_bands
 
@@ -806,7 +806,7 @@ def wave_bands(vector=None, scale=None, distortion=None, detail=None, detail_sca
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wave_bands_saw
 
@@ -839,7 +839,7 @@ def wave_bands_saw(vector=None, scale=None, distortion=None, detail=None, detail
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wave_bands_sine
 
@@ -872,7 +872,7 @@ def wave_bands_sine(vector=None, scale=None, distortion=None, detail=None, detai
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wave_bands_triangle
 
@@ -905,7 +905,7 @@ def wave_bands_triangle(vector=None, scale=None, distortion=None, detail=None, d
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wave_rings
 
@@ -939,7 +939,7 @@ def wave_rings(vector=None, scale=None, distortion=None, detail=None, detail_sca
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wave_rings_saw
 
@@ -972,7 +972,7 @@ def wave_rings_saw(vector=None, scale=None, distortion=None, detail=None, detail
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wave_rings_sine
 
@@ -1005,7 +1005,7 @@ def wave_rings_sine(vector=None, scale=None, distortion=None, detail=None, detai
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### wave_rings_triangle
 
@@ -1038,7 +1038,7 @@ def wave_rings_triangle(vector=None, scale=None, distortion=None, detail=None, d
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### white_noise
 
@@ -1066,7 +1066,7 @@ def white_noise(vector=None, w=None, noise_dimensions='3D')
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### white_noise_1D
 
@@ -1092,7 +1092,7 @@ def white_noise_1D(w=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### white_noise_2D
 
@@ -1118,7 +1118,7 @@ def white_noise_2D(vector=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### white_noise_3D
 
@@ -1144,7 +1144,7 @@ def white_noise_3D(vector=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### white_noise_4D
 
@@ -1171,7 +1171,7 @@ def white_noise_4D(vector=None, w=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ## Methods
 
@@ -1197,5 +1197,5 @@ def switch(self, switch=None, true=None)
 
 
 
-<sub>Go to [top](#class-Texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#class-texture) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

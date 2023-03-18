@@ -38,5 +38,5 @@ node = nodes.RotateInstances(instances=None, selection=None, rotation=None, pivo
 | **[Instances](Instances.md)** |
 | [rotate](Instances.md#rotate) | `def rotate(self, selection=None, rotation=None, pivot_point=None, local_space=None):` |
 
-<sub>Go to [top](#node-Rotate-Instances) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-rotate-instances) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

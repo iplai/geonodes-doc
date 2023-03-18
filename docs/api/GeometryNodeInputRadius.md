@@ -30,5 +30,5 @@ node = nodes.Radius()
 | **[Geometry](Geometry.md)** |
 | [radius](Geometry.md#radius) | `@property`<br> `def radius(self):` |
 
-<sub>Go to [top](#node-Radius) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-radius) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

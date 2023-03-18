@@ -44,5 +44,5 @@ node = nodes.ObjectInfo(object=None, as_instance=None, transform_space='ORIGINAL
 | [scale](Object.md#scale) | `def scale(self, as_instance=None, transform_space='ORIGINAL'):` |
 | [geometry](Object.md#geometry) | `def geometry(self, as_instance=None, transform_space='ORIGINAL'):` |
 
-<sub>Go to [top](#node-Object-Info) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-object-info) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

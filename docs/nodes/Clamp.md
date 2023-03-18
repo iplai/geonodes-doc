@@ -4,7 +4,7 @@
 > Geometry node name: [Clamp](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/utilities/clamp.html)<br>
   Blender type: [Clamp](https://docs.blender.org/api/current/bpy.types.ShaderNodeClamp.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

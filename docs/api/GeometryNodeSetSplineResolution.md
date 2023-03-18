@@ -36,5 +36,5 @@ node = nodes.SetSplineResolution(geometry=None, selection=None, resolution=None)
 | [resolution](Spline.md#resolution) | `@resolution.setter
 `<br> `def resolution(self, attr_value):` |
 
-<sub>Go to [top](#node-Set-Spline-Resolution) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-set-spline-resolution) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

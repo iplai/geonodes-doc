@@ -40,5 +40,5 @@ node = nodes.CurveLine(start=None, end=None, direction=None, length=None, mode='
 | [Line](Curve.md#Line) | `@classmethod`<br> `def Line(cls, start=None, end=None):` |
 | [LineDirection](Curve.md#LineDirection) | `@classmethod`<br> `def LineDirection(cls, start=None, direction=None, length=None):` |
 
-<sub>Go to [top](#node-Curve-Line) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-curve-line) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

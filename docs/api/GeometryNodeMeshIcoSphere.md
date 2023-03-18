@@ -33,5 +33,5 @@ node = nodes.IcoSphere(radius=None, subdivisions=None)
 | **[Mesh](Mesh.md)** |
 | [IcoSphere](Mesh.md#IcoSphere) | `@classmethod`<br> `def IcoSphere(cls, radius=None, subdivisions=None):` |
 
-<sub>Go to [top](#node-Ico-Sphere) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-ico-sphere) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -4,7 +4,7 @@
 > Geometry node name: [Corners of Face](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh_topology/corners_of_face.html)<br>
   Blender type: [Corners of Face](https://docs.blender.org/api/current/bpy.types.GeometryNodeCornersOfFace.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

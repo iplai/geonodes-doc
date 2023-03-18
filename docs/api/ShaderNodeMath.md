@@ -192,5 +192,5 @@ node = nodes.Math(value0=None, value1=None, value2=None, operation='ADD', use_cl
 | [to_radians](functions.md#to_radians) | `def to_radians(value=None, clamp=False):` |
 | [to_degrees](functions.md#to_degrees) | `def to_degrees(value=None, clamp=False):` |
 
-<sub>Go to [top](#node-Math) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-math) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

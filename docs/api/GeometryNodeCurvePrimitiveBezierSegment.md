@@ -40,5 +40,5 @@ node = nodes.BezierSegment(resolution=None, start=None, start_handle=None, end_h
 | **[Curve](Curve.md)** |
 | [BezierSegment](Curve.md#BezierSegment) | `@classmethod`<br> `def BezierSegment(cls, resolution=None, start=None, start_handle=None, end_handle=None, end=None, mode='POSITION'):` |
 
-<sub>Go to [top](#node-Bezier-Segment) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-bezier-segment) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

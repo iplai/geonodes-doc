@@ -28,5 +28,5 @@ node = nodes.SceneTime()
 | [Seconds](Float.md#Seconds) | `@classmethod`<br> `def Seconds(cls):` |
 | [Frame](Float.md#Frame) | `@classmethod`<br> `def Frame(cls):` |
 
-<sub>Go to [top](#node-Scene-Time) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-scene-time) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

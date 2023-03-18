@@ -103,5 +103,5 @@ node = nodes.Compare(a=None, b=None, c=None, angle=None, epsilon=None, data_type
 | Global functions |
 | [compare](functions.md#compare) | `def compare(a=None, b=None, c=None, angle=None, epsilon=None, data_type='FLOAT', mode='ELEMENT', operation='GREATER_THAN'):` |
 
-<sub>Go to [top](#node-Compare) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-compare) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

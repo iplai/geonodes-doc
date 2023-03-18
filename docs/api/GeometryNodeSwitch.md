@@ -79,5 +79,5 @@ node = nodes.Switch(switch=None, false=None, true=None, input_type='GEOMETRY')
 | [switch_texture](functions.md#switch_texture) | `def switch_texture(switch=None, false=None, true=None):` |
 | [switch_material](functions.md#switch_material) | `def switch_material(switch=None, false=None, true=None):` |
 
-<sub>Go to [top](#node-Switch) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-switch) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

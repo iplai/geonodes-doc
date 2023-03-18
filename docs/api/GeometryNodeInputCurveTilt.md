@@ -26,5 +26,5 @@ node = nodes.CurveTilt()
 | **[ControlPoint](ControlPoint.md)** |
 | [tilt](ControlPoint.md#tilt) | `@property`<br> `def tilt(self):` |
 
-<sub>Go to [top](#node-Curve-Tilt) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-curve-tilt) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

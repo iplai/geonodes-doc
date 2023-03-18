@@ -41,5 +41,5 @@ node = nodes.SeparateComponents(geometry=None)
 | [volume_component](Geometry.md#volume_component) | `@property`<br> `def volume_component(self):` |
 | [instances_component](Geometry.md#instances_component) | `@property`<br> `def instances_component(self):` |
 
-<sub>Go to [top](#node-Separate-Components) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-separate-components) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

@@ -34,5 +34,5 @@ node = nodes.UvSphere(segments=None, rings=None, radius=None)
 | **[Mesh](Mesh.md)** |
 | [UVSphere](Mesh.md#UVSphere) | `@classmethod`<br> `def UVSphere(cls, segments=None, rings=None, radius=None):` |
 
-<sub>Go to [top](#node-UV-Sphere) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-uv-sphere) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

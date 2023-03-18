@@ -33,5 +33,5 @@ node = nodes.EdgePathsToSelection(start_vertices=None, next_vertex_index=None)
 | **[Mesh](Mesh.md)** |
 | [edge_paths_to_selection](Mesh.md#edge_paths_to_selection) | `def edge_paths_to_selection(self, start_vertices=None, next_vertex_index=None):` |
 
-<sub>Go to [top](#node-Edge-Paths-to-Selection) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-edge-paths-to-selection) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

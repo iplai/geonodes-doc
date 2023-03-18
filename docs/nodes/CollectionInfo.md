@@ -4,7 +4,7 @@
 > Geometry node name: [Collection Info](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/input/collection_info.html)<br>
   Blender type: [Collection Info](https://docs.blender.org/api/current/bpy.types.GeometryNodeCollectionInfo.html)
   
-<sub>go to [index](index.md)</sub>
+<sub>go to [index](../index.md)</sub>
 
 ## Initialization
 

@@ -34,5 +34,5 @@ node = nodes.GeometryToInstance(*geometry)
 | Global functions |
 | [geometry_to_instance](functions.md#geometry_to_instance) | `def geometry_to_instance(*geometry):` |
 
-<sub>Go to [top](#node-Geometry-to-Instance) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
+<sub>Go to [top](#node-geometry-to-instance) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
