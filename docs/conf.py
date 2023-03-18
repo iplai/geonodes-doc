@@ -17,8 +17,8 @@ release = '3.4.1.0'
 
 
 extensions = [
-    "sphinx_copybutton",
     "myst_parser",
+    "sphinx_copybutton",
 ]
 
 myst_enable_extensions = [
@@ -46,7 +46,7 @@ source_suffix = {
 templates_path = ['_templates']
 exclude_patterns = []
 
-language = 'zh_CN'
+# language = 'zh_CN'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -64,6 +64,7 @@ html_theme_options = {
 }
 html_favicon = "_static/favicon-light.png"
 
-from docutils.nodes import make_id
-myst_heading_slug_func = make_id
-myst_heading_anchors = 3
+from urllib.parse import quote
+
+myst_heading_anchors = 6
+myst_heading_slug_func = quote
