@@ -562,14 +562,14 @@ def plugged(self, index)
 ```python
 def switch_input_sockets(self, index0, index1)
 ```
-
+```{eval-rst}
  Utility method which switchs the links of two sockets.
 
 :param index0: The first index
 :param index1: The second index
 :type index0: int
 :typ index1: int
-
+```
 Used when implementing operators __rxxx___
 
 

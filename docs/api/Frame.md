@@ -12,7 +12,7 @@
     
 Note that *Frame* is the internal name for *Layouts*
 
-.. blid:: NodeFrame
+<sub>Blender reference : [NodeFrame](https://docs.blender.org/api/current/bpy.types.NodeFrame.html)</sub>
 
 
 
@@ -397,7 +397,7 @@ The resulting list will allow to determine if a 'Capture Attribute' is necessary
 ```python
 def get_datasocket(self, index)
 ```
-
+```{eval-rst}
  Get the data socket by its index.
 
 :param index: Index of the output socket to get
@@ -450,7 +450,7 @@ def get_datasocket(self, index)
     
     User sockets:
     value 1 NodeSocketFloat                    
-
+```
 
 
 
@@ -486,7 +486,7 @@ ock_ind = self.outsockets.get(name.lower())
 ```python
 def plug(self, index, *values)
 ```
-
+```{eval-rst}
  Plug the values to the input socket whose index is provided.
 
 :param index: The index of the input sockets (a valid index for Node.inputs)
@@ -494,7 +494,7 @@ def plug(self, index, *values)
          or an output socket 
 :type index: int
 :type values: list of values
-
+```
 Since an input socket can be multi input, the values argument is a list.
 
 If the socket is multi input, the plug method is called once per provide value.
@@ -508,9 +508,9 @@ A not None value can be:
 When it is a socket, it can be a Blender socket or a DataSocket
 
 
-
+```{eval-rst}
 ----- Index can be a string
-
+```
 <sub>Go to [top](#class-frame) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 
 ### plug_node
@@ -518,12 +518,12 @@ When it is a socket, it can be a Blender socket or a DataSocket
 ```python
 def plug_node(self, node)
 ```
-
+```{eval-rst}
  Plug all the sockets of a node.
 
 :param node: The node whose output sockets will be plugged
 :type node: Node
-
+```
 Plug the output sockets of node whose name match an input socket of self.
 
 
@@ -537,14 +537,14 @@ Plug the output sockets of node whose name match an input socket of self.
 ```python
 def plugged(self, index)
 ```
-
+```{eval-rst}
  The liste of plugged sockets
 
 :param index: the index of the socket to consider
 :type index: int
 :return: The list of connected sockets
 :rtype: list of DataSockets
-
+```
 
 
 
@@ -555,14 +555,14 @@ def plugged(self, index)
 ```python
 def switch_input_sockets(self, index0, index1)
 ```
-
+```{eval-rst}
  Utility method which switchs the links of two sockets.
 
 :param index0: The first index
 :param index1: The second index
 :type index0: int
 :typ index1: int
-
+```
 Used when implementing operators __rxxx___
 
 

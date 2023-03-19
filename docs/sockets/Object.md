@@ -17,7 +17,7 @@
 - [switch](#switch) : output (Object)
 
 ## switch
-
+```{eval-rst}
 Geometry node [*Switch*].
 
 
@@ -36,7 +36,7 @@ Geometry node [*Switch*].
   
   - input_type = 'OBJECT'
     
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
@@ -44,7 +44,9 @@ Geometry node [*Switch*].
     nodes.Switch(false=self, switch=switch, true=true, input_type='OBJECT', label=node_label, node_color=node_color)
     
 
+```
 ## info
+```{eval-rst}
 
 Geometry node [*Object Info*].
 
@@ -63,7 +65,7 @@ Geometry node [*Object Info*].
   Node :class:`~geonodes.nodes.nodes.ObjectInfo`
   
   
-  .. blid:: GeometryNodeObjectInfo
+  Blender reference : `GeometryNodeObjectInfo <https://docs.blender.org/api/current/bpy.types.GeometryNodeObjectInfo.html>`_
   
   .. code-block:: python
   
@@ -71,7 +73,9 @@ Geometry node [*Object Info*].
     nodes.ObjectInfo(object=self, as_instance=as_instance, transform_space=transform_space, label=node_label, node_color=node_color)
     
 
+```
 ## location
+```{eval-rst}
 
 Geometry node [*Object Info*].
 
@@ -90,7 +94,7 @@ Geometry node [*Object Info*].
   Node :class:`~geonodes.nodes.nodes.ObjectInfo`
   
   
-  .. blid:: GeometryNodeObjectInfo
+  Blender reference : `GeometryNodeObjectInfo <https://docs.blender.org/api/current/bpy.types.GeometryNodeObjectInfo.html>`_
   
   .. code-block:: python
   
@@ -98,7 +102,9 @@ Geometry node [*Object Info*].
     nodes.ObjectInfo(object=self, as_instance=as_instance, transform_space=transform_space, label=node_label, node_color=node_color).location
     
 
+```
 ## rotation
+```{eval-rst}
 
 Geometry node [*Object Info*].
 
@@ -117,7 +123,7 @@ Geometry node [*Object Info*].
   Node :class:`~geonodes.nodes.nodes.ObjectInfo`
   
   
-  .. blid:: GeometryNodeObjectInfo
+  Blender reference : `GeometryNodeObjectInfo <https://docs.blender.org/api/current/bpy.types.GeometryNodeObjectInfo.html>`_
   
   .. code-block:: python
   
@@ -125,7 +131,9 @@ Geometry node [*Object Info*].
     nodes.ObjectInfo(object=self, as_instance=as_instance, transform_space=transform_space, label=node_label, node_color=node_color).rotation
     
 
+```
 ## scale
+```{eval-rst}
 
 Geometry node [*Object Info*].
 
@@ -144,7 +152,7 @@ Geometry node [*Object Info*].
   Node :class:`~geonodes.nodes.nodes.ObjectInfo`
   
   
-  .. blid:: GeometryNodeObjectInfo
+  Blender reference : `GeometryNodeObjectInfo <https://docs.blender.org/api/current/bpy.types.GeometryNodeObjectInfo.html>`_
   
   .. code-block:: python
   
@@ -152,7 +160,9 @@ Geometry node [*Object Info*].
     nodes.ObjectInfo(object=self, as_instance=as_instance, transform_space=transform_space, label=node_label, node_color=node_color).scale
     
 
+```
 ## geometry
+```{eval-rst}
 
 Geometry node [*Object Info*].
 
@@ -171,10 +181,11 @@ Geometry node [*Object Info*].
   Node :class:`~geonodes.nodes.nodes.ObjectInfo`
   
   
-  .. blid:: GeometryNodeObjectInfo
+  Blender reference : `GeometryNodeObjectInfo <https://docs.blender.org/api/current/bpy.types.GeometryNodeObjectInfo.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.ObjectInfo(object=self, as_instance=as_instance, transform_space=transform_space, label=node_label, node_color=node_color).geometry
     
+```

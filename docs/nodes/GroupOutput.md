@@ -12,7 +12,7 @@ The **input** sockets of this node are the **output** sockets of the group.
 
 This node is created by the Tree at initialization time. 
 
-.. blid:: NodeGroupOutput
+<sub>Blender reference : [NodeGroupOutput](https://docs.blender.org/api/current/bpy.types.NodeGroupOutput.html)</sub>
 
 
 
@@ -31,7 +31,7 @@ The **input** sockets of this node are the **output** sockets of the group.
 
 This node is created by the Tree at initialization time. 
 
-.. blid:: NodeGroupOutput
+<sub>Blender reference : [NodeGroupOutput](https://docs.blender.org/api/current/bpy.types.NodeGroupOutput.html)</sub>
 
 
 

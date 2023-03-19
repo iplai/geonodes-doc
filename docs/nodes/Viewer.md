@@ -10,7 +10,7 @@ Args:
   data_type: The value data_type in [ 'FLOAT' 'INT' 'FLOAT_VECTOR' 'FLOAT_COLOR' 'BOOLEAN']
   
   
-.. blid:: GeometryNodeViewer
+<sub>Blender reference : [GeometryNodeViewer](https://docs.blender.org/api/current/bpy.types.GeometryNodeViewer.html)</sub>
 
 
 
@@ -27,7 +27,7 @@ Args:
   data_type: The value data_type in [ 'FLOAT' 'INT' 'FLOAT_VECTOR' 'FLOAT_COLOR' 'BOOLEAN']
   
   
-.. blid:: GeometryNodeViewer
+<sub>Blender reference : [GeometryNodeViewer](https://docs.blender.org/api/current/bpy.types.GeometryNodeViewer.html)</sub>
 
 
 

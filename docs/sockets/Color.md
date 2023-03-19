@@ -28,7 +28,7 @@
 - [switch](#switch) : output (Color)
 
 ## Combine
-
+```{eval-rst}
 Geometry node [*Combine Color*].
 
 
@@ -49,16 +49,16 @@ Geometry node [*Combine Color*].
   Node :class:`~geonodes.nodes.nodes.CombineColor`
   
   
-  .. blid:: FunctionNodeCombineColor
+  Blender reference : `FunctionNodeCombineColor <https://docs.blender.org/api/current/bpy.types.FunctionNodeCombineColor.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CombineColor(red=red, green=green, blue=blue, alpha=alpha, mode=mode, label=node_label, node_color=node_color)
     
-
+```
 ## CombineRGB
-
+```{eval-rst}
 Geometry node [*Combine Color*].
 
 
@@ -79,16 +79,16 @@ Geometry node [*Combine Color*].
   
   - mode = 'RGB'
     
-  .. blid:: FunctionNodeCombineColor
+  Blender reference : `FunctionNodeCombineColor <https://docs.blender.org/api/current/bpy.types.FunctionNodeCombineColor.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CombineColor(red=red, green=green, blue=blue, alpha=alpha, mode='RGB', label=node_label, node_color=node_color)
     
-
+```
 ## CombineHSV
-
+```{eval-rst}
 Geometry node [*Combine Color*].
 
 
@@ -109,16 +109,16 @@ Geometry node [*Combine Color*].
   
   - mode = 'HSV'
     
-  .. blid:: FunctionNodeCombineColor
+  Blender reference : `FunctionNodeCombineColor <https://docs.blender.org/api/current/bpy.types.FunctionNodeCombineColor.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CombineColor(red=hue, green=saturation, blue=value, alpha=alpha, mode='HSV', label=node_label, node_color=node_color)
     
-
+```
 ## CombineHSL
-
+```{eval-rst}
 Geometry node [*Combine Color*].
 
 
@@ -139,16 +139,16 @@ Geometry node [*Combine Color*].
   
   - mode = 'HSL'
     
-  .. blid:: FunctionNodeCombineColor
+  Blender reference : `FunctionNodeCombineColor <https://docs.blender.org/api/current/bpy.types.FunctionNodeCombineColor.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CombineColor(red=hue, green=saturation, blue=lightness, alpha=alpha, mode='HSL', label=node_label, node_color=node_color)
     
-
+```
 ## capture_attribute
-
+```{eval-rst}
 Geometry node [*Capture Attribute*].
 
 
@@ -167,16 +167,16 @@ Geometry node [*Capture Attribute*].
   
   - data_type = 'FLOAT_COLOR'
     
-  .. blid:: GeometryNodeCaptureAttribute
+  Blender reference : `GeometryNodeCaptureAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeCaptureAttribute.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CaptureAttribute(value=self, geometry=geometry, data_type='FLOAT_COLOR', domain=domain, label=node_label, node_color=node_color)
     
-
+```
 ## field_at_index
-
+```{eval-rst}
 Geometry node [*Field at Index*].
 
 
@@ -195,16 +195,16 @@ Geometry node [*Field at Index*].
   
   - data_type = 'FLOAT_COLOR'
     
-  .. blid:: GeometryNodeFieldAtIndex
+  Blender reference : `GeometryNodeFieldAtIndex <https://docs.blender.org/api/current/bpy.types.GeometryNodeFieldAtIndex.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.FieldAtIndex(value=self, index=index, data_type='FLOAT_COLOR', domain=domain, label=node_label, node_color=node_color)
     
-
+```
 ## raycast
-
+```{eval-rst}
 Geometry node [*Raycast*].
 
 
@@ -226,16 +226,16 @@ Geometry node [*Raycast*].
   
   - data_type = 'FLOAT_COLOR'
     
-  .. blid:: GeometryNodeRaycast
+  Blender reference : `GeometryNodeRaycast <https://docs.blender.org/api/current/bpy.types.GeometryNodeRaycast.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Raycast(attribute=self, target_geometry=target_geometry, source_position=source_position, ray_direction=ray_direction, ray_length=ray_length, data_type='FLOAT_COLOR', mapping=mapping, label=node_label, node_color=node_color)
     
-
+```
 ## switch
-
+```{eval-rst}
 Geometry node [*Switch*].
 
 
@@ -254,16 +254,16 @@ Geometry node [*Switch*].
   
   - input_type = 'RGBA'
     
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Switch(false=self, switch=switch, true=true, input_type='RGBA', label=node_label, node_color=node_color)
     
-
+```
 ## equal
-
+```{eval-rst}
 Geometry node [*Compare*].
 
 
@@ -284,16 +284,16 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Compare(a=self, b=b, epsilon=epsilon, data_type='RGBA', mode='ELEMENT', operation='EQUAL', label=node_label, node_color=node_color)
     
-
+```
 ## not_equal
-
+```{eval-rst}
 Geometry node [*Compare*].
 
 
@@ -314,16 +314,16 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'NOT_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Compare(a=self, b=b, epsilon=epsilon, data_type='RGBA', mode='ELEMENT', operation='NOT_EQUAL', label=node_label, node_color=node_color)
     
-
+```
 ## brighter
-
+```{eval-rst}
 Geometry node [*Compare*].
 
 
@@ -343,16 +343,16 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'BRIGHTER'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Compare(a=self, b=b, data_type='RGBA', mode='ELEMENT', operation='BRIGHTER', label=node_label, node_color=node_color)
     
-
+```
 ## darker
-
+```{eval-rst}
 Geometry node [*Compare*].
 
 
@@ -372,16 +372,16 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'DARKER'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Compare(a=self, b=b, data_type='RGBA', mode='ELEMENT', operation='DARKER', label=node_label, node_color=node_color)
     
-
+```
 ## separate_color
-
+```{eval-rst}
 Geometry node [*Separate Color*].
 
 
@@ -398,16 +398,16 @@ Geometry node [*Separate Color*].
   Node :class:`~geonodes.nodes.nodes.SeparateColor`
   
   
-  .. blid:: FunctionNodeSeparateColor
+  Blender reference : `FunctionNodeSeparateColor <https://docs.blender.org/api/current/bpy.types.FunctionNodeSeparateColor.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.SeparateColor(color=self, mode=mode, label=node_label, node_color=node_color)
     
-
+```
 ## curves
-
+```{eval-rst}
 Geometry node [*RGB Curves*].
 
 
@@ -424,10 +424,11 @@ Geometry node [*RGB Curves*].
   Node :class:`~geonodes.nodes.nodes.RgbCurves`
   
   
-  .. blid:: ShaderNodeRGBCurve
+  Blender reference : `ShaderNodeRGBCurve <https://docs.blender.org/api/current/bpy.types.ShaderNodeRGBCurve.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.RgbCurves(color=self, fac=fac, label=node_label, node_color=node_color)
     
+```

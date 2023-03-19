@@ -248,7 +248,7 @@ def arrange(self)
 ```python
 def check_attributes(self)
 ```
-
+```{eval-rst}
  Check the attributes
 
 This utility function is called when closing the tree to "solve" the attribute input nodes,
@@ -257,7 +257,7 @@ i.e. to determine if a 'Capture Attribute' node is required.
 In **geonodes**, attributes are initialized as properties of a geometry.
 For instance, in the following piece of code, the node 'Position' is to be the *position*
 of the vertices of my_mesh:
-    
+```    
 ```python
 v = my_mesh.verts.position  # Create the node 'Position'
 ```
@@ -337,9 +337,9 @@ Three actions are performed:
                                    
 
 
-
+```{eval-rst}
 ----- Capture attributes
-
+```
 
 <sub>Go to [top](#class-tree) - [main](../index.md) - [nodes](nodes.md) - [nodes menus](nodes_menus.md)</sub>
 

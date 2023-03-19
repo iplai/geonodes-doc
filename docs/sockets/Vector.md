@@ -96,6 +96,7 @@
 - [wrap](#wrap) : vector (Vector)
 
 ## Random
+```{eval-rst}
 
 Geometry node [*Random Value*].
 
@@ -117,7 +118,7 @@ Geometry node [*Random Value*].
   
   - data_type = 'FLOAT_VECTOR'
     
-  .. blid:: FunctionNodeRandomValue
+  Blender reference : `FunctionNodeRandomValue <https://docs.blender.org/api/current/bpy.types.FunctionNodeRandomValue.html>`_
   
   .. code-block:: python
   
@@ -125,7 +126,9 @@ Geometry node [*Random Value*].
     nodes.RandomValue(min=min, max=max, ID=ID, seed=seed, data_type='FLOAT_VECTOR', label=node_label, node_color=node_color)
     
 
+```
 ## Combine
+```{eval-rst}
 
 Geometry node [*Combine XYZ*].
 
@@ -145,7 +148,7 @@ Geometry node [*Combine XYZ*].
   Node :class:`~geonodes.nodes.nodes.CombineXyz`
   
   
-  .. blid:: ShaderNodeCombineXYZ
+  Blender reference : `ShaderNodeCombineXYZ <https://docs.blender.org/api/current/bpy.types.ShaderNodeCombineXYZ.html>`_
   
   .. code-block:: python
   
@@ -153,7 +156,9 @@ Geometry node [*Combine XYZ*].
     nodes.CombineXyz(x=x, y=y, z=z, label=node_label, node_color=node_color)
     
 
+```
 ## AlignToVector
+```{eval-rst}
 
 Geometry node [*Align Euler to Vector*].
 
@@ -175,7 +180,7 @@ Geometry node [*Align Euler to Vector*].
   Node :class:`~geonodes.nodes.nodes.AlignEulerToVector`
   
   
-  .. blid:: FunctionNodeAlignEulerToVector
+  Blender reference : `FunctionNodeAlignEulerToVector <https://docs.blender.org/api/current/bpy.types.FunctionNodeAlignEulerToVector.html>`_
   
   .. code-block:: python
   
@@ -183,7 +188,9 @@ Geometry node [*Align Euler to Vector*].
     nodes.AlignEulerToVector(rotation=rotation, factor=factor, vector=vector, axis=axis, pivot_axis=pivot_axis, label=node_label, node_color=node_color)
     
 
+```
 ## RotateEuler
+```{eval-rst}
 
 Geometry node [*Rotate Euler*].
 
@@ -206,7 +213,7 @@ Geometry node [*Rotate Euler*].
   Node :class:`~geonodes.nodes.nodes.RotateEuler`
   
   
-  .. blid:: FunctionNodeRotateEuler
+  Blender reference : `FunctionNodeRotateEuler <https://docs.blender.org/api/current/bpy.types.FunctionNodeRotateEuler.html>`_
   
   .. code-block:: python
   
@@ -214,7 +221,9 @@ Geometry node [*Rotate Euler*].
     nodes.RotateEuler(rotation=rotation, rotate_by=rotate_by, axis=axis, angle=angle, space=space, type=type, label=node_label, node_color=node_color)
     
 
+```
 ## separate
+```{eval-rst}
 
 Geometry node [*Separate XYZ*].
 
@@ -228,7 +237,7 @@ Geometry node [*Separate XYZ*].
   Node :class:`~geonodes.nodes.nodes.SeparateXyz`
   
   
-  .. blid:: ShaderNodeSeparateXYZ
+  Blender reference : `ShaderNodeSeparateXYZ <https://docs.blender.org/api/current/bpy.types.ShaderNodeSeparateXYZ.html>`_
   
   .. code-block:: python
   
@@ -236,7 +245,9 @@ Geometry node [*Separate XYZ*].
     nodes.SeparateXyz(vector=self, label=f"{self.node_chain_label}.separate")
     
 
+```
 ## accumulate_field
+```{eval-rst}
 
 Geometry node [*Accumulate Field*].
 
@@ -256,7 +267,7 @@ Geometry node [*Accumulate Field*].
   
   - data_type = 'FLOAT_VECTOR'
     
-  .. blid:: GeometryNodeAccumulateField
+  Blender reference : `GeometryNodeAccumulateField <https://docs.blender.org/api/current/bpy.types.GeometryNodeAccumulateField.html>`_
   
   .. code-block:: python
   
@@ -264,7 +275,9 @@ Geometry node [*Accumulate Field*].
     nodes.AccumulateField(value=self, group_index=group_index, data_type='FLOAT_VECTOR', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## attribute_statistic
+```{eval-rst}
 
 Geometry node [*Attribute Statistic*].
 
@@ -285,7 +298,7 @@ Geometry node [*Attribute Statistic*].
   
   - data_type = 'FLOAT_VECTOR'
     
-  .. blid:: GeometryNodeAttributeStatistic
+  Blender reference : `GeometryNodeAttributeStatistic <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeStatistic.html>`_
   
   .. code-block:: python
   
@@ -293,7 +306,9 @@ Geometry node [*Attribute Statistic*].
     nodes.AttributeStatistic(attribute=self, geometry=geometry, selection=selection, data_type='FLOAT_VECTOR', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## capture_attribute
+```{eval-rst}
 
 Geometry node [*Capture Attribute*].
 
@@ -313,7 +328,7 @@ Geometry node [*Capture Attribute*].
   
   - data_type = 'FLOAT_VECTOR'
     
-  .. blid:: GeometryNodeCaptureAttribute
+  Blender reference : `GeometryNodeCaptureAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeCaptureAttribute.html>`_
   
   .. code-block:: python
   
@@ -321,7 +336,9 @@ Geometry node [*Capture Attribute*].
     nodes.CaptureAttribute(value=self, geometry=geometry, data_type='FLOAT_VECTOR', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## field_at_index
+```{eval-rst}
 
 Geometry node [*Field at Index*].
 
@@ -341,7 +358,7 @@ Geometry node [*Field at Index*].
   
   - data_type = 'FLOAT_VECTOR'
     
-  .. blid:: GeometryNodeFieldAtIndex
+  Blender reference : `GeometryNodeFieldAtIndex <https://docs.blender.org/api/current/bpy.types.GeometryNodeFieldAtIndex.html>`_
   
   .. code-block:: python
   
@@ -349,7 +366,9 @@ Geometry node [*Field at Index*].
     nodes.FieldAtIndex(value=self, index=index, data_type='FLOAT_VECTOR', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## raycast
+```{eval-rst}
 
 Geometry node [*Raycast*].
 
@@ -372,7 +391,7 @@ Geometry node [*Raycast*].
   
   - data_type = 'FLOAT_VECTOR'
     
-  .. blid:: GeometryNodeRaycast
+  Blender reference : `GeometryNodeRaycast <https://docs.blender.org/api/current/bpy.types.GeometryNodeRaycast.html>`_
   
   .. code-block:: python
   
@@ -380,7 +399,9 @@ Geometry node [*Raycast*].
     nodes.Raycast(attribute=self, target_geometry=target_geometry, source_position=source_position, ray_direction=ray_direction, ray_length=ray_length, data_type='FLOAT_VECTOR', mapping=mapping, label=node_label, node_color=node_color)
     
 
+```
 ## switch
+```{eval-rst}
 
 Geometry node [*Switch*].
 
@@ -400,7 +421,7 @@ Geometry node [*Switch*].
   
   - input_type = 'VECTOR'
     
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
@@ -408,7 +429,9 @@ Geometry node [*Switch*].
     nodes.Switch(false=self, switch=switch, true=true, input_type='VECTOR', label=node_label, node_color=node_color)
     
 
+```
 ## map_range
+```{eval-rst}
 
 Geometry node [*Map Range*].
 
@@ -432,7 +455,7 @@ Geometry node [*Map Range*].
   
   - data_type = 'FLOAT_VECTOR'
     
-  .. blid:: ShaderNodeMapRange
+  Blender reference : `ShaderNodeMapRange <https://docs.blender.org/api/current/bpy.types.ShaderNodeMapRange.html>`_
   
   .. code-block:: python
   
@@ -440,7 +463,9 @@ Geometry node [*Map Range*].
     nodes.MapRange(vector=self, from_min=from_min, from_max=from_max, to_min=to_min, to_max=to_max, clamp=clamp, data_type='FLOAT_VECTOR', interpolation_type=interpolation_type, label=node_label, node_color=node_color)
     
 
+```
 ## less_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -463,7 +488,7 @@ Geometry node [*Compare*].
   - data_type = 'VECTOR'
   - operation = 'LESS_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -471,7 +496,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, angle=angle, data_type='VECTOR', mode=mode, operation='LESS_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## less_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -494,7 +521,7 @@ Geometry node [*Compare*].
   - data_type = 'VECTOR'
   - operation = 'LESS_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -502,7 +529,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, angle=angle, data_type='VECTOR', mode=mode, operation='LESS_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## greater_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -525,7 +554,7 @@ Geometry node [*Compare*].
   - data_type = 'VECTOR'
   - operation = 'GREATER_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -533,7 +562,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, angle=angle, data_type='VECTOR', mode=mode, operation='GREATER_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## greater_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -556,7 +587,7 @@ Geometry node [*Compare*].
   - data_type = 'VECTOR'
   - operation = 'GREATER_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -564,7 +595,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, angle=angle, data_type='VECTOR', mode=mode, operation='GREATER_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -588,7 +621,7 @@ Geometry node [*Compare*].
   - data_type = 'VECTOR'
   - operation = 'EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -596,7 +629,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, angle=angle, epsilon=epsilon, data_type='VECTOR', mode=mode, operation='EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## not_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -620,7 +655,7 @@ Geometry node [*Compare*].
   - data_type = 'VECTOR'
   - operation = 'NOT_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -628,7 +663,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, angle=angle, epsilon=epsilon, data_type='VECTOR', mode=mode, operation='NOT_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## element_less_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -649,7 +686,7 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'LESS_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -657,7 +694,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='ELEMENT', operation='LESS_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## length_less_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -678,7 +717,7 @@ Geometry node [*Compare*].
   - mode = 'LENGTH'
   - operation = 'LESS_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -686,7 +725,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='LENGTH', operation='LESS_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## average_less_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -707,7 +748,7 @@ Geometry node [*Compare*].
   - mode = 'AVERAGE'
   - operation = 'LESS_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -715,7 +756,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='AVERAGE', operation='LESS_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## dot_product_less_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -737,7 +780,7 @@ Geometry node [*Compare*].
   - mode = 'DOT_PRODUCT'
   - operation = 'LESS_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -745,7 +788,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, data_type='VECTOR', mode='DOT_PRODUCT', operation='LESS_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## direction_less_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -767,7 +812,7 @@ Geometry node [*Compare*].
   - mode = 'DIRECTION'
   - operation = 'LESS_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -775,7 +820,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, angle=angle, data_type='VECTOR', mode='DIRECTION', operation='LESS_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## element_less_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -796,7 +843,7 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'LESS_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -804,7 +851,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='ELEMENT', operation='LESS_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## length_less_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -825,7 +874,7 @@ Geometry node [*Compare*].
   - mode = 'LENGTH'
   - operation = 'LESS_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -833,7 +882,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='LENGTH', operation='LESS_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## average_less_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -854,7 +905,7 @@ Geometry node [*Compare*].
   - mode = 'AVERAGE'
   - operation = 'LESS_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -862,7 +913,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='AVERAGE', operation='LESS_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## dot_product_less_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -884,7 +937,7 @@ Geometry node [*Compare*].
   - mode = 'DOT_PRODUCT'
   - operation = 'LESS_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -892,7 +945,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, data_type='VECTOR', mode='DOT_PRODUCT', operation='LESS_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## direction_less_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -914,7 +969,7 @@ Geometry node [*Compare*].
   - mode = 'DIRECTION'
   - operation = 'LESS_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -922,7 +977,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, angle=angle, data_type='VECTOR', mode='DIRECTION', operation='LESS_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## element_greater_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -943,7 +1000,7 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'GREATER_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -951,7 +1008,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='ELEMENT', operation='GREATER_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## length_greater_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -972,7 +1031,7 @@ Geometry node [*Compare*].
   - mode = 'LENGTH'
   - operation = 'GREATER_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -980,7 +1039,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='LENGTH', operation='GREATER_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## average_greater_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1001,7 +1062,7 @@ Geometry node [*Compare*].
   - mode = 'AVERAGE'
   - operation = 'GREATER_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1009,7 +1070,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='AVERAGE', operation='GREATER_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## dot_product_greater_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1031,7 +1094,7 @@ Geometry node [*Compare*].
   - mode = 'DOT_PRODUCT'
   - operation = 'GREATER_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1039,7 +1102,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, data_type='VECTOR', mode='DOT_PRODUCT', operation='GREATER_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## direction_greater_than
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1061,7 +1126,7 @@ Geometry node [*Compare*].
   - mode = 'DIRECTION'
   - operation = 'GREATER_THAN'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1069,7 +1134,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, angle=angle, data_type='VECTOR', mode='DIRECTION', operation='GREATER_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## element_greater_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1090,7 +1157,7 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'GREATER_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1098,7 +1165,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='ELEMENT', operation='GREATER_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## length_greater_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1119,7 +1188,7 @@ Geometry node [*Compare*].
   - mode = 'LENGTH'
   - operation = 'GREATER_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1127,7 +1196,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='LENGTH', operation='GREATER_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## average_greater_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1148,7 +1219,7 @@ Geometry node [*Compare*].
   - mode = 'AVERAGE'
   - operation = 'GREATER_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1156,7 +1227,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='VECTOR', mode='AVERAGE', operation='GREATER_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## dot_product_greater_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1178,7 +1251,7 @@ Geometry node [*Compare*].
   - mode = 'DOT_PRODUCT'
   - operation = 'GREATER_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1186,7 +1259,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, data_type='VECTOR', mode='DOT_PRODUCT', operation='GREATER_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## direction_greater_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1208,7 +1283,7 @@ Geometry node [*Compare*].
   - mode = 'DIRECTION'
   - operation = 'GREATER_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1216,7 +1291,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, angle=angle, data_type='VECTOR', mode='DIRECTION', operation='GREATER_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## element_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1238,7 +1315,7 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1246,7 +1323,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, epsilon=epsilon, data_type='VECTOR', mode='ELEMENT', operation='EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## length_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1268,7 +1347,7 @@ Geometry node [*Compare*].
   - mode = 'LENGTH'
   - operation = 'EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1276,7 +1355,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, epsilon=epsilon, data_type='VECTOR', mode='LENGTH', operation='EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## average_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1298,7 +1379,7 @@ Geometry node [*Compare*].
   - mode = 'AVERAGE'
   - operation = 'EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1306,7 +1387,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, epsilon=epsilon, data_type='VECTOR', mode='AVERAGE', operation='EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## dot_product_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1329,7 +1412,7 @@ Geometry node [*Compare*].
   - mode = 'DOT_PRODUCT'
   - operation = 'EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1337,7 +1420,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, epsilon=epsilon, data_type='VECTOR', mode='DOT_PRODUCT', operation='EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## direction_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1360,7 +1445,7 @@ Geometry node [*Compare*].
   - mode = 'DIRECTION'
   - operation = 'EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1368,7 +1453,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, angle=angle, epsilon=epsilon, data_type='VECTOR', mode='DIRECTION', operation='EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## element_not_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1390,7 +1477,7 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'NOT_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1398,7 +1485,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, epsilon=epsilon, data_type='VECTOR', mode='ELEMENT', operation='NOT_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## length_not_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1420,7 +1509,7 @@ Geometry node [*Compare*].
   - mode = 'LENGTH'
   - operation = 'NOT_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1428,7 +1517,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, epsilon=epsilon, data_type='VECTOR', mode='LENGTH', operation='NOT_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## average_not_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1450,7 +1541,7 @@ Geometry node [*Compare*].
   - mode = 'AVERAGE'
   - operation = 'NOT_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1458,7 +1549,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, epsilon=epsilon, data_type='VECTOR', mode='AVERAGE', operation='NOT_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## dot_product_not_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1481,7 +1574,7 @@ Geometry node [*Compare*].
   - mode = 'DOT_PRODUCT'
   - operation = 'NOT_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1489,7 +1582,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, c=c, epsilon=epsilon, data_type='VECTOR', mode='DOT_PRODUCT', operation='NOT_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## direction_not_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -1512,7 +1607,7 @@ Geometry node [*Compare*].
   - mode = 'DIRECTION'
   - operation = 'NOT_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -1520,7 +1615,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, angle=angle, epsilon=epsilon, data_type='VECTOR', mode='DIRECTION', operation='NOT_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## add
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1539,7 +1636,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'ADD'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1547,7 +1644,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='ADD', label=node_label, node_color=node_color)
     
 
+```
 ## subtract
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1566,7 +1665,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'SUBTRACT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1574,7 +1673,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='SUBTRACT', label=node_label, node_color=node_color)
     
 
+```
 ## multiply
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1593,7 +1694,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MULTIPLY'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1601,7 +1702,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='MULTIPLY', label=node_label, node_color=node_color)
     
 
+```
 ## divide
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1620,7 +1723,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'DIVIDE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1628,7 +1731,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='DIVIDE', label=node_label, node_color=node_color)
     
 
+```
 ## multiply_add
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1648,7 +1753,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MULTIPLY_ADD'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1656,7 +1761,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, vector2=vector2, operation='MULTIPLY_ADD', label=node_label, node_color=node_color)
     
 
+```
 ## cross
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1675,7 +1782,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'CROSS_PRODUCT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1683,7 +1790,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='CROSS_PRODUCT', label=node_label, node_color=node_color)
     
 
+```
 ## project
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1702,7 +1811,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'PROJECT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1710,7 +1819,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='PROJECT', label=node_label, node_color=node_color)
     
 
+```
 ## reflect
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1729,7 +1840,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'REFLECT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1737,7 +1848,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='REFLECT', label=node_label, node_color=node_color)
     
 
+```
 ## refract
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1757,7 +1870,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'REFRACT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1765,7 +1878,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, scale=scale, operation='REFRACT', label=node_label, node_color=node_color)
     
 
+```
 ## faceforward
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1785,7 +1900,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'FACEFORWARD'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1793,7 +1908,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, vector2=vector2, operation='FACEFORWARD', label=node_label, node_color=node_color)
     
 
+```
 ## dot
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1812,7 +1929,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'DOT_PRODUCT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1820,7 +1937,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='DOT_PRODUCT', label=node_label, node_color=node_color)
     
 
+```
 ## distance
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1839,7 +1958,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'DISTANCE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1847,7 +1966,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='DISTANCE', label=node_label, node_color=node_color)
     
 
+```
 ## length
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1865,7 +1986,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'LENGTH'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1873,7 +1994,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, operation='LENGTH', label=node_label, node_color=node_color)
     
 
+```
 ## scale
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1892,7 +2015,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'SCALE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1900,7 +2023,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, scale=scale, operation='SCALE', label=node_label, node_color=node_color)
     
 
+```
 ## normalize
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1918,7 +2043,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'NORMALIZE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1926,7 +2051,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, operation='NORMALIZE', label=node_label, node_color=node_color)
     
 
+```
 ## absolute
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1944,7 +2071,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'ABSOLUTE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1952,7 +2079,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, operation='ABSOLUTE', label=node_label, node_color=node_color)
     
 
+```
 ## min
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1971,7 +2100,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MINIMUM'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1979,7 +2108,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='MINIMUM', label=node_label, node_color=node_color)
     
 
+```
 ## max
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1998,7 +2129,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MAXIMUM'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2006,7 +2137,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='MAXIMUM', label=node_label, node_color=node_color)
     
 
+```
 ## floor
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2024,7 +2157,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'FLOOR'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2032,7 +2165,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, operation='FLOOR', label=node_label, node_color=node_color)
     
 
+```
 ## ceil
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2050,7 +2185,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'CEIL'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2058,7 +2193,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, operation='CEIL', label=node_label, node_color=node_color)
     
 
+```
 ## fraction
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2076,7 +2213,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'FRACTION'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2084,7 +2221,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, operation='FRACTION', label=node_label, node_color=node_color)
     
 
+```
 ## modulo
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2103,7 +2242,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MODULO'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2111,7 +2250,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='MODULO', label=node_label, node_color=node_color)
     
 
+```
 ## wrap
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2131,7 +2272,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'WRAP'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2139,7 +2280,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, vector2=vector2, operation='WRAP', label=node_label, node_color=node_color)
     
 
+```
 ## snap
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2158,7 +2301,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'SNAP'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2166,7 +2309,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, vector1=vector1, operation='SNAP', label=node_label, node_color=node_color)
     
 
+```
 ## sin
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2184,7 +2329,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'SINE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2192,7 +2337,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, operation='SINE', label=node_label, node_color=node_color)
     
 
+```
 ## cos
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2210,7 +2357,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'COSINE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2218,7 +2365,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, operation='COSINE', label=node_label, node_color=node_color)
     
 
+```
 ## tan
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2236,7 +2385,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'TANGENT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2244,7 +2393,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=self, operation='TANGENT', label=node_label, node_color=node_color)
     
 
+```
 ## curves
+```{eval-rst}
 
 Geometry node [*Vector Curves*].
 
@@ -2262,7 +2413,7 @@ Geometry node [*Vector Curves*].
   Node :class:`~geonodes.nodes.nodes.VectorCurves`
   
   
-  .. blid:: ShaderNodeVectorCurve
+  Blender reference : `ShaderNodeVectorCurve <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorCurve.html>`_
   
   .. code-block:: python
   
@@ -2270,7 +2421,9 @@ Geometry node [*Vector Curves*].
     nodes.VectorCurves(vector=self, fac=fac, label=node_label, node_color=node_color)
     
 
+```
 ## align_to_vector
+```{eval-rst}
 
 Geometry node [*Align Euler to Vector*].
 
@@ -2291,7 +2444,7 @@ Geometry node [*Align Euler to Vector*].
   Node :class:`~geonodes.nodes.nodes.AlignEulerToVector`
   
   
-  .. blid:: FunctionNodeAlignEulerToVector
+  Blender reference : `FunctionNodeAlignEulerToVector <https://docs.blender.org/api/current/bpy.types.FunctionNodeAlignEulerToVector.html>`_
   
   .. code-block:: python
   
@@ -2299,7 +2452,9 @@ Geometry node [*Align Euler to Vector*].
     nodes.AlignEulerToVector(rotation=self, factor=factor, vector=vector, axis=axis, pivot_axis=pivot_axis, label=node_label, node_color=node_color)
     
 
+```
 ## rotate_euler
+```{eval-rst}
 
 Geometry node [*Rotate Euler*].
 
@@ -2321,7 +2476,7 @@ Geometry node [*Rotate Euler*].
   Node :class:`~geonodes.nodes.nodes.RotateEuler`
   
   
-  .. blid:: FunctionNodeRotateEuler
+  Blender reference : `FunctionNodeRotateEuler <https://docs.blender.org/api/current/bpy.types.FunctionNodeRotateEuler.html>`_
   
   .. code-block:: python
   
@@ -2329,7 +2484,9 @@ Geometry node [*Rotate Euler*].
     nodes.RotateEuler(rotation=self, rotate_by=rotate_by, axis=axis, angle=angle, space=space, type=type, label=node_label, node_color=node_color)
     
 
+```
 ## rotate
+```{eval-rst}
 
 Geometry node [*Vector Rotate*].
 
@@ -2352,10 +2509,11 @@ Geometry node [*Vector Rotate*].
   Node :class:`~geonodes.nodes.nodes.VectorRotate`
   
   
-  .. blid:: ShaderNodeVectorRotate
+  Blender reference : `ShaderNodeVectorRotate <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorRotate.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.VectorRotate(vector=self, center=center, axis=axis, angle=angle, rotation=rotation, invert=invert, rotation_type=rotation_type, label=node_label, node_color=node_color)
     
+```

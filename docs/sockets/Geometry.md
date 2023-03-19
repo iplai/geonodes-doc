@@ -54,6 +54,7 @@
 - [transform](#transform) : geometry (Geometry)
 
 ## is_viewport
+```{eval-rst}
 
 Geometry node [*Is Viewport*].
 
@@ -70,7 +71,7 @@ Geometry node [*Is Viewport*].
   Node :class:`~geonodes.nodes.nodes.IsViewport`
   
   
-  .. blid:: GeometryNodeIsViewport
+  Blender reference : `GeometryNodeIsViewport <https://docs.blender.org/api/current/bpy.types.GeometryNodeIsViewport.html>`_
   
   .. code-block:: python
   
@@ -78,7 +79,9 @@ Geometry node [*Is Viewport*].
     nodes.IsViewport(label=node_label, node_color=node_color)
     
 
+```
 ## bound_box
+```{eval-rst}
 
 Geometry node [*Bounding Box*].
 
@@ -92,7 +95,7 @@ Geometry node [*Bounding Box*].
   Node :class:`~geonodes.nodes.nodes.BoundingBox`
   
   
-  .. blid:: GeometryNodeBoundBox
+  Blender reference : `GeometryNodeBoundBox <https://docs.blender.org/api/current/bpy.types.GeometryNodeBoundBox.html>`_
   
   .. code-block:: python
   
@@ -100,7 +103,9 @@ Geometry node [*Bounding Box*].
     nodes.BoundingBox(geometry=self, label=f"{self.node_chain_label}.bound_box")
     
 
+```
 ## box
+```{eval-rst}
 
 Geometry node [*Bounding Box*].
 
@@ -114,7 +119,7 @@ Geometry node [*Bounding Box*].
   Node :class:`~geonodes.nodes.nodes.BoundingBox`
   
   
-  .. blid:: GeometryNodeBoundBox
+  Blender reference : `GeometryNodeBoundBox <https://docs.blender.org/api/current/bpy.types.GeometryNodeBoundBox.html>`_
   
   .. code-block:: python
   
@@ -122,7 +127,9 @@ Geometry node [*Bounding Box*].
     nodes.BoundingBox(geometry=self, label=f"{self.node_chain_label}.box")
     
 
+```
 ## box_min
+```{eval-rst}
 
 Geometry node [*Bounding Box*].
 
@@ -136,7 +143,7 @@ Geometry node [*Bounding Box*].
   Node :class:`~geonodes.nodes.nodes.BoundingBox`
   
   
-  .. blid:: GeometryNodeBoundBox
+  Blender reference : `GeometryNodeBoundBox <https://docs.blender.org/api/current/bpy.types.GeometryNodeBoundBox.html>`_
   
   .. code-block:: python
   
@@ -144,7 +151,9 @@ Geometry node [*Bounding Box*].
     nodes.BoundingBox(geometry=self, label=f"{self.node_chain_label}.box_min")
     
 
+```
 ## box_max
+```{eval-rst}
 
 Geometry node [*Bounding Box*].
 
@@ -158,7 +167,7 @@ Geometry node [*Bounding Box*].
   Node :class:`~geonodes.nodes.nodes.BoundingBox`
   
   
-  .. blid:: GeometryNodeBoundBox
+  Blender reference : `GeometryNodeBoundBox <https://docs.blender.org/api/current/bpy.types.GeometryNodeBoundBox.html>`_
   
   .. code-block:: python
   
@@ -166,7 +175,9 @@ Geometry node [*Bounding Box*].
     nodes.BoundingBox(geometry=self, label=f"{self.node_chain_label}.box_max")
     
 
+```
 ## components
+```{eval-rst}
 
 Geometry node [*Separate Components*].
 
@@ -180,7 +191,7 @@ Geometry node [*Separate Components*].
   Node :class:`~geonodes.nodes.nodes.SeparateComponents`
   
   
-  .. blid:: GeometryNodeSeparateComponents
+  Blender reference : `GeometryNodeSeparateComponents <https://docs.blender.org/api/current/bpy.types.GeometryNodeSeparateComponents.html>`_
   
   .. code-block:: python
   
@@ -188,7 +199,9 @@ Geometry node [*Separate Components*].
     nodes.SeparateComponents(geometry=self, label=f"{self.node_chain_label}.components")
     
 
+```
 ## mesh_component
+```{eval-rst}
 
 Geometry node [*Separate Components*].
 
@@ -202,7 +215,7 @@ Geometry node [*Separate Components*].
   Node :class:`~geonodes.nodes.nodes.SeparateComponents`
   
   
-  .. blid:: GeometryNodeSeparateComponents
+  Blender reference : `GeometryNodeSeparateComponents <https://docs.blender.org/api/current/bpy.types.GeometryNodeSeparateComponents.html>`_
   
   .. code-block:: python
   
@@ -210,7 +223,9 @@ Geometry node [*Separate Components*].
     nodes.SeparateComponents(geometry=self, label=f"{self.node_chain_label}.mesh_component")
     
 
+```
 ## points_component
+```{eval-rst}
 
 Geometry node [*Separate Components*].
 
@@ -224,7 +239,7 @@ Geometry node [*Separate Components*].
   Node :class:`~geonodes.nodes.nodes.SeparateComponents`
   
   
-  .. blid:: GeometryNodeSeparateComponents
+  Blender reference : `GeometryNodeSeparateComponents <https://docs.blender.org/api/current/bpy.types.GeometryNodeSeparateComponents.html>`_
   
   .. code-block:: python
   
@@ -232,7 +247,9 @@ Geometry node [*Separate Components*].
     nodes.SeparateComponents(geometry=self, label=f"{self.node_chain_label}.points_component")
     
 
+```
 ## curve_component
+```{eval-rst}
 
 Geometry node [*Separate Components*].
 
@@ -246,7 +263,7 @@ Geometry node [*Separate Components*].
   Node :class:`~geonodes.nodes.nodes.SeparateComponents`
   
   
-  .. blid:: GeometryNodeSeparateComponents
+  Blender reference : `GeometryNodeSeparateComponents <https://docs.blender.org/api/current/bpy.types.GeometryNodeSeparateComponents.html>`_
   
   .. code-block:: python
   
@@ -254,7 +271,9 @@ Geometry node [*Separate Components*].
     nodes.SeparateComponents(geometry=self, label=f"{self.node_chain_label}.curve_component")
     
 
+```
 ## volume_component
+```{eval-rst}
 
 Geometry node [*Separate Components*].
 
@@ -268,7 +287,7 @@ Geometry node [*Separate Components*].
   Node :class:`~geonodes.nodes.nodes.SeparateComponents`
   
   
-  .. blid:: GeometryNodeSeparateComponents
+  Blender reference : `GeometryNodeSeparateComponents <https://docs.blender.org/api/current/bpy.types.GeometryNodeSeparateComponents.html>`_
   
   .. code-block:: python
   
@@ -276,7 +295,9 @@ Geometry node [*Separate Components*].
     nodes.SeparateComponents(geometry=self, label=f"{self.node_chain_label}.volume_component")
     
 
+```
 ## instances_component
+```{eval-rst}
 
 Geometry node [*Separate Components*].
 
@@ -290,7 +311,7 @@ Geometry node [*Separate Components*].
   Node :class:`~geonodes.nodes.nodes.SeparateComponents`
   
   
-  .. blid:: GeometryNodeSeparateComponents
+  Blender reference : `GeometryNodeSeparateComponents <https://docs.blender.org/api/current/bpy.types.GeometryNodeSeparateComponents.html>`_
   
   .. code-block:: python
   
@@ -298,7 +319,9 @@ Geometry node [*Separate Components*].
     nodes.SeparateComponents(geometry=self, label=f"{self.node_chain_label}.instances_component")
     
 
+```
 ## switch
+```{eval-rst}
 
 Geometry node [*Switch*].
 
@@ -318,7 +341,7 @@ Geometry node [*Switch*].
   
   - input_type = 'GEOMETRY'
     
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
@@ -326,7 +349,9 @@ Geometry node [*Switch*].
     nodes.Switch(false=self, switch=switch, true=true, input_type='GEOMETRY', label=node_label, node_color=node_color)
     
 
+```
 ## capture_attribute
+```{eval-rst}
 
 Geometry node [*Capture Attribute*].
 
@@ -346,7 +371,7 @@ Geometry node [*Capture Attribute*].
   Node :class:`~geonodes.nodes.nodes.CaptureAttribute`
   
   
-  .. blid:: GeometryNodeCaptureAttribute
+  Blender reference : `GeometryNodeCaptureAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeCaptureAttribute.html>`_
   
   .. code-block:: python
   
@@ -354,7 +379,9 @@ Geometry node [*Capture Attribute*].
     nodes.CaptureAttribute(geometry=self, value=value, data_type=data_type, domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## duplicate_elements
+```{eval-rst}
 
 Geometry node [*Duplicate Elements*].
 
@@ -374,7 +401,7 @@ Geometry node [*Duplicate Elements*].
   Node :class:`~geonodes.nodes.nodes.DuplicateElements`
   
   
-  .. blid:: GeometryNodeDuplicateElements
+  Blender reference : `GeometryNodeDuplicateElements <https://docs.blender.org/api/current/bpy.types.GeometryNodeDuplicateElements.html>`_
   
   .. code-block:: python
   
@@ -382,7 +409,9 @@ Geometry node [*Duplicate Elements*].
     nodes.DuplicateElements(geometry=self, selection=selection, amount=amount, domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## delete_geometry
+```{eval-rst}
 
 Geometry node [*Delete Geometry*].
 
@@ -402,7 +431,7 @@ Geometry node [*Delete Geometry*].
   Node :class:`~geonodes.nodes.nodes.DeleteGeometry`
   
   
-  .. blid:: GeometryNodeDeleteGeometry
+  Blender reference : `GeometryNodeDeleteGeometry <https://docs.blender.org/api/current/bpy.types.GeometryNodeDeleteGeometry.html>`_
   
   .. code-block:: python
   
@@ -410,7 +439,9 @@ Geometry node [*Delete Geometry*].
     nodes.DeleteGeometry(geometry=self, selection=selection, domain=domain, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## merge_by_distance
+```{eval-rst}
 
 Geometry node [*Merge by Distance*].
 
@@ -430,7 +461,7 @@ Geometry node [*Merge by Distance*].
   Node :class:`~geonodes.nodes.nodes.MergeByDistance`
   
   
-  .. blid:: GeometryNodeMergeByDistance
+  Blender reference : `GeometryNodeMergeByDistance <https://docs.blender.org/api/current/bpy.types.GeometryNodeMergeByDistance.html>`_
   
   .. code-block:: python
   
@@ -438,7 +469,9 @@ Geometry node [*Merge by Distance*].
     nodes.MergeByDistance(geometry=self, selection=selection, distance=distance, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## replace_material
+```{eval-rst}
 
 Geometry node [*Replace Material*].
 
@@ -457,7 +490,7 @@ Geometry node [*Replace Material*].
   Node :class:`~geonodes.nodes.nodes.ReplaceMaterial`
   
   
-  .. blid:: GeometryNodeReplaceMaterial
+  Blender reference : `GeometryNodeReplaceMaterial <https://docs.blender.org/api/current/bpy.types.GeometryNodeReplaceMaterial.html>`_
   
   .. code-block:: python
   
@@ -465,7 +498,9 @@ Geometry node [*Replace Material*].
     nodes.ReplaceMaterial(geometry=self, old=old, new=new, label=node_label, node_color=node_color)
     
 
+```
 ## scale_elements
+```{eval-rst}
 
 Geometry node [*Scale Elements*].
 
@@ -488,7 +523,7 @@ Geometry node [*Scale Elements*].
   Node :class:`~geonodes.nodes.nodes.ScaleElements`
   
   
-  .. blid:: GeometryNodeScaleElements
+  Blender reference : `GeometryNodeScaleElements <https://docs.blender.org/api/current/bpy.types.GeometryNodeScaleElements.html>`_
   
   .. code-block:: python
   
@@ -496,7 +531,9 @@ Geometry node [*Scale Elements*].
     nodes.ScaleElements(geometry=self, selection=selection, scale=scale, center=center, axis=axis, domain=domain, scale_mode=scale_mode, label=node_label, node_color=node_color)
     
 
+```
 ## set_ID
+```{eval-rst}
 
 Geometry node [*Set ID*].
 
@@ -515,7 +552,7 @@ Geometry node [*Set ID*].
   Node :class:`~geonodes.nodes.nodes.SetID`
   
   
-  .. blid:: GeometryNodeSetID
+  Blender reference : `GeometryNodeSetID <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetID.html>`_
   
   .. code-block:: python
   
@@ -523,7 +560,9 @@ Geometry node [*Set ID*].
     nodes.SetID(geometry=self, selection=selection, ID=ID, label=node_label, node_color=node_color)
     
 
+```
 ## set_material
+```{eval-rst}
 
 Geometry node [*Set Material*].
 
@@ -542,7 +581,7 @@ Geometry node [*Set Material*].
   Node :class:`~geonodes.nodes.nodes.SetMaterial`
   
   
-  .. blid:: GeometryNodeSetMaterial
+  Blender reference : `GeometryNodeSetMaterial <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetMaterial.html>`_
   
   .. code-block:: python
   
@@ -550,7 +589,9 @@ Geometry node [*Set Material*].
     nodes.SetMaterial(geometry=self, selection=selection, material=material, label=node_label, node_color=node_color)
     
 
+```
 ## set_material_index
+```{eval-rst}
 
 Geometry node [*Set Material Index*].
 
@@ -569,7 +610,7 @@ Geometry node [*Set Material Index*].
   Node :class:`~geonodes.nodes.nodes.SetMaterialIndex`
   
   
-  .. blid:: GeometryNodeSetMaterialIndex
+  Blender reference : `GeometryNodeSetMaterialIndex <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetMaterialIndex.html>`_
   
   .. code-block:: python
   
@@ -577,7 +618,9 @@ Geometry node [*Set Material Index*].
     nodes.SetMaterialIndex(geometry=self, selection=selection, material_index=material_index, label=node_label, node_color=node_color)
     
 
+```
 ## set_position
+```{eval-rst}
 
 Geometry node [*Set Position*].
 
@@ -597,7 +640,7 @@ Geometry node [*Set Position*].
   Node :class:`~geonodes.nodes.nodes.SetPosition`
   
   
-  .. blid:: GeometryNodeSetPosition
+  Blender reference : `GeometryNodeSetPosition <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetPosition.html>`_
   
   .. code-block:: python
   
@@ -605,7 +648,9 @@ Geometry node [*Set Position*].
     nodes.SetPosition(geometry=self, selection=selection, position=position, offset=offset, label=node_label, node_color=node_color)
     
 
+```
 ## set_shade_smooth
+```{eval-rst}
 
 Geometry node [*Set Shade Smooth*].
 
@@ -624,7 +669,7 @@ Geometry node [*Set Shade Smooth*].
   Node :class:`~geonodes.nodes.nodes.SetShadeSmooth`
   
   
-  .. blid:: GeometryNodeSetShadeSmooth
+  Blender reference : `GeometryNodeSetShadeSmooth <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetShadeSmooth.html>`_
   
   .. code-block:: python
   
@@ -632,7 +677,9 @@ Geometry node [*Set Shade Smooth*].
     nodes.SetShadeSmooth(geometry=self, selection=selection, shade_smooth=shade_smooth, label=node_label, node_color=node_color)
     
 
+```
 ## transform
+```{eval-rst}
 
 Geometry node [*Transform*].
 
@@ -652,7 +699,7 @@ Geometry node [*Transform*].
   Node :class:`~geonodes.nodes.nodes.Transform`
   
   
-  .. blid:: GeometryNodeTransform
+  Blender reference : `GeometryNodeTransform <https://docs.blender.org/api/current/bpy.types.GeometryNodeTransform.html>`_
   
   .. code-block:: python
   
@@ -660,7 +707,9 @@ Geometry node [*Transform*].
     nodes.Transform(geometry=self, translation=translation, rotation=rotation, scale=scale, label=node_label, node_color=node_color)
     
 
+```
 ## store_named_attribute
+```{eval-rst}
 
 Geometry node [*Store Named Attribute*].
 
@@ -681,7 +730,7 @@ Geometry node [*Store Named Attribute*].
   Node :class:`~geonodes.nodes.nodes.StoreNamedAttribute`
   
   
-  .. blid:: GeometryNodeStoreNamedAttribute
+  Blender reference : `GeometryNodeStoreNamedAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeStoreNamedAttribute.html>`_
   
   .. code-block:: python
   
@@ -689,7 +738,9 @@ Geometry node [*Store Named Attribute*].
     nodes.StoreNamedAttribute(geometry=self, name=name, value=value, data_type=data_type, domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## store_named_float
+```{eval-rst}
 
 Geometry node [*Store Named Attribute*].
 
@@ -710,7 +761,7 @@ Geometry node [*Store Named Attribute*].
   
   - data_type = 'FLOAT'
     
-  .. blid:: GeometryNodeStoreNamedAttribute
+  Blender reference : `GeometryNodeStoreNamedAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeStoreNamedAttribute.html>`_
   
   .. code-block:: python
   
@@ -718,7 +769,9 @@ Geometry node [*Store Named Attribute*].
     nodes.StoreNamedAttribute(geometry=self, name=name, value=value, data_type='FLOAT', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## store_named_integer
+```{eval-rst}
 
 Geometry node [*Store Named Attribute*].
 
@@ -739,7 +792,7 @@ Geometry node [*Store Named Attribute*].
   
   - data_type = 'INT'
     
-  .. blid:: GeometryNodeStoreNamedAttribute
+  Blender reference : `GeometryNodeStoreNamedAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeStoreNamedAttribute.html>`_
   
   .. code-block:: python
   
@@ -747,7 +800,9 @@ Geometry node [*Store Named Attribute*].
     nodes.StoreNamedAttribute(geometry=self, name=name, value=value, data_type='INT', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## store_named_vector
+```{eval-rst}
 
 Geometry node [*Store Named Attribute*].
 
@@ -768,7 +823,7 @@ Geometry node [*Store Named Attribute*].
   
   - data_type = 'FLOAT_VECTOR'
     
-  .. blid:: GeometryNodeStoreNamedAttribute
+  Blender reference : `GeometryNodeStoreNamedAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeStoreNamedAttribute.html>`_
   
   .. code-block:: python
   
@@ -776,7 +831,9 @@ Geometry node [*Store Named Attribute*].
     nodes.StoreNamedAttribute(geometry=self, name=name, value=value, data_type='FLOAT_VECTOR', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## store_named_color
+```{eval-rst}
 
 Geometry node [*Store Named Attribute*].
 
@@ -797,7 +854,7 @@ Geometry node [*Store Named Attribute*].
   
   - data_type = 'FLOAT_COLOR'
     
-  .. blid:: GeometryNodeStoreNamedAttribute
+  Blender reference : `GeometryNodeStoreNamedAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeStoreNamedAttribute.html>`_
   
   .. code-block:: python
   
@@ -805,7 +862,9 @@ Geometry node [*Store Named Attribute*].
     nodes.StoreNamedAttribute(geometry=self, name=name, value=value, data_type='FLOAT_COLOR', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## store_named_byte_color
+```{eval-rst}
 
 Geometry node [*Store Named Attribute*].
 
@@ -826,7 +885,7 @@ Geometry node [*Store Named Attribute*].
   
   - data_type = 'BYTE_COLOR'
     
-  .. blid:: GeometryNodeStoreNamedAttribute
+  Blender reference : `GeometryNodeStoreNamedAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeStoreNamedAttribute.html>`_
   
   .. code-block:: python
   
@@ -834,7 +893,9 @@ Geometry node [*Store Named Attribute*].
     nodes.StoreNamedAttribute(geometry=self, name=name, value=value, data_type='BYTE_COLOR', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## store_named_boolean
+```{eval-rst}
 
 Geometry node [*Store Named Attribute*].
 
@@ -855,7 +916,7 @@ Geometry node [*Store Named Attribute*].
   
   - data_type = 'BOOLEAN'
     
-  .. blid:: GeometryNodeStoreNamedAttribute
+  Blender reference : `GeometryNodeStoreNamedAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeStoreNamedAttribute.html>`_
   
   .. code-block:: python
   
@@ -863,7 +924,9 @@ Geometry node [*Store Named Attribute*].
     nodes.StoreNamedAttribute(geometry=self, name=name, value=value, data_type='BOOLEAN', domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## remove_named_attribute
+```{eval-rst}
 
 Geometry node [*Remove Named Attribute*].
 
@@ -881,7 +944,7 @@ Geometry node [*Remove Named Attribute*].
   Node :class:`~geonodes.nodes.nodes.RemoveNamedAttribute`
   
   
-  .. blid:: GeometryNodeRemoveAttribute
+  Blender reference : `GeometryNodeRemoveAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeRemoveAttribute.html>`_
   
   .. code-block:: python
   
@@ -889,7 +952,9 @@ Geometry node [*Remove Named Attribute*].
     nodes.RemoveNamedAttribute(geometry=self, name=name, label=node_label, node_color=node_color)
     
 
+```
 ## separate_geometry
+```{eval-rst}
 
 Geometry node [*Separate Geometry*].
 
@@ -908,7 +973,7 @@ Geometry node [*Separate Geometry*].
   Node :class:`~geonodes.nodes.nodes.SeparateGeometry`
   
   
-  .. blid:: GeometryNodeSeparateGeometry
+  Blender reference : `GeometryNodeSeparateGeometry <https://docs.blender.org/api/current/bpy.types.GeometryNodeSeparateGeometry.html>`_
   
   .. code-block:: python
   
@@ -916,7 +981,9 @@ Geometry node [*Separate Geometry*].
     nodes.SeparateGeometry(geometry=self, selection=selection, domain=domain, label=node_label, node_color=node_color)
     
 
+```
 ## convex_hull
+```{eval-rst}
 
 Geometry node [*Convex Hull*].
 
@@ -933,7 +1000,7 @@ Geometry node [*Convex Hull*].
   Node :class:`~geonodes.nodes.nodes.ConvexHull`
   
   
-  .. blid:: GeometryNodeConvexHull
+  Blender reference : `GeometryNodeConvexHull <https://docs.blender.org/api/current/bpy.types.GeometryNodeConvexHull.html>`_
   
   .. code-block:: python
   
@@ -941,7 +1008,9 @@ Geometry node [*Convex Hull*].
     nodes.ConvexHull(geometry=self, label=node_label, node_color=node_color)
     
 
+```
 ## to_instance
+```{eval-rst}
 
 Geometry node [*Geometry to Instance*].
 
@@ -958,7 +1027,7 @@ Geometry node [*Geometry to Instance*].
   Node :class:`~geonodes.nodes.nodes.GeometryToInstance`
   
   
-  .. blid:: GeometryNodeGeometryToInstance
+  Blender reference : `GeometryNodeGeometryToInstance <https://docs.blender.org/api/current/bpy.types.GeometryNodeGeometryToInstance.html>`_
   
   .. code-block:: python
   
@@ -966,7 +1035,9 @@ Geometry node [*Geometry to Instance*].
     nodes.GeometryToInstance(self, *geometry, label=node_label, node_color=node_color)
     
 
+```
 ## join
+```{eval-rst}
 
 Geometry node [*Join Geometry*].
 
@@ -983,7 +1054,7 @@ Geometry node [*Join Geometry*].
   Node :class:`~geonodes.nodes.nodes.JoinGeometry`
   
   
-  .. blid:: GeometryNodeJoinGeometry
+  Blender reference : `GeometryNodeJoinGeometry <https://docs.blender.org/api/current/bpy.types.GeometryNodeJoinGeometry.html>`_
   
   .. code-block:: python
   
@@ -991,7 +1062,9 @@ Geometry node [*Join Geometry*].
     nodes.JoinGeometry(self, *geometry, label=node_label, node_color=node_color)
     
 
+```
 ## proximity
+```{eval-rst}
 
 Geometry node [*Geometry Proximity*].
 
@@ -1010,10 +1083,11 @@ Geometry node [*Geometry Proximity*].
   Node :class:`~geonodes.nodes.nodes.GeometryProximity`
   
   
-  .. blid:: GeometryNodeProximity
+  Blender reference : `GeometryNodeProximity <https://docs.blender.org/api/current/bpy.types.GeometryNodeProximity.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.GeometryProximity(target=self, source_position=source_position, target_element=target_element, label=node_label, node_color=node_color)
     
+```

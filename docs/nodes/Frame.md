@@ -11,7 +11,7 @@ Args:
   
 Note that *Frame* is the internal name for *Layouts*
 
-.. blid:: NodeFrame
+<sub>Blender reference : [NodeFrame](https://docs.blender.org/api/current/bpy.types.NodeFrame.html)</sub>
 
 
 
@@ -28,7 +28,7 @@ Args:
   
 Note that *Frame* is the internal name for *Layouts*
 
-.. blid:: NodeFrame
+<sub>Blender reference : [NodeFrame](https://docs.blender.org/api/current/bpy.types.NodeFrame.html)</sub>
 
 
 

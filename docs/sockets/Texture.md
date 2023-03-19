@@ -25,6 +25,7 @@
 - [switch](#switch) : output (Texture)
 
 ## Brick
+```{eval-rst}
 
 Geometry node [*Brick Texture*].
 
@@ -55,7 +56,7 @@ Geometry node [*Brick Texture*].
   Node :class:`~geonodes.nodes.nodes.BrickTexture`
   
   
-  .. blid:: ShaderNodeTexBrick
+  Blender reference : `ShaderNodeTexBrick <https://docs.blender.org/api/current/bpy.types.ShaderNodeTexBrick.html>`_
   
   .. code-block:: python
   
@@ -63,7 +64,9 @@ Geometry node [*Brick Texture*].
     nodes.BrickTexture(vector=vector, color1=color1, color2=color2, mortar=mortar, scale=scale, mortar_size=mortar_size, mortar_smooth=mortar_smooth, bias=bias, brick_width=brick_width, row_height=row_height, offset=offset, offset_frequency=offset_frequency, squash=squash, squash_frequency=squash_frequency, label=node_label, node_color=node_color)
     
 
+```
 ## Checker
+```{eval-rst}
 
 Geometry node [*Checker Texture*].
 
@@ -84,7 +87,7 @@ Geometry node [*Checker Texture*].
   Node :class:`~geonodes.nodes.nodes.CheckerTexture`
   
   
-  .. blid:: ShaderNodeTexChecker
+  Blender reference : `ShaderNodeTexChecker <https://docs.blender.org/api/current/bpy.types.ShaderNodeTexChecker.html>`_
   
   .. code-block:: python
   
@@ -92,7 +95,9 @@ Geometry node [*Checker Texture*].
     nodes.CheckerTexture(vector=vector, color1=color1, color2=color2, scale=scale, label=node_label, node_color=node_color)
     
 
+```
 ## Gradient
+```{eval-rst}
 
 Geometry node [*Gradient Texture*].
 
@@ -111,7 +116,7 @@ Geometry node [*Gradient Texture*].
   Node :class:`~geonodes.nodes.nodes.GradientTexture`
   
   
-  .. blid:: ShaderNodeTexGradient
+  Blender reference : `ShaderNodeTexGradient <https://docs.blender.org/api/current/bpy.types.ShaderNodeTexGradient.html>`_
   
   .. code-block:: python
   
@@ -119,7 +124,9 @@ Geometry node [*Gradient Texture*].
     nodes.GradientTexture(vector=vector, gradient_type=gradient_type, label=node_label, node_color=node_color)
     
 
+```
 ## Magic
+```{eval-rst}
 
 Geometry node [*Magic Texture*].
 
@@ -140,7 +147,7 @@ Geometry node [*Magic Texture*].
   Node :class:`~geonodes.nodes.nodes.MagicTexture`
   
   
-  .. blid:: ShaderNodeTexMagic
+  Blender reference : `ShaderNodeTexMagic <https://docs.blender.org/api/current/bpy.types.ShaderNodeTexMagic.html>`_
   
   .. code-block:: python
   
@@ -148,7 +155,9 @@ Geometry node [*Magic Texture*].
     nodes.MagicTexture(vector=vector, scale=scale, distortion=distortion, turbulence_depth=turbulence_depth, label=node_label, node_color=node_color)
     
 
+```
 ## Musgrave
+```{eval-rst}
 
 Geometry node [*Musgrave Texture*].
 
@@ -175,7 +184,7 @@ Geometry node [*Musgrave Texture*].
   Node :class:`~geonodes.nodes.nodes.MusgraveTexture`
   
   
-  .. blid:: ShaderNodeTexMusgrave
+  Blender reference : `ShaderNodeTexMusgrave <https://docs.blender.org/api/current/bpy.types.ShaderNodeTexMusgrave.html>`_
   
   .. code-block:: python
   
@@ -183,7 +192,9 @@ Geometry node [*Musgrave Texture*].
     nodes.MusgraveTexture(vector=vector, w=w, scale=scale, detail=detail, dimension=dimension, lacunarity=lacunarity, offset=offset, gain=gain, musgrave_dimensions=musgrave_dimensions, musgrave_type=musgrave_type, label=node_label, node_color=node_color)
     
 
+```
 ## Noise
+```{eval-rst}
 
 Geometry node [*Noise Texture*].
 
@@ -207,7 +218,7 @@ Geometry node [*Noise Texture*].
   Node :class:`~geonodes.nodes.nodes.NoiseTexture`
   
   
-  .. blid:: ShaderNodeTexNoise
+  Blender reference : `ShaderNodeTexNoise <https://docs.blender.org/api/current/bpy.types.ShaderNodeTexNoise.html>`_
   
   .. code-block:: python
   
@@ -215,7 +226,9 @@ Geometry node [*Noise Texture*].
     nodes.NoiseTexture(vector=vector, w=w, scale=scale, detail=detail, roughness=roughness, distortion=distortion, noise_dimensions=noise_dimensions, label=node_label, node_color=node_color)
     
 
+```
 ## Voronoi
+```{eval-rst}
 
 Geometry node [*Voronoi Texture*].
 
@@ -241,7 +254,7 @@ Geometry node [*Voronoi Texture*].
   Node :class:`~geonodes.nodes.nodes.VoronoiTexture`
   
   
-  .. blid:: ShaderNodeTexVoronoi
+  Blender reference : `ShaderNodeTexVoronoi <https://docs.blender.org/api/current/bpy.types.ShaderNodeTexVoronoi.html>`_
   
   .. code-block:: python
   
@@ -249,7 +262,9 @@ Geometry node [*Voronoi Texture*].
     nodes.VoronoiTexture(vector=vector, w=w, scale=scale, smoothness=smoothness, exponent=exponent, randomness=randomness, distance=distance, feature=feature, voronoi_dimensions=voronoi_dimensions, label=node_label, node_color=node_color)
     
 
+```
 ## Wave
+```{eval-rst}
 
 Geometry node [*Wave Texture*].
 
@@ -277,7 +292,7 @@ Geometry node [*Wave Texture*].
   Node :class:`~geonodes.nodes.nodes.WaveTexture`
   
   
-  .. blid:: ShaderNodeTexWave
+  Blender reference : `ShaderNodeTexWave <https://docs.blender.org/api/current/bpy.types.ShaderNodeTexWave.html>`_
   
   .. code-block:: python
   
@@ -285,7 +300,9 @@ Geometry node [*Wave Texture*].
     nodes.WaveTexture(vector=vector, scale=scale, distortion=distortion, detail=detail, detail_scale=detail_scale, detail_roughness=detail_roughness, phase_offset=phase_offset, bands_direction=bands_direction, rings_direction=rings_direction, wave_profile=wave_profile, wave_type=wave_type, label=node_label, node_color=node_color)
     
 
+```
 ## WhiteNoise
+```{eval-rst}
 
 Geometry node [*White Noise Texture*].
 
@@ -305,7 +322,7 @@ Geometry node [*White Noise Texture*].
   Node :class:`~geonodes.nodes.nodes.WhiteNoiseTexture`
   
   
-  .. blid:: ShaderNodeTexWhiteNoise
+  Blender reference : `ShaderNodeTexWhiteNoise <https://docs.blender.org/api/current/bpy.types.ShaderNodeTexWhiteNoise.html>`_
   
   .. code-block:: python
   
@@ -313,7 +330,9 @@ Geometry node [*White Noise Texture*].
     nodes.WhiteNoiseTexture(vector=vector, w=w, noise_dimensions=noise_dimensions, label=node_label, node_color=node_color)
     
 
+```
 ## Image
+```{eval-rst}
 
 Geometry node [*Image Texture*].
 
@@ -335,7 +354,7 @@ Geometry node [*Image Texture*].
   Node :class:`~geonodes.nodes.nodes.ImageTexture`
   
   
-  .. blid:: GeometryNodeImageTexture
+  Blender reference : `GeometryNodeImageTexture <https://docs.blender.org/api/current/bpy.types.GeometryNodeImageTexture.html>`_
   
   .. code-block:: python
   
@@ -343,7 +362,9 @@ Geometry node [*Image Texture*].
     nodes.ImageTexture(image=image, vector=vector, frame=frame, extension=extension, interpolation=interpolation, label=node_label, node_color=node_color)
     
 
+```
 ## switch
+```{eval-rst}
 
 Geometry node [*Switch*].
 
@@ -363,10 +384,11 @@ Geometry node [*Switch*].
   
   - input_type = 'TEXTURE'
     
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Switch(false=self, switch=switch, true=true, input_type='TEXTURE', label=node_label, node_color=node_color)
     
+```

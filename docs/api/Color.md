@@ -387,7 +387,7 @@ def get_blender_socket(self)
 If the `r`, `g`, `b` properties have been read or modified, a *Combine RGB* node is necessary
 to recompose the Color.
 
-.. blid:: ShaderNodeCombineRGB
+<sub>Blender reference : [ShaderNodeCombineRGB](https://docs.blender.org/api/current/bpy.types.ShaderNodeCombineRGB.html)</sub>
 
 
 

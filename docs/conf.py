@@ -85,3 +85,5 @@ from urllib.parse import quote
 
 myst_heading_anchors = 3
 myst_heading_slug_func = quote
+
+suppress_warnings = ["myst.header", "myst.xref_missing"]

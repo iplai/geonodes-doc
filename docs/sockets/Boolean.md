@@ -28,7 +28,7 @@
 - [xor](#xor) : boolean (Boolean)
 
 ## Random
-
+```{eval-rst}
 Geometry node [*Random Value*].
 
 
@@ -48,16 +48,16 @@ Geometry node [*Random Value*].
   
   - data_type = 'BOOLEAN'
     
-  .. blid:: FunctionNodeRandomValue
+  Blender reference : `FunctionNodeRandomValue <https://docs.blender.org/api/current/bpy.types.FunctionNodeRandomValue.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.RandomValue(probability=probability, ID=ID, seed=seed, data_type='BOOLEAN', label=node_label, node_color=node_color)
-    
+```    
 
 ## capture_attribute
-
+```{eval-rst}
 Geometry node [*Capture Attribute*].
 
 
@@ -76,16 +76,16 @@ Geometry node [*Capture Attribute*].
   
   - data_type = 'BOOLEAN'
     
-  .. blid:: GeometryNodeCaptureAttribute
+  Blender reference : `GeometryNodeCaptureAttribute <https://docs.blender.org/api/current/bpy.types.GeometryNodeCaptureAttribute.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CaptureAttribute(value=self, geometry=geometry, data_type='BOOLEAN', domain=domain, label=node_label, node_color=node_color)
     
-
+```
 ## field_at_index
-
+```{eval-rst}
 Geometry node [*Field at Index*].
 
 
@@ -104,16 +104,16 @@ Geometry node [*Field at Index*].
   
   - data_type = 'BOOLEAN'
     
-  .. blid:: GeometryNodeFieldAtIndex
+  Blender reference : `GeometryNodeFieldAtIndex <https://docs.blender.org/api/current/bpy.types.GeometryNodeFieldAtIndex.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.FieldAtIndex(value=self, index=index, data_type='BOOLEAN', domain=domain, label=node_label, node_color=node_color)
     
-
+```
 ## raycast
-
+```{eval-rst}
 Geometry node [*Raycast*].
 
 
@@ -135,16 +135,16 @@ Geometry node [*Raycast*].
   
   - data_type = 'BOOLEAN'
     
-  .. blid:: GeometryNodeRaycast
+  Blender reference : `GeometryNodeRaycast <https://docs.blender.org/api/current/bpy.types.GeometryNodeRaycast.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Raycast(attribute=self, target_geometry=target_geometry, source_position=source_position, ray_direction=ray_direction, ray_length=ray_length, data_type='BOOLEAN', mapping=mapping, label=node_label, node_color=node_color)
     
-
+```
 ## switch
-
+```{eval-rst}
 Geometry node [*Switch*].
 
 
@@ -163,16 +163,16 @@ Geometry node [*Switch*].
   
   - input_type = 'BOOLEAN'
     
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Switch(switch=self, false=false, true=true, input_type='BOOLEAN', label=node_label, node_color=node_color)
     
-
+```
 ## b_and
-
+```{eval-rst}
 Geometry node [*Boolean Math*].
 
 
@@ -190,16 +190,16 @@ Geometry node [*Boolean Math*].
   
   - operation = 'AND'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BooleanMath(boolean0=self, boolean1=boolean1, operation='AND', label=node_label, node_color=node_color)
     
-
+```
 ## b_or
-
+```{eval-rst}
 Geometry node [*Boolean Math*].
 
 
@@ -217,16 +217,16 @@ Geometry node [*Boolean Math*].
   
   - operation = 'OR'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BooleanMath(boolean0=self, boolean1=boolean1, operation='OR', label=node_label, node_color=node_color)
     
-
+```
 ## b_not
-
+```{eval-rst}
 Geometry node [*Boolean Math*].
 
 
@@ -243,16 +243,16 @@ Geometry node [*Boolean Math*].
   
   - operation = 'NOT'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BooleanMath(boolean0=self, operation='NOT', label=node_label, node_color=node_color)
     
-
+```
 ## nand
-
+```{eval-rst}
 Geometry node [*Boolean Math*].
 
 
@@ -270,16 +270,16 @@ Geometry node [*Boolean Math*].
   
   - operation = 'NAND'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BooleanMath(boolean0=self, boolean1=boolean1, operation='NAND', label=node_label, node_color=node_color)
     
-
+```
 ## nor
-
+```{eval-rst}
 Geometry node [*Boolean Math*].
 
 
@@ -297,16 +297,16 @@ Geometry node [*Boolean Math*].
   
   - operation = 'NOR'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BooleanMath(boolean0=self, boolean1=boolean1, operation='NOR', label=node_label, node_color=node_color)
     
-
+```
 ## xnor
-
+```{eval-rst}
 Geometry node [*Boolean Math*].
 
 
@@ -324,16 +324,16 @@ Geometry node [*Boolean Math*].
   
   - operation = 'XNOR'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BooleanMath(boolean0=self, boolean1=boolean1, operation='XNOR', label=node_label, node_color=node_color)
     
-
+```
 ## xor
-
+```{eval-rst}
 Geometry node [*Boolean Math*].
 
 
@@ -351,16 +351,16 @@ Geometry node [*Boolean Math*].
   
   - operation = 'XOR'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BooleanMath(boolean0=self, boolean1=boolean1, operation='XOR', label=node_label, node_color=node_color)
     
-
+```
 ## imply
-
+```{eval-rst}
 Geometry node [*Boolean Math*].
 
 
@@ -378,16 +378,16 @@ Geometry node [*Boolean Math*].
   
   - operation = 'IMPLY'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BooleanMath(boolean0=self, boolean1=boolean1, operation='IMPLY', label=node_label, node_color=node_color)
     
-
+```
 ## nimply
-
+```{eval-rst}
 Geometry node [*Boolean Math*].
 
 
@@ -405,10 +405,11 @@ Geometry node [*Boolean Math*].
   
   - operation = 'NIMPLY'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BooleanMath(boolean0=self, boolean1=boolean1, operation='NIMPLY', label=node_label, node_color=node_color)
     
+```

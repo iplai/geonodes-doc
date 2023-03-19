@@ -24,7 +24,7 @@
 - [to_volume](#to_volume) : volume (Volume)
 
 ## Points
-
+```{eval-rst}
 Geometry node [*Points*].
 
 
@@ -43,16 +43,16 @@ Geometry node [*Points*].
   Node :class:`~geonodes.nodes.nodes.Points`
   
   
-  .. blid:: GeometryNodePoints
+  Blender reference : `GeometryNodePoints <https://docs.blender.org/api/current/bpy.types.GeometryNodePoints.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Points(count=count, position=position, radius=radius, label=node_label, node_color=node_color)
     
-
+```
 ## domain_size
-
+```{eval-rst}
 Geometry node [*Domain Size*].
 
 
@@ -66,16 +66,16 @@ Geometry node [*Domain Size*].
   
   - component = 'POINTCLOUD'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.DomainSize(geometry=self, component='POINTCLOUD', label=f"{self.node_chain_label}.domain_size")
     
-
+```
 ## point_count
-
+```{eval-rst}
 Geometry node [*Domain Size*].
 
 
@@ -89,16 +89,16 @@ Geometry node [*Domain Size*].
   
   - component = 'POINTCLOUD'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.DomainSize(geometry=self, component='POINTCLOUD', label=f"{self.node_chain_label}.point_count")
     
-
+```
 ## set_radius
-
+```{eval-rst}
 Geometry node [*Set Point Radius*].
 
 
@@ -116,16 +116,16 @@ Geometry node [*Set Point Radius*].
   Node :class:`~geonodes.nodes.nodes.SetPointRadius`
   
   
-  .. blid:: GeometryNodeSetPointRadius
+  Blender reference : `GeometryNodeSetPointRadius <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetPointRadius.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.SetPointRadius(points=self, selection=selection, radius=radius, label=node_label, node_color=node_color)
     
-
+```
 ## instance_on_points
-
+```{eval-rst}
 Geometry node [*Instance on Points*].
 
 
@@ -147,16 +147,16 @@ Geometry node [*Instance on Points*].
   Node :class:`~geonodes.nodes.nodes.InstanceOnPoints`
   
   
-  .. blid:: GeometryNodeInstanceOnPoints
+  Blender reference : `GeometryNodeInstanceOnPoints <https://docs.blender.org/api/current/bpy.types.GeometryNodeInstanceOnPoints.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.InstanceOnPoints(points=self, selection=selection, instance=instance, pick_instance=pick_instance, instance_index=instance_index, rotation=rotation, scale=scale, label=node_label, node_color=node_color)
     
-
+```
 ## to_vertices
-
+```{eval-rst}
 Geometry node [*Points to Vertices*].
 
 
@@ -173,16 +173,16 @@ Geometry node [*Points to Vertices*].
   Node :class:`~geonodes.nodes.nodes.PointsToVertices`
   
   
-  .. blid:: GeometryNodePointsToVertices
+  Blender reference : `GeometryNodePointsToVertices <https://docs.blender.org/api/current/bpy.types.GeometryNodePointsToVertices.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.PointsToVertices(points=self, selection=selection, label=node_label, node_color=node_color)
     
-
+```
 ## to_volume
-
+```{eval-rst}
 Geometry node [*Points to Volume*].
 
 
@@ -203,10 +203,11 @@ Geometry node [*Points to Volume*].
   Node :class:`~geonodes.nodes.nodes.PointsToVolume`
   
   
-  .. blid:: GeometryNodePointsToVolume
+  Blender reference : `GeometryNodePointsToVolume <https://docs.blender.org/api/current/bpy.types.GeometryNodePointsToVolume.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.PointsToVolume(points=self, density=density, voxel_size=voxel_size, voxel_amount=voxel_amount, radius=radius, resolution_mode=resolution_mode, label=node_label, node_color=node_color)
     
+```

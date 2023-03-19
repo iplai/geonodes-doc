@@ -107,6 +107,7 @@ v = gn.sin(v)         # The sine of this value
 - [xor](#xor) : boolean (Boolean)
 
 ## compare
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -129,7 +130,7 @@ Geometry node [*Compare*].
   Node :class:`~geonodes.nodes.nodes.Compare`
   
   
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -137,7 +138,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=a, b=b, epsilon=epsilon, data_type=data_type, mode=mode, operation=operation, label=node_label, node_color=node_color)
     
 
+```
 ## join_strings
+```{eval-rst}
 
 Geometry node [*Join Strings*].
 
@@ -156,7 +159,7 @@ Geometry node [*Join Strings*].
   Node :class:`~geonodes.nodes.nodes.JoinStrings`
   
   
-  .. blid:: GeometryNodeStringJoin
+  Blender reference : `GeometryNodeStringJoin <https://docs.blender.org/api/current/bpy.types.GeometryNodeStringJoin.html>`_
   
   .. code-block:: python
   
@@ -164,7 +167,9 @@ Geometry node [*Join Strings*].
     nodes.JoinStrings(*strings, delimiter=delimiter, label=node_label, node_color=node_color)
     
 
+```
 ## scene
+```{eval-rst}
 
 Geometry node [*Scene Time*].
 
@@ -181,7 +186,7 @@ Geometry node [*Scene Time*].
   Node :class:`~geonodes.nodes.nodes.SceneTime`
   
   
-  .. blid:: GeometryNodeInputSceneTime
+  Blender reference : `GeometryNodeInputSceneTime <https://docs.blender.org/api/current/bpy.types.GeometryNodeInputSceneTime.html>`_
   
   .. code-block:: python
   
@@ -189,7 +194,9 @@ Geometry node [*Scene Time*].
     nodes.SceneTime(label=node_label, node_color=node_color)
     
 
+```
 ## switch
+```{eval-rst}
 
 Geometry node [*Switch*].
 
@@ -210,7 +217,7 @@ Geometry node [*Switch*].
   Node :class:`~geonodes.nodes.nodes.Switch`
   
   
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
@@ -218,7 +225,9 @@ Geometry node [*Switch*].
     nodes.Switch(switch=switch, false=false, true=true, input_type=input_type, label=node_label, node_color=node_color)
     
 
+```
 ## b_and
+```{eval-rst}
 
 Geometry node [*Boolean Math*].
 
@@ -238,7 +247,7 @@ Geometry node [*Boolean Math*].
   
   - operation = 'AND'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
@@ -246,7 +255,9 @@ Geometry node [*Boolean Math*].
     nodes.BooleanMath(boolean0=boolean0, boolean1=boolean1, operation='AND', label=node_label, node_color=node_color)
     
 
+```
 ## b_or
+```{eval-rst}
 
 Geometry node [*Boolean Math*].
 
@@ -266,7 +277,7 @@ Geometry node [*Boolean Math*].
   
   - operation = 'OR'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
@@ -274,7 +285,9 @@ Geometry node [*Boolean Math*].
     nodes.BooleanMath(boolean0=boolean0, boolean1=boolean1, operation='OR', label=node_label, node_color=node_color)
     
 
+```
 ## b_not
+```{eval-rst}
 
 Geometry node [*Boolean Math*].
 
@@ -293,7 +306,7 @@ Geometry node [*Boolean Math*].
   
   - operation = 'NOT'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
@@ -301,7 +314,9 @@ Geometry node [*Boolean Math*].
     nodes.BooleanMath(boolean0=boolean0, operation='NOT', label=node_label, node_color=node_color)
     
 
+```
 ## nand
+```{eval-rst}
 
 Geometry node [*Boolean Math*].
 
@@ -321,7 +336,7 @@ Geometry node [*Boolean Math*].
   
   - operation = 'NAND'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
@@ -329,7 +344,9 @@ Geometry node [*Boolean Math*].
     nodes.BooleanMath(boolean0=boolean0, boolean1=boolean1, operation='NAND', label=node_label, node_color=node_color)
     
 
+```
 ## nor
+```{eval-rst}
 
 Geometry node [*Boolean Math*].
 
@@ -349,7 +366,7 @@ Geometry node [*Boolean Math*].
   
   - operation = 'NOR'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
@@ -357,7 +374,9 @@ Geometry node [*Boolean Math*].
     nodes.BooleanMath(boolean0=boolean0, boolean1=boolean1, operation='NOR', label=node_label, node_color=node_color)
     
 
+```
 ## xnor
+```{eval-rst}
 
 Geometry node [*Boolean Math*].
 
@@ -377,7 +396,7 @@ Geometry node [*Boolean Math*].
   
   - operation = 'XNOR'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
@@ -385,7 +404,9 @@ Geometry node [*Boolean Math*].
     nodes.BooleanMath(boolean0=boolean0, boolean1=boolean1, operation='XNOR', label=node_label, node_color=node_color)
     
 
+```
 ## xor
+```{eval-rst}
 
 Geometry node [*Boolean Math*].
 
@@ -405,7 +426,7 @@ Geometry node [*Boolean Math*].
   
   - operation = 'XOR'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
@@ -413,7 +434,9 @@ Geometry node [*Boolean Math*].
     nodes.BooleanMath(boolean0=boolean0, boolean1=boolean1, operation='XOR', label=node_label, node_color=node_color)
     
 
+```
 ## imply
+```{eval-rst}
 
 Geometry node [*Boolean Math*].
 
@@ -433,7 +456,7 @@ Geometry node [*Boolean Math*].
   
   - operation = 'IMPLY'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
@@ -441,7 +464,9 @@ Geometry node [*Boolean Math*].
     nodes.BooleanMath(boolean0=boolean0, boolean1=boolean1, operation='IMPLY', label=node_label, node_color=node_color)
     
 
+```
 ## nimply
+```{eval-rst}
 
 Geometry node [*Boolean Math*].
 
@@ -461,7 +486,7 @@ Geometry node [*Boolean Math*].
   
   - operation = 'NIMPLY'
     
-  .. blid:: FunctionNodeBooleanMath
+  Blender reference : `FunctionNodeBooleanMath <https://docs.blender.org/api/current/bpy.types.FunctionNodeBooleanMath.html>`_
   
   .. code-block:: python
   
@@ -469,7 +494,9 @@ Geometry node [*Boolean Math*].
     nodes.BooleanMath(boolean0=boolean0, boolean1=boolean1, operation='NIMPLY', label=node_label, node_color=node_color)
     
 
+```
 ## add
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -489,7 +516,7 @@ Geometry node [*Math*].
   
   - operation = 'ADD'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -497,7 +524,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='ADD', label=node_label, node_color=node_color)
     
 
+```
 ## subtract
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -517,7 +546,7 @@ Geometry node [*Math*].
   
   - operation = 'SUBTRACT'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -525,7 +554,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='SUBTRACT', label=node_label, node_color=node_color)
     
 
+```
 ## multiply
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -545,7 +576,7 @@ Geometry node [*Math*].
   
   - operation = 'MULTIPLY'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -553,7 +584,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='MULTIPLY', label=node_label, node_color=node_color)
     
 
+```
 ## divide
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -573,7 +606,7 @@ Geometry node [*Math*].
   
   - operation = 'DIVIDE'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -581,7 +614,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='DIVIDE', label=node_label, node_color=node_color)
     
 
+```
 ## multiply_add
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -602,7 +637,7 @@ Geometry node [*Math*].
   
   - operation = 'MULTIPLY_ADD'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -610,7 +645,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, value2=value2, operation='MULTIPLY_ADD', label=node_label, node_color=node_color)
     
 
+```
 ## pow
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -630,7 +667,7 @@ Geometry node [*Math*].
   
   - operation = 'POWER'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -638,7 +675,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='POWER', label=node_label, node_color=node_color)
     
 
+```
 ## log
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -658,7 +697,7 @@ Geometry node [*Math*].
   
   - operation = 'LOGARITHM'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -666,7 +705,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='LOGARITHM', label=node_label, node_color=node_color)
     
 
+```
 ## sqrt
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -685,7 +726,7 @@ Geometry node [*Math*].
   
   - operation = 'SQRT'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -693,7 +734,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='SQRT', label=node_label, node_color=node_color)
     
 
+```
 ## inverse_sqrt
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -712,7 +755,7 @@ Geometry node [*Math*].
   
   - operation = 'INVERSE_SQRT'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -720,7 +763,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='INVERSE_SQRT', label=node_label, node_color=node_color)
     
 
+```
 ## abs
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -739,7 +784,7 @@ Geometry node [*Math*].
   
   - operation = 'ABSOLUTE'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -747,7 +792,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='ABSOLUTE', label=node_label, node_color=node_color)
     
 
+```
 ## exp
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -766,7 +813,7 @@ Geometry node [*Math*].
   
   - operation = 'EXPONENT'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -774,7 +821,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='EXPONENT', label=node_label, node_color=node_color)
     
 
+```
 ## min
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -794,7 +843,7 @@ Geometry node [*Math*].
   
   - operation = 'MINIMUM'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -802,7 +851,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='MINIMUM', label=node_label, node_color=node_color)
     
 
+```
 ## max
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -822,7 +873,7 @@ Geometry node [*Math*].
   
   - operation = 'MAXIMUM'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -830,7 +881,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='MAXIMUM', label=node_label, node_color=node_color)
     
 
+```
 ## math_less_than
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -850,7 +903,7 @@ Geometry node [*Math*].
   
   - operation = 'LESS_THAN'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -858,7 +911,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='LESS_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## math_greater_than
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -878,7 +933,7 @@ Geometry node [*Math*].
   
   - operation = 'GREATER_THAN'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -886,7 +941,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='GREATER_THAN', label=node_label, node_color=node_color)
     
 
+```
 ## sign
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -905,7 +962,7 @@ Geometry node [*Math*].
   
   - operation = 'SIGN'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -913,7 +970,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='SIGN', label=node_label, node_color=node_color)
     
 
+```
 ## compare
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -934,7 +993,7 @@ Geometry node [*Math*].
   
   - operation = 'COMPARE'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -942,7 +1001,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, value2=value2, operation='COMPARE', label=node_label, node_color=node_color)
     
 
+```
 ## smooth_min
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -963,7 +1024,7 @@ Geometry node [*Math*].
   
   - operation = 'SMOOTH_MIN'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -971,7 +1032,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, value2=value2, operation='SMOOTH_MIN', label=node_label, node_color=node_color)
     
 
+```
 ## smooth_max
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -992,7 +1055,7 @@ Geometry node [*Math*].
   
   - operation = 'SMOOTH_MAX'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1000,7 +1063,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, value2=value2, operation='SMOOTH_MAX', label=node_label, node_color=node_color)
     
 
+```
 ## round
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1019,7 +1084,7 @@ Geometry node [*Math*].
   
   - operation = 'ROUND'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1027,7 +1092,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='ROUND', label=node_label, node_color=node_color)
     
 
+```
 ## floor
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1046,7 +1113,7 @@ Geometry node [*Math*].
   
   - operation = 'FLOOR'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1054,7 +1121,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='FLOOR', label=node_label, node_color=node_color)
     
 
+```
 ## ceil
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1073,7 +1142,7 @@ Geometry node [*Math*].
   
   - operation = 'CEIL'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1081,7 +1150,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='CEIL', label=node_label, node_color=node_color)
     
 
+```
 ## trunc
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1100,7 +1171,7 @@ Geometry node [*Math*].
   
   - operation = 'TRUNC'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1108,7 +1179,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='TRUNC', label=node_label, node_color=node_color)
     
 
+```
 ## fract
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1127,7 +1200,7 @@ Geometry node [*Math*].
   
   - operation = 'FRACT'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1135,7 +1208,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='FRACT', label=node_label, node_color=node_color)
     
 
+```
 ## modulo
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1155,7 +1230,7 @@ Geometry node [*Math*].
   
   - operation = 'MODULO'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1163,7 +1238,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='MODULO', label=node_label, node_color=node_color)
     
 
+```
 ## wrap
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1184,7 +1261,7 @@ Geometry node [*Math*].
   
   - operation = 'WRAP'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1192,7 +1269,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, value2=value2, operation='WRAP', label=node_label, node_color=node_color)
     
 
+```
 ## snap
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1212,7 +1291,7 @@ Geometry node [*Math*].
   
   - operation = 'SNAP'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1220,7 +1299,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='SNAP', label=node_label, node_color=node_color)
     
 
+```
 ## pingpong
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1240,7 +1321,7 @@ Geometry node [*Math*].
   
   - operation = 'PINGPONG'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1248,7 +1329,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='PINGPONG', label=node_label, node_color=node_color)
     
 
+```
 ## sin
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1267,7 +1350,7 @@ Geometry node [*Math*].
   
   - operation = 'SINE'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1275,7 +1358,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='SINE', label=node_label, node_color=node_color)
     
 
+```
 ## cos
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1294,7 +1379,7 @@ Geometry node [*Math*].
   
   - operation = 'COSINE'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1302,7 +1387,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='COSINE', label=node_label, node_color=node_color)
     
 
+```
 ## tan
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1321,7 +1408,7 @@ Geometry node [*Math*].
   
   - operation = 'TANGENT'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1329,7 +1416,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='TANGENT', label=node_label, node_color=node_color)
     
 
+```
 ## arcsin
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1348,7 +1437,7 @@ Geometry node [*Math*].
   
   - operation = 'ARCSINE'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1356,7 +1445,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='ARCSINE', label=node_label, node_color=node_color)
     
 
+```
 ## arccos
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1375,7 +1466,7 @@ Geometry node [*Math*].
   
   - operation = 'ARCCOSINE'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1383,7 +1474,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='ARCCOSINE', label=node_label, node_color=node_color)
     
 
+```
 ## arctan
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1402,7 +1495,7 @@ Geometry node [*Math*].
   
   - operation = 'ARCTANGENT'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1410,7 +1503,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='ARCTANGENT', label=node_label, node_color=node_color)
     
 
+```
 ## arctan2
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1430,7 +1525,7 @@ Geometry node [*Math*].
   
   - operation = 'ARCTAN2'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1438,7 +1533,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, value1=value1, operation='ARCTAN2', label=node_label, node_color=node_color)
     
 
+```
 ## sinh
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1457,7 +1554,7 @@ Geometry node [*Math*].
   
   - operation = 'SINH'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1465,7 +1562,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='SINH', label=node_label, node_color=node_color)
     
 
+```
 ## cosh
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1484,7 +1583,7 @@ Geometry node [*Math*].
   
   - operation = 'COSH'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1492,7 +1591,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='COSH', label=node_label, node_color=node_color)
     
 
+```
 ## tanh
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1511,7 +1612,7 @@ Geometry node [*Math*].
   
   - operation = 'TANH'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1519,7 +1620,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='TANH', label=node_label, node_color=node_color)
     
 
+```
 ## radians
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1538,7 +1641,7 @@ Geometry node [*Math*].
   
   - operation = 'RADIANS'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1546,7 +1649,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='RADIANS', label=node_label, node_color=node_color)
     
 
+```
 ## degrees
+```{eval-rst}
 
 Geometry node [*Math*].
 
@@ -1565,7 +1670,7 @@ Geometry node [*Math*].
   
   - operation = 'DEGREES'
     
-  .. blid:: ShaderNodeMath
+  Blender reference : `ShaderNodeMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeMath.html>`_
   
   .. code-block:: python
   
@@ -1573,7 +1678,9 @@ Geometry node [*Math*].
     nodes.Math(value0=value0, operation='DEGREES', label=node_label, node_color=node_color)
     
 
+```
 ## vector_add
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1593,7 +1700,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'ADD'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1601,7 +1708,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='ADD', label=node_label, node_color=node_color)
     
 
+```
 ## vector_subtract
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1621,7 +1730,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'SUBTRACT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1629,7 +1738,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='SUBTRACT', label=node_label, node_color=node_color)
     
 
+```
 ## vector_multiply
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1649,7 +1760,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MULTIPLY'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1657,7 +1768,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='MULTIPLY', label=node_label, node_color=node_color)
     
 
+```
 ## vector_divide
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1677,7 +1790,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'DIVIDE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1685,7 +1798,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='DIVIDE', label=node_label, node_color=node_color)
     
 
+```
 ## vector_multiply_add
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1706,7 +1821,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MULTIPLY_ADD'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1714,7 +1829,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, vector2=vector2, operation='MULTIPLY_ADD', label=node_label, node_color=node_color)
     
 
+```
 ## cross
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1734,7 +1851,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'CROSS_PRODUCT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1742,7 +1859,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='CROSS_PRODUCT', label=node_label, node_color=node_color)
     
 
+```
 ## project
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1762,7 +1881,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'PROJECT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1770,7 +1889,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='PROJECT', label=node_label, node_color=node_color)
     
 
+```
 ## reflect
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1790,7 +1911,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'REFLECT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1798,7 +1919,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='REFLECT', label=node_label, node_color=node_color)
     
 
+```
 ## refract
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1819,7 +1942,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'REFRACT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1827,7 +1950,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, scale=scale, operation='REFRACT', label=node_label, node_color=node_color)
     
 
+```
 ## faceforward
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1848,7 +1973,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'FACEFORWARD'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1856,7 +1981,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, vector2=vector2, operation='FACEFORWARD', label=node_label, node_color=node_color)
     
 
+```
 ## dot
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1876,7 +2003,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'DOT_PRODUCT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1884,7 +2011,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='DOT_PRODUCT', label=node_label, node_color=node_color)
     
 
+```
 ## distance
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1904,7 +2033,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'DISTANCE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1912,7 +2041,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='DISTANCE', label=node_label, node_color=node_color)
     
 
+```
 ## length
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1931,7 +2062,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'LENGTH'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1939,7 +2070,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, operation='LENGTH', label=node_label, node_color=node_color)
     
 
+```
 ## scale
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1959,7 +2092,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'SCALE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1967,7 +2100,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, scale=scale, operation='SCALE', label=node_label, node_color=node_color)
     
 
+```
 ## normalize
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -1986,7 +2121,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'NORMALIZE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -1994,7 +2129,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, operation='NORMALIZE', label=node_label, node_color=node_color)
     
 
+```
 ## vector_absolute
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2013,7 +2150,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'ABSOLUTE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2021,7 +2158,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, operation='ABSOLUTE', label=node_label, node_color=node_color)
     
 
+```
 ## vector_min
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2041,7 +2180,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MINIMUM'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2049,7 +2188,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='MINIMUM', label=node_label, node_color=node_color)
     
 
+```
 ## vector_max
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2069,7 +2210,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MAXIMUM'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2077,7 +2218,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='MAXIMUM', label=node_label, node_color=node_color)
     
 
+```
 ## vector_floor
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2096,7 +2239,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'FLOOR'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2104,7 +2247,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, operation='FLOOR', label=node_label, node_color=node_color)
     
 
+```
 ## vector_ceil
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2123,7 +2268,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'CEIL'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2131,7 +2276,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, operation='CEIL', label=node_label, node_color=node_color)
     
 
+```
 ## fraction
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2150,7 +2297,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'FRACTION'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2158,7 +2305,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, operation='FRACTION', label=node_label, node_color=node_color)
     
 
+```
 ## vector_modulo
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2178,7 +2327,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'MODULO'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2186,7 +2335,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='MODULO', label=node_label, node_color=node_color)
     
 
+```
 ## vector_wrap
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2207,7 +2358,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'WRAP'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2215,7 +2366,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, vector2=vector2, operation='WRAP', label=node_label, node_color=node_color)
     
 
+```
 ## vector_snap
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2235,7 +2388,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'SNAP'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2243,7 +2396,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, vector1=vector1, operation='SNAP', label=node_label, node_color=node_color)
     
 
+```
 ## vector_sin
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2262,7 +2417,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'SINE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2270,7 +2425,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, operation='SINE', label=node_label, node_color=node_color)
     
 
+```
 ## vector_cos
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2289,7 +2446,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'COSINE'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2297,7 +2454,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, operation='COSINE', label=node_label, node_color=node_color)
     
 
+```
 ## vector_tan
+```{eval-rst}
 
 Geometry node [*Vector Math*].
 
@@ -2316,7 +2475,7 @@ Geometry node [*Vector Math*].
   
   - operation = 'TANGENT'
     
-  .. blid:: ShaderNodeVectorMath
+  Blender reference : `ShaderNodeVectorMath <https://docs.blender.org/api/current/bpy.types.ShaderNodeVectorMath.html>`_
   
   .. code-block:: python
   
@@ -2324,7 +2483,9 @@ Geometry node [*Vector Math*].
     nodes.VectorMath(vector0=vector0, operation='TANGENT', label=node_label, node_color=node_color)
     
 
+```
 ## corners_of_face
+```{eval-rst}
 
 Geometry node [*Corners of Face*].
 
@@ -2344,7 +2505,7 @@ Geometry node [*Corners of Face*].
   Node :class:`~geonodes.nodes.nodes.CornersOfFace`
   
   
-  .. blid:: GeometryNodeCornersOfFace
+  Blender reference : `GeometryNodeCornersOfFace <https://docs.blender.org/api/current/bpy.types.GeometryNodeCornersOfFace.html>`_
   
   .. code-block:: python
   
@@ -2352,7 +2513,9 @@ Geometry node [*Corners of Face*].
     nodes.CornersOfFace(face_index=face_index, weights=weights, sort_index=sort_index, label=node_label, node_color=node_color)
     
 
+```
 ## corners_of_vertex
+```{eval-rst}
 
 Geometry node [*Corners of Vertex*].
 
@@ -2372,7 +2535,7 @@ Geometry node [*Corners of Vertex*].
   Node :class:`~geonodes.nodes.nodes.CornersOfVertex`
   
   
-  .. blid:: GeometryNodeCornersOfVertex
+  Blender reference : `GeometryNodeCornersOfVertex <https://docs.blender.org/api/current/bpy.types.GeometryNodeCornersOfVertex.html>`_
   
   .. code-block:: python
   
@@ -2380,7 +2543,9 @@ Geometry node [*Corners of Vertex*].
     nodes.CornersOfVertex(vertex_index=vertex_index, weights=weights, sort_index=sort_index, label=node_label, node_color=node_color)
     
 
+```
 ## edges_of_corner
+```{eval-rst}
 
 Geometry node [*Edges of Corner*].
 
@@ -2398,7 +2563,7 @@ Geometry node [*Edges of Corner*].
   Node :class:`~geonodes.nodes.nodes.EdgesOfCorner`
   
   
-  .. blid:: GeometryNodeEdgesOfCorner
+  Blender reference : `GeometryNodeEdgesOfCorner <https://docs.blender.org/api/current/bpy.types.GeometryNodeEdgesOfCorner.html>`_
   
   .. code-block:: python
   
@@ -2406,7 +2571,9 @@ Geometry node [*Edges of Corner*].
     nodes.EdgesOfCorner(corner_index=corner_index, label=node_label, node_color=node_color)
     
 
+```
 ## edges_of_vertex
+```{eval-rst}
 
 Geometry node [*Edges of Vertex*].
 
@@ -2426,7 +2593,7 @@ Geometry node [*Edges of Vertex*].
   Node :class:`~geonodes.nodes.nodes.EdgesOfVertex`
   
   
-  .. blid:: GeometryNodeEdgesOfVertex
+  Blender reference : `GeometryNodeEdgesOfVertex <https://docs.blender.org/api/current/bpy.types.GeometryNodeEdgesOfVertex.html>`_
   
   .. code-block:: python
   
@@ -2434,7 +2601,9 @@ Geometry node [*Edges of Vertex*].
     nodes.EdgesOfVertex(vertex_index=vertex_index, weights=weights, sort_index=sort_index, label=node_label, node_color=node_color)
     
 
+```
 ## face_of_corner
+```{eval-rst}
 
 Geometry node [*Face of Corner*].
 
@@ -2452,7 +2621,7 @@ Geometry node [*Face of Corner*].
   Node :class:`~geonodes.nodes.nodes.FaceOfCorner`
   
   
-  .. blid:: GeometryNodeFaceOfCorner
+  Blender reference : `GeometryNodeFaceOfCorner <https://docs.blender.org/api/current/bpy.types.GeometryNodeFaceOfCorner.html>`_
   
   .. code-block:: python
   
@@ -2460,7 +2629,9 @@ Geometry node [*Face of Corner*].
     nodes.FaceOfCorner(corner_index=corner_index, label=node_label, node_color=node_color)
     
 
+```
 ## offset_corner_in_face
+```{eval-rst}
 
 Geometry node [*Offset Corner in Face*].
 
@@ -2479,7 +2650,7 @@ Geometry node [*Offset Corner in Face*].
   Node :class:`~geonodes.nodes.nodes.OffsetCornerInFace`
   
   
-  .. blid:: GeometryNodeOffsetCornerInFace
+  Blender reference : `GeometryNodeOffsetCornerInFace <https://docs.blender.org/api/current/bpy.types.GeometryNodeOffsetCornerInFace.html>`_
   
   .. code-block:: python
   
@@ -2487,7 +2658,9 @@ Geometry node [*Offset Corner in Face*].
     nodes.OffsetCornerInFace(corner_index=corner_index, offset=offset, label=node_label, node_color=node_color)
     
 
+```
 ## vertex_of_corner
+```{eval-rst}
 
 Geometry node [*Vertex of Corner*].
 
@@ -2505,7 +2678,7 @@ Geometry node [*Vertex of Corner*].
   Node :class:`~geonodes.nodes.nodes.VertexOfCorner`
   
   
-  .. blid:: GeometryNodeVertexOfCorner
+  Blender reference : `GeometryNodeVertexOfCorner <https://docs.blender.org/api/current/bpy.types.GeometryNodeVertexOfCorner.html>`_
   
   .. code-block:: python
   
@@ -2513,7 +2686,9 @@ Geometry node [*Vertex of Corner*].
     nodes.VertexOfCorner(corner_index=corner_index, label=node_label, node_color=node_color)
     
 
+```
 ## curve_of_point
+```{eval-rst}
 
 Geometry node [*Curve of Point*].
 
@@ -2531,10 +2706,11 @@ Geometry node [*Curve of Point*].
   Node :class:`~geonodes.nodes.nodes.CurveOfPoint`
   
   
-  .. blid:: GeometryNodeCurveOfPoint
+  Blender reference : `GeometryNodeCurveOfPoint <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveOfPoint.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CurveOfPoint(point_index=point_index, label=node_label, node_color=node_color)
     
+```

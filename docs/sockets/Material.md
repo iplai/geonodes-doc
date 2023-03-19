@@ -13,7 +13,7 @@
 - [switch](#switch) : output (Material)
 
 ## switch
-
+```{eval-rst}
 Geometry node [*Switch*].
 
 
@@ -32,16 +32,16 @@ Geometry node [*Switch*].
   
   - input_type = 'MATERIAL'
     
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Switch(false=self, switch=switch, true=true, input_type='MATERIAL', label=node_label, node_color=node_color)
     
-
+```
 ## selection
-
+```{eval-rst}
 Geometry node [*Material Selection*].
 
 
@@ -57,10 +57,11 @@ Geometry node [*Material Selection*].
   Node :class:`~geonodes.nodes.nodes.MaterialSelection`
   
   
-  .. blid:: GeometryNodeMaterialSelection
+  Blender reference : `GeometryNodeMaterialSelection <https://docs.blender.org/api/current/bpy.types.GeometryNodeMaterialSelection.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.MaterialSelection(material=self, label=node_label, node_color=node_color)
     
+```

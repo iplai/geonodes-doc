@@ -13,7 +13,7 @@
 - [switch](#switch) : output (Collection)
 
 ## switch
-
+```{eval-rst}
 Geometry node [*Switch*].
 
 
@@ -32,16 +32,16 @@ Geometry node [*Switch*].
   
   - input_type = 'COLLECTION'
     
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Switch(false=self, switch=switch, true=true, input_type='COLLECTION', label=node_label, node_color=node_color)
     
-
+```
 ## info
-
+```{eval-rst}
 Geometry node [*Collection Info*].
 
 
@@ -60,10 +60,11 @@ Geometry node [*Collection Info*].
   Node :class:`~geonodes.nodes.nodes.CollectionInfo`
   
   
-  .. blid:: GeometryNodeCollectionInfo
+  Blender reference : `GeometryNodeCollectionInfo <https://docs.blender.org/api/current/bpy.types.GeometryNodeCollectionInfo.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CollectionInfo(collection=self, separate_children=separate_children, reset_children=reset_children, transform_space=transform_space, label=node_label, node_color=node_color)
     
+```

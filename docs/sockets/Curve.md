@@ -51,7 +51,7 @@
 - [trim](#trim) : curve (Curve)
 
 ## BezierSegment
-
+```{eval-rst}
 Geometry node [*Bezier Segment*].
 
 
@@ -73,16 +73,16 @@ Geometry node [*Bezier Segment*].
   Node :class:`~geonodes.nodes.nodes.BezierSegment`
   
   
-  .. blid:: GeometryNodeCurvePrimitiveBezierSegment
+  Blender reference : `GeometryNodeCurvePrimitiveBezierSegment <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurvePrimitiveBezierSegment.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.BezierSegment(resolution=resolution, start=start, start_handle=start_handle, end_handle=end_handle, end=end, mode=mode, label=node_label, node_color=node_color)
     
-
+```
 ## Circle
-
+```{eval-rst}
 Geometry node [*Curve Circle*].
 
 
@@ -104,16 +104,16 @@ Geometry node [*Curve Circle*].
   Node :class:`~geonodes.nodes.nodes.CurveCircle`
   
   
-  .. blid:: GeometryNodeCurvePrimitiveCircle
+  Blender reference : `GeometryNodeCurvePrimitiveCircle <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurvePrimitiveCircle.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CurveCircle(resolution=resolution, point_1=point_1, point_2=point_2, point_3=point_3, radius=radius, mode=mode, label=node_label, node_color=node_color)
     
-
+```
 ## Line
-
+```{eval-rst}
 Geometry node [*Curve Line*].
 
 
@@ -134,16 +134,16 @@ Geometry node [*Curve Line*].
   Node :class:`~geonodes.nodes.nodes.CurveLine`
   
   
-  .. blid:: GeometryNodeCurvePrimitiveLine
+  Blender reference : `GeometryNodeCurvePrimitiveLine <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurvePrimitiveLine.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CurveLine(start=start, end=end, direction=direction, length=length, mode=mode, label=node_label, node_color=node_color)
     
-
+```
 ## Quadrilateral
-
+```{eval-rst}
 Geometry node [*Quadrilateral*].
 
 
@@ -171,16 +171,16 @@ Geometry node [*Quadrilateral*].
   Node :class:`~geonodes.nodes.nodes.Quadrilateral`
   
   
-  .. blid:: GeometryNodeCurvePrimitiveQuadrilateral
+  Blender reference : `GeometryNodeCurvePrimitiveQuadrilateral <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurvePrimitiveQuadrilateral.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Quadrilateral(width=width, height=height, bottom_width=bottom_width, top_width=top_width, offset=offset, bottom_height=bottom_height, top_height=top_height, point_1=point_1, point_2=point_2, point_3=point_3, point_4=point_4, mode=mode, label=node_label, node_color=node_color)
     
-
+```
 ## QuadraticBezier
-
+```{eval-rst}
 Geometry node [*Quadratic Bezier*].
 
 
@@ -200,16 +200,16 @@ Geometry node [*Quadratic Bezier*].
   Node :class:`~geonodes.nodes.nodes.QuadraticBezier`
   
   
-  .. blid:: GeometryNodeCurveQuadraticBezier
+  Blender reference : `GeometryNodeCurveQuadraticBezier <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveQuadraticBezier.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.QuadraticBezier(resolution=resolution, start=start, middle=middle, end=end, label=node_label, node_color=node_color)
     
-
+```
 ## Star
-
+```{eval-rst}
 Geometry node [*Star*].
 
 
@@ -229,16 +229,16 @@ Geometry node [*Star*].
   Node :class:`~geonodes.nodes.nodes.Star`
   
   
-  .. blid:: GeometryNodeCurveStar
+  Blender reference : `GeometryNodeCurveStar <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveStar.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Star(points=points, inner_radius=inner_radius, outer_radius=outer_radius, twist=twist, label=node_label, node_color=node_color)
     
-
+```
 ## Spiral
-
+```{eval-rst}
 Geometry node [*Spiral*].
 
 
@@ -260,16 +260,16 @@ Geometry node [*Spiral*].
   Node :class:`~geonodes.nodes.nodes.Spiral`
   
   
-  .. blid:: GeometryNodeCurveSpiral
+  Blender reference : `GeometryNodeCurveSpiral <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveSpiral.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Spiral(resolution=resolution, rotations=rotations, start_radius=start_radius, end_radius=end_radius, height=height, reverse=reverse, label=node_label, node_color=node_color)
     
-
+```
 ## ArcFromRadius
-
+```{eval-rst}
 Geometry node [*Arc*].
 
 
@@ -292,16 +292,16 @@ Geometry node [*Arc*].
   
   - mode = 'RADIUS'
     
-  .. blid:: GeometryNodeCurveArc
+  Blender reference : `GeometryNodeCurveArc <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveArc.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Arc(resolution=resolution, radius=radius, start_angle=start_angle, sweep_angle=sweep_angle, connect_center=connect_center, invert_arc=invert_arc, mode='RADIUS', label=node_label, node_color=node_color)
     
-
+```
 ## ArcFromPoints
-
+```{eval-rst}
 Geometry node [*Arc*].
 
 
@@ -325,16 +325,16 @@ Geometry node [*Arc*].
   
   - mode = 'POINTS'
     
-  .. blid:: GeometryNodeCurveArc
+  Blender reference : `GeometryNodeCurveArc <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveArc.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.Arc(resolution=resolution, start=start, middle=middle, end=end, offset_angle=offset_angle, connect_center=connect_center, invert_arc=invert_arc, mode='POINTS', label=node_label, node_color=node_color)
     
-
+```
 ## domain_size
-
+```{eval-rst}
 Geometry node [*Domain Size*].
 
 
@@ -348,16 +348,16 @@ Geometry node [*Domain Size*].
   
   - component = 'CURVE'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.DomainSize(geometry=self, component='CURVE', label=f"{self.node_chain_label}.domain_size")
     
-
+```
 ## point_count
-
+```{eval-rst}
 Geometry node [*Domain Size*].
 
 
@@ -371,15 +371,16 @@ Geometry node [*Domain Size*].
   
   - component = 'CURVE'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.DomainSize(geometry=self, component='CURVE', label=f"{self.node_chain_label}.point_count")
     
-
+```
 ## spline_count
+```{eval-rst}
 
 Geometry node [*Domain Size*].
 
@@ -394,7 +395,7 @@ Geometry node [*Domain Size*].
   
   - component = 'CURVE'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
@@ -402,7 +403,9 @@ Geometry node [*Domain Size*].
     nodes.DomainSize(geometry=self, component='CURVE', label=f"{self.node_chain_label}.spline_count")
     
 
+```
 ## set_cyclic
+```{eval-rst}
 
 Geometry node [*Set Spline Cyclic*].
 
@@ -421,7 +424,7 @@ Geometry node [*Set Spline Cyclic*].
   Node :class:`~geonodes.nodes.nodes.SetSplineCyclic`
   
   
-  .. blid:: GeometryNodeSetSplineCyclic
+  Blender reference : `GeometryNodeSetSplineCyclic <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetSplineCyclic.html>`_
   
   .. code-block:: python
   
@@ -429,7 +432,9 @@ Geometry node [*Set Spline Cyclic*].
     nodes.SetSplineCyclic(geometry=self, selection=selection, cyclic=cyclic, label=node_label, node_color=node_color)
     
 
+```
 ## set_resolution
+```{eval-rst}
 
 Geometry node [*Set Spline Resolution*].
 
@@ -448,7 +453,7 @@ Geometry node [*Set Spline Resolution*].
   Node :class:`~geonodes.nodes.nodes.SetSplineResolution`
   
   
-  .. blid:: GeometryNodeSetSplineResolution
+  Blender reference : `GeometryNodeSetSplineResolution <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetSplineResolution.html>`_
   
   .. code-block:: python
   
@@ -456,7 +461,9 @@ Geometry node [*Set Spline Resolution*].
     nodes.SetSplineResolution(geometry=self, selection=selection, resolution=resolution, label=node_label, node_color=node_color)
     
 
+```
 ## set_handles
+```{eval-rst}
 
 Geometry node [*Set Handle Type*].
 
@@ -476,7 +483,7 @@ Geometry node [*Set Handle Type*].
   Node :class:`~geonodes.nodes.nodes.SetHandleType`
   
   
-  .. blid:: GeometryNodeCurveSetHandles
+  Blender reference : `GeometryNodeCurveSetHandles <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveSetHandles.html>`_
   
   .. code-block:: python
   
@@ -484,7 +491,9 @@ Geometry node [*Set Handle Type*].
     nodes.SetHandleType(curve=self, selection=selection, handle_type=handle_type, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## set_spline_type
+```{eval-rst}
 
 Geometry node [*Set Spline Type*].
 
@@ -503,7 +512,7 @@ Geometry node [*Set Spline Type*].
   Node :class:`~geonodes.nodes.nodes.SetSplineType`
   
   
-  .. blid:: GeometryNodeCurveSplineType
+  Blender reference : `GeometryNodeCurveSplineType <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveSplineType.html>`_
   
   .. code-block:: python
   
@@ -511,7 +520,9 @@ Geometry node [*Set Spline Type*].
     nodes.SetSplineType(curve=self, selection=selection, spline_type=spline_type, label=node_label, node_color=node_color)
     
 
+```
 ## fillet
+```{eval-rst}
 
 Geometry node [*Fillet Curve*].
 
@@ -532,7 +543,7 @@ Geometry node [*Fillet Curve*].
   Node :class:`~geonodes.nodes.nodes.FilletCurve`
   
   
-  .. blid:: GeometryNodeFilletCurve
+  Blender reference : `GeometryNodeFilletCurve <https://docs.blender.org/api/current/bpy.types.GeometryNodeFilletCurve.html>`_
   
   .. code-block:: python
   
@@ -540,7 +551,9 @@ Geometry node [*Fillet Curve*].
     nodes.FilletCurve(curve=self, count=count, radius=radius, limit_radius=limit_radius, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## resample
+```{eval-rst}
 
 Geometry node [*Resample Curve*].
 
@@ -561,7 +574,7 @@ Geometry node [*Resample Curve*].
   Node :class:`~geonodes.nodes.nodes.ResampleCurve`
   
   
-  .. blid:: GeometryNodeResampleCurve
+  Blender reference : `GeometryNodeResampleCurve <https://docs.blender.org/api/current/bpy.types.GeometryNodeResampleCurve.html>`_
   
   .. code-block:: python
   
@@ -569,7 +582,9 @@ Geometry node [*Resample Curve*].
     nodes.ResampleCurve(curve=self, selection=selection, count=count, length=length, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## reverse
+```{eval-rst}
 
 Geometry node [*Reverse Curve*].
 
@@ -587,7 +602,7 @@ Geometry node [*Reverse Curve*].
   Node :class:`~geonodes.nodes.nodes.ReverseCurve`
   
   
-  .. blid:: GeometryNodeReverseCurve
+  Blender reference : `GeometryNodeReverseCurve <https://docs.blender.org/api/current/bpy.types.GeometryNodeReverseCurve.html>`_
   
   .. code-block:: python
   
@@ -595,7 +610,9 @@ Geometry node [*Reverse Curve*].
     nodes.ReverseCurve(curve=self, selection=selection, label=node_label, node_color=node_color)
     
 
+```
 ## set_handle_positions
+```{eval-rst}
 
 Geometry node [*Set Handle Positions*].
 
@@ -616,7 +633,7 @@ Geometry node [*Set Handle Positions*].
   Node :class:`~geonodes.nodes.nodes.SetHandlePositions`
   
   
-  .. blid:: GeometryNodeSetCurveHandlePositions
+  Blender reference : `GeometryNodeSetCurveHandlePositions <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetCurveHandlePositions.html>`_
   
   .. code-block:: python
   
@@ -624,7 +641,9 @@ Geometry node [*Set Handle Positions*].
     nodes.SetHandlePositions(curve=self, selection=selection, position=position, offset=offset, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## set_radius
+```{eval-rst}
 
 Geometry node [*Set Curve Radius*].
 
@@ -643,7 +662,7 @@ Geometry node [*Set Curve Radius*].
   Node :class:`~geonodes.nodes.nodes.SetCurveRadius`
   
   
-  .. blid:: GeometryNodeSetCurveRadius
+  Blender reference : `GeometryNodeSetCurveRadius <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetCurveRadius.html>`_
   
   .. code-block:: python
   
@@ -651,7 +670,9 @@ Geometry node [*Set Curve Radius*].
     nodes.SetCurveRadius(curve=self, selection=selection, radius=radius, label=node_label, node_color=node_color)
     
 
+```
 ## set_tilt
+```{eval-rst}
 
 Geometry node [*Set Curve Tilt*].
 
@@ -670,7 +691,7 @@ Geometry node [*Set Curve Tilt*].
   Node :class:`~geonodes.nodes.nodes.SetCurveTilt`
   
   
-  .. blid:: GeometryNodeSetCurveTilt
+  Blender reference : `GeometryNodeSetCurveTilt <https://docs.blender.org/api/current/bpy.types.GeometryNodeSetCurveTilt.html>`_
   
   .. code-block:: python
   
@@ -678,7 +699,9 @@ Geometry node [*Set Curve Tilt*].
     nodes.SetCurveTilt(curve=self, selection=selection, tilt=tilt, label=node_label, node_color=node_color)
     
 
+```
 ## subdivide
+```{eval-rst}
 
 Geometry node [*Subdivide Curve*].
 
@@ -696,7 +719,7 @@ Geometry node [*Subdivide Curve*].
   Node :class:`~geonodes.nodes.nodes.SubdivideCurve`
   
   
-  .. blid:: GeometryNodeSubdivideCurve
+  Blender reference : `GeometryNodeSubdivideCurve <https://docs.blender.org/api/current/bpy.types.GeometryNodeSubdivideCurve.html>`_
   
   .. code-block:: python
   
@@ -704,7 +727,9 @@ Geometry node [*Subdivide Curve*].
     nodes.SubdivideCurve(curve=self, cuts=cuts, label=node_label, node_color=node_color)
     
 
+```
 ## trim
+```{eval-rst}
 
 Geometry node [*Trim Curve*].
 
@@ -726,7 +751,7 @@ Geometry node [*Trim Curve*].
   Node :class:`~geonodes.nodes.nodes.TrimCurve`
   
   
-  .. blid:: GeometryNodeTrimCurve
+  Blender reference : `GeometryNodeTrimCurve <https://docs.blender.org/api/current/bpy.types.GeometryNodeTrimCurve.html>`_
   
   .. code-block:: python
   
@@ -734,7 +759,9 @@ Geometry node [*Trim Curve*].
     nodes.TrimCurve(curve=self, start0=start0, end0=end0, start1=start1, end1=end1, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## deform_on_surface
+```{eval-rst}
 
 Geometry node [*Deform Curves on Surface*].
 
@@ -751,7 +778,7 @@ Geometry node [*Deform Curves on Surface*].
   Node :class:`~geonodes.nodes.nodes.DeformCurvesOnSurface`
   
   
-  .. blid:: GeometryNodeDeformCurvesOnSurface
+  Blender reference : `GeometryNodeDeformCurvesOnSurface <https://docs.blender.org/api/current/bpy.types.GeometryNodeDeformCurvesOnSurface.html>`_
   
   .. code-block:: python
   
@@ -759,7 +786,9 @@ Geometry node [*Deform Curves on Surface*].
     nodes.DeformCurvesOnSurface(curves=self, label=node_label, node_color=node_color)
     
 
+```
 ## duplicate_splines
+```{eval-rst}
 
 Geometry node [*Duplicate Elements*].
 
@@ -779,7 +808,7 @@ Geometry node [*Duplicate Elements*].
   
   - domain = 'SPLINE'
     
-  .. blid:: GeometryNodeDuplicateElements
+  Blender reference : `GeometryNodeDuplicateElements <https://docs.blender.org/api/current/bpy.types.GeometryNodeDuplicateElements.html>`_
   
   .. code-block:: python
   
@@ -787,7 +816,9 @@ Geometry node [*Duplicate Elements*].
     nodes.DuplicateElements(geometry=self, selection=selection, amount=amount, domain='SPLINE', label=node_label, node_color=node_color)
     
 
+```
 ## fill
+```{eval-rst}
 
 Geometry node [*Fill Curve*].
 
@@ -805,7 +836,7 @@ Geometry node [*Fill Curve*].
   Node :class:`~geonodes.nodes.nodes.FillCurve`
   
   
-  .. blid:: GeometryNodeFillCurve
+  Blender reference : `GeometryNodeFillCurve <https://docs.blender.org/api/current/bpy.types.GeometryNodeFillCurve.html>`_
   
   .. code-block:: python
   
@@ -813,7 +844,9 @@ Geometry node [*Fill Curve*].
     nodes.FillCurve(curve=self, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## to_mesh
+```{eval-rst}
 
 Geometry node [*Curve to Mesh*].
 
@@ -832,7 +865,7 @@ Geometry node [*Curve to Mesh*].
   Node :class:`~geonodes.nodes.nodes.CurveToMesh`
   
   
-  .. blid:: GeometryNodeCurveToMesh
+  Blender reference : `GeometryNodeCurveToMesh <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveToMesh.html>`_
   
   .. code-block:: python
   
@@ -840,7 +873,9 @@ Geometry node [*Curve to Mesh*].
     nodes.CurveToMesh(curve=self, profile_curve=profile_curve, fill_caps=fill_caps, label=node_label, node_color=node_color)
     
 
+```
 ## to_points
+```{eval-rst}
 
 Geometry node [*Curve to Points*].
 
@@ -860,7 +895,7 @@ Geometry node [*Curve to Points*].
   Node :class:`~geonodes.nodes.nodes.CurveToPoints`
   
   
-  .. blid:: GeometryNodeCurveToPoints
+  Blender reference : `GeometryNodeCurveToPoints <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveToPoints.html>`_
   
   .. code-block:: python
   
@@ -868,7 +903,9 @@ Geometry node [*Curve to Points*].
     nodes.CurveToPoints(curve=self, count=count, length=length, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## sample
+```{eval-rst}
 
 Geometry node [*Sample Curve*].
 
@@ -892,7 +929,7 @@ Geometry node [*Sample Curve*].
   
   - data_type = None
     
-  .. blid:: GeometryNodeSampleCurve
+  Blender reference : `GeometryNodeSampleCurve <https://docs.blender.org/api/current/bpy.types.GeometryNodeSampleCurve.html>`_
   
   .. code-block:: python
   
@@ -900,7 +937,9 @@ Geometry node [*Sample Curve*].
     nodes.SampleCurve(curves=self, value=value, factor=factor, length=length, curve_index=curve_index, data_type=None, mode=mode, use_all_curves=use_all_curves, label=node_label, node_color=node_color)
     
 
+```
 ## length
+```{eval-rst}
 
 Geometry node [*Curve Length*].
 
@@ -917,10 +956,11 @@ Geometry node [*Curve Length*].
   Node :class:`~geonodes.nodes.nodes.CurveLength`
   
   
-  .. blid:: GeometryNodeCurveLength
+  Blender reference : `GeometryNodeCurveLength <https://docs.blender.org/api/current/bpy.types.GeometryNodeCurveLength.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.CurveLength(curve=self, label=node_label, node_color=node_color)
     
+```

@@ -16,7 +16,7 @@
 - [to_mesh](#to_mesh) : mesh (Mesh)
 
 ## Cube
-
+```{eval-rst}
 Geometry node [*Volume Cube*].
 
 
@@ -39,16 +39,16 @@ Geometry node [*Volume Cube*].
   Node :class:`~geonodes.nodes.nodes.VolumeCube`
   
   
-  .. blid:: GeometryNodeVolumeCube
+  Blender reference : `GeometryNodeVolumeCube <https://docs.blender.org/api/current/bpy.types.GeometryNodeVolumeCube.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.VolumeCube(density=density, background=background, min=min, max=max, resolution_x=resolution_x, resolution_y=resolution_y, resolution_z=resolution_z, label=node_label, node_color=node_color)
     
-
+```
 ## to_mesh
-
+```{eval-rst}
 Geometry node [*Volume to Mesh*].
 
 
@@ -69,10 +69,11 @@ Geometry node [*Volume to Mesh*].
   Node :class:`~geonodes.nodes.nodes.VolumeToMesh`
   
   
-  .. blid:: GeometryNodeVolumeToMesh
+  Blender reference : `GeometryNodeVolumeToMesh <https://docs.blender.org/api/current/bpy.types.GeometryNodeVolumeToMesh.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.VolumeToMesh(volume=self, voxel_size=voxel_size, voxel_amount=voxel_amount, threshold=threshold, adaptivity=adaptivity, resolution_mode=resolution_mode, label=node_label, node_color=node_color)
     
+```

@@ -21,6 +21,7 @@
 - [to_curves](#to_curves) : Sockets      [curve_instances (Geometry), remainder (String), line (Integer), pivot_point (Vector)]
 
 ## length
+```{eval-rst}
 
 Geometry node [*String Length*].
 
@@ -34,7 +35,7 @@ Geometry node [*String Length*].
   Node :class:`~geonodes.nodes.nodes.StringLength`
   
   
-  .. blid:: FunctionNodeStringLength
+  Blender reference : `FunctionNodeStringLength <https://docs.blender.org/api/current/bpy.types.FunctionNodeStringLength.html>`_
   
   .. code-block:: python
   
@@ -42,7 +43,9 @@ Geometry node [*String Length*].
     nodes.StringLength(string=self, label=f"{self.node_chain_label}.length")
     
 
+```
 ## switch
+```{eval-rst}
 
 Geometry node [*Switch*].
 
@@ -62,7 +65,7 @@ Geometry node [*Switch*].
   
   - input_type = 'STRING'
     
-  .. blid:: GeometryNodeSwitch
+  Blender reference : `GeometryNodeSwitch <https://docs.blender.org/api/current/bpy.types.GeometryNodeSwitch.html>`_
   
   .. code-block:: python
   
@@ -70,7 +73,9 @@ Geometry node [*Switch*].
     nodes.Switch(false=self, switch=switch, true=true, input_type='STRING', label=node_label, node_color=node_color)
     
 
+```
 ## equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -91,7 +96,7 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -99,7 +104,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='STRING', mode='ELEMENT', operation='EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## not_equal
+```{eval-rst}
 
 Geometry node [*Compare*].
 
@@ -120,7 +127,7 @@ Geometry node [*Compare*].
   - mode = 'ELEMENT'
   - operation = 'NOT_EQUAL'
     
-  .. blid:: FunctionNodeCompare
+  Blender reference : `FunctionNodeCompare <https://docs.blender.org/api/current/bpy.types.FunctionNodeCompare.html>`_
   
   .. code-block:: python
   
@@ -128,7 +135,9 @@ Geometry node [*Compare*].
     nodes.Compare(a=self, b=b, data_type='STRING', mode='ELEMENT', operation='NOT_EQUAL', label=node_label, node_color=node_color)
     
 
+```
 ## replace
+```{eval-rst}
 
 Geometry node [*Replace String*].
 
@@ -147,7 +156,7 @@ Geometry node [*Replace String*].
   Node :class:`~geonodes.nodes.nodes.ReplaceString`
   
   
-  .. blid:: FunctionNodeReplaceString
+  Blender reference : `FunctionNodeReplaceString <https://docs.blender.org/api/current/bpy.types.FunctionNodeReplaceString.html>`_
   
   .. code-block:: python
   
@@ -155,7 +164,9 @@ Geometry node [*Replace String*].
     nodes.ReplaceString(string=self, find=find, replace=replace, label=node_label, node_color=node_color)
     
 
+```
 ## slice
+```{eval-rst}
 
 Geometry node [*Slice String*].
 
@@ -174,7 +185,7 @@ Geometry node [*Slice String*].
   Node :class:`~geonodes.nodes.nodes.SliceString`
   
   
-  .. blid:: FunctionNodeSliceString
+  Blender reference : `FunctionNodeSliceString <https://docs.blender.org/api/current/bpy.types.FunctionNodeSliceString.html>`_
   
   .. code-block:: python
   
@@ -182,7 +193,9 @@ Geometry node [*Slice String*].
     nodes.SliceString(string=self, position=position, length=length, label=node_label, node_color=node_color)
     
 
+```
 ## to_curves
+```{eval-rst}
 
 Geometry node [*String to Curves*].
 
@@ -209,10 +222,11 @@ Geometry node [*String to Curves*].
   Node :class:`~geonodes.nodes.nodes.StringToCurves`
   
   
-  .. blid:: GeometryNodeStringToCurves
+  Blender reference : `GeometryNodeStringToCurves <https://docs.blender.org/api/current/bpy.types.GeometryNodeStringToCurves.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.StringToCurves(string=self, size=size, character_spacing=character_spacing, word_spacing=word_spacing, line_spacing=line_spacing, text_box_width=text_box_width, text_box_height=text_box_height, align_x=align_x, align_y=align_y, overflow=overflow, pivot_mode=pivot_mode, label=node_label, node_color=node_color)
     
+```

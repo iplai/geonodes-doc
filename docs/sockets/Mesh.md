@@ -47,6 +47,7 @@
 - [union](#union) : Sockets      [mesh (Mesh), intersecting_edges (Boolean)]
 
 ## Circle
+```{eval-rst}
 
 Geometry node [*Mesh Circle*].
 
@@ -66,7 +67,7 @@ Geometry node [*Mesh Circle*].
   Node :class:`~geonodes.nodes.nodes.MeshCircle`
   
   
-  .. blid:: GeometryNodeMeshCircle
+  Blender reference : `GeometryNodeMeshCircle <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshCircle.html>`_
   
   .. code-block:: python
   
@@ -74,7 +75,9 @@ Geometry node [*Mesh Circle*].
     nodes.MeshCircle(vertices=vertices, radius=radius, fill_type=fill_type, label=node_label, node_color=node_color)
     
 
+```
 ## Cone
+```{eval-rst}
 
 Geometry node [*Cone*].
 
@@ -98,7 +101,7 @@ Geometry node [*Cone*].
   Node :class:`~geonodes.nodes.nodes.Cone`
   
   
-  .. blid:: GeometryNodeMeshCone
+  Blender reference : `GeometryNodeMeshCone <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshCone.html>`_
   
   .. code-block:: python
   
@@ -106,7 +109,9 @@ Geometry node [*Cone*].
     nodes.Cone(vertices=vertices, side_segments=side_segments, fill_segments=fill_segments, radius_top=radius_top, radius_bottom=radius_bottom, depth=depth, fill_type=fill_type, label=node_label, node_color=node_color)
     
 
+```
 ## Cube
+```{eval-rst}
 
 Geometry node [*Cube*].
 
@@ -127,7 +132,7 @@ Geometry node [*Cube*].
   Node :class:`~geonodes.nodes.nodes.Cube`
   
   
-  .. blid:: GeometryNodeMeshCube
+  Blender reference : `GeometryNodeMeshCube <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshCube.html>`_
   
   .. code-block:: python
   
@@ -135,7 +140,9 @@ Geometry node [*Cube*].
     nodes.Cube(size=size, vertices_x=vertices_x, vertices_y=vertices_y, vertices_z=vertices_z, label=node_label, node_color=node_color)
     
 
+```
 ## Cylinder
+```{eval-rst}
 
 Geometry node [*Cylinder*].
 
@@ -158,7 +165,7 @@ Geometry node [*Cylinder*].
   Node :class:`~geonodes.nodes.nodes.Cylinder`
   
   
-  .. blid:: GeometryNodeMeshCylinder
+  Blender reference : `GeometryNodeMeshCylinder <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshCylinder.html>`_
   
   .. code-block:: python
   
@@ -166,7 +173,9 @@ Geometry node [*Cylinder*].
     nodes.Cylinder(vertices=vertices, side_segments=side_segments, fill_segments=fill_segments, radius=radius, depth=depth, fill_type=fill_type, label=node_label, node_color=node_color)
     
 
+```
 ## Grid
+```{eval-rst}
 
 Geometry node [*Grid*].
 
@@ -187,7 +196,7 @@ Geometry node [*Grid*].
   Node :class:`~geonodes.nodes.nodes.Grid`
   
   
-  .. blid:: GeometryNodeMeshGrid
+  Blender reference : `GeometryNodeMeshGrid <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshGrid.html>`_
   
   .. code-block:: python
   
@@ -195,7 +204,9 @@ Geometry node [*Grid*].
     nodes.Grid(size_x=size_x, size_y=size_y, vertices_x=vertices_x, vertices_y=vertices_y, label=node_label, node_color=node_color)
     
 
+```
 ## IcoSphere
+```{eval-rst}
 
 Geometry node [*Ico Sphere*].
 
@@ -214,7 +225,7 @@ Geometry node [*Ico Sphere*].
   Node :class:`~geonodes.nodes.nodes.IcoSphere`
   
   
-  .. blid:: GeometryNodeMeshIcoSphere
+  Blender reference : `GeometryNodeMeshIcoSphere <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshIcoSphere.html>`_
   
   .. code-block:: python
   
@@ -222,7 +233,9 @@ Geometry node [*Ico Sphere*].
     nodes.IcoSphere(radius=radius, subdivisions=subdivisions, label=node_label, node_color=node_color)
     
 
+```
 ## Line
+```{eval-rst}
 
 Geometry node [*Mesh Line*].
 
@@ -244,7 +257,7 @@ Geometry node [*Mesh Line*].
   Node :class:`~geonodes.nodes.nodes.MeshLine`
   
   
-  .. blid:: GeometryNodeMeshLine
+  Blender reference : `GeometryNodeMeshLine <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshLine.html>`_
   
   .. code-block:: python
   
@@ -252,7 +265,9 @@ Geometry node [*Mesh Line*].
     nodes.MeshLine(count=count, start_location=start_location, offset=offset, count_mode=count_mode, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## UVSphere
+```{eval-rst}
 
 Geometry node [*UV Sphere*].
 
@@ -272,7 +287,7 @@ Geometry node [*UV Sphere*].
   Node :class:`~geonodes.nodes.nodes.UvSphere`
   
   
-  .. blid:: GeometryNodeMeshUVSphere
+  Blender reference : `GeometryNodeMeshUVSphere <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshUVSphere.html>`_
   
   .. code-block:: python
   
@@ -280,7 +295,9 @@ Geometry node [*UV Sphere*].
     nodes.UvSphere(segments=segments, rings=rings, radius=radius, label=node_label, node_color=node_color)
     
 
+```
 ## domain_size
+```{eval-rst}
 
 Geometry node [*Domain Size*].
 
@@ -295,7 +312,7 @@ Geometry node [*Domain Size*].
   
   - component = 'MESH'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
@@ -303,7 +320,9 @@ Geometry node [*Domain Size*].
     nodes.DomainSize(geometry=self, component='MESH', label=f"{self.node_chain_label}.domain_size")
     
 
+```
 ## point_count
+```{eval-rst}
 
 Geometry node [*Domain Size*].
 
@@ -318,7 +337,7 @@ Geometry node [*Domain Size*].
   
   - component = 'MESH'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
@@ -326,7 +345,9 @@ Geometry node [*Domain Size*].
     nodes.DomainSize(geometry=self, component='MESH', label=f"{self.node_chain_label}.point_count")
     
 
+```
 ## edge_count
+```{eval-rst}
 
 Geometry node [*Domain Size*].
 
@@ -341,7 +362,7 @@ Geometry node [*Domain Size*].
   
   - component = 'MESH'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
@@ -349,7 +370,9 @@ Geometry node [*Domain Size*].
     nodes.DomainSize(geometry=self, component='MESH', label=f"{self.node_chain_label}.edge_count")
     
 
+```
 ## face_count
+```{eval-rst}
 
 Geometry node [*Domain Size*].
 
@@ -364,7 +387,7 @@ Geometry node [*Domain Size*].
   
   - component = 'MESH'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
@@ -372,7 +395,9 @@ Geometry node [*Domain Size*].
     nodes.DomainSize(geometry=self, component='MESH', label=f"{self.node_chain_label}.face_count")
     
 
+```
 ## corner_count
+```{eval-rst}
 
 Geometry node [*Domain Size*].
 
@@ -387,7 +412,7 @@ Geometry node [*Domain Size*].
   
   - component = 'MESH'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
@@ -395,7 +420,9 @@ Geometry node [*Domain Size*].
     nodes.DomainSize(geometry=self, component='MESH', label=f"{self.node_chain_label}.corner_count")
     
 
+```
 ## intersect
+```{eval-rst}
 
 Geometry node [*Mesh Boolean*].
 
@@ -415,7 +442,7 @@ Geometry node [*Mesh Boolean*].
   
   - operation = 'INTERSECT'
     
-  .. blid:: GeometryNodeMeshBoolean
+  Blender reference : `GeometryNodeMeshBoolean <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshBoolean.html>`_
   
   .. code-block:: python
   
@@ -423,7 +450,9 @@ Geometry node [*Mesh Boolean*].
     nodes.MeshBoolean(self, *mesh_2, self_intersection=self_intersection, hole_tolerant=hole_tolerant, operation='INTERSECT', label=node_label, node_color=node_color)
     
 
+```
 ## union
+```{eval-rst}
 
 Geometry node [*Mesh Boolean*].
 
@@ -443,7 +472,7 @@ Geometry node [*Mesh Boolean*].
   
   - operation = 'UNION'
     
-  .. blid:: GeometryNodeMeshBoolean
+  Blender reference : `GeometryNodeMeshBoolean <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshBoolean.html>`_
   
   .. code-block:: python
   
@@ -451,7 +480,9 @@ Geometry node [*Mesh Boolean*].
     nodes.MeshBoolean(self, *mesh_2, self_intersection=self_intersection, hole_tolerant=hole_tolerant, operation='UNION', label=node_label, node_color=node_color)
     
 
+```
 ## difference
+```{eval-rst}
 
 Geometry node [*Mesh Boolean*].
 
@@ -472,7 +503,7 @@ Geometry node [*Mesh Boolean*].
   
   - operation = 'DIFFERENCE'
     
-  .. blid:: GeometryNodeMeshBoolean
+  Blender reference : `GeometryNodeMeshBoolean <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshBoolean.html>`_
   
   .. code-block:: python
   
@@ -480,7 +511,9 @@ Geometry node [*Mesh Boolean*].
     nodes.MeshBoolean(*mesh_2, mesh_1=self, self_intersection=self_intersection, hole_tolerant=hole_tolerant, operation='DIFFERENCE', label=node_label, node_color=node_color)
     
 
+```
 ## split_edges
+```{eval-rst}
 
 Geometry node [*Split Edges*].
 
@@ -498,7 +531,7 @@ Geometry node [*Split Edges*].
   Node :class:`~geonodes.nodes.nodes.SplitEdges`
   
   
-  .. blid:: GeometryNodeSplitEdges
+  Blender reference : `GeometryNodeSplitEdges <https://docs.blender.org/api/current/bpy.types.GeometryNodeSplitEdges.html>`_
   
   .. code-block:: python
   
@@ -506,7 +539,9 @@ Geometry node [*Split Edges*].
     nodes.SplitEdges(mesh=self, selection=selection, label=node_label, node_color=node_color)
     
 
+```
 ## subdivide
+```{eval-rst}
 
 Geometry node [*Subdivide Mesh*].
 
@@ -524,7 +559,7 @@ Geometry node [*Subdivide Mesh*].
   Node :class:`~geonodes.nodes.nodes.SubdivideMesh`
   
   
-  .. blid:: GeometryNodeSubdivideMesh
+  Blender reference : `GeometryNodeSubdivideMesh <https://docs.blender.org/api/current/bpy.types.GeometryNodeSubdivideMesh.html>`_
   
   .. code-block:: python
   
@@ -532,7 +567,9 @@ Geometry node [*Subdivide Mesh*].
     nodes.SubdivideMesh(mesh=self, level=level, label=node_label, node_color=node_color)
     
 
+```
 ## subdivision_surface
+```{eval-rst}
 
 Geometry node [*Subdivision Surface*].
 
@@ -554,7 +591,7 @@ Geometry node [*Subdivision Surface*].
   Node :class:`~geonodes.nodes.nodes.SubdivisionSurface`
   
   
-  .. blid:: GeometryNodeSubdivisionSurface
+  Blender reference : `GeometryNodeSubdivisionSurface <https://docs.blender.org/api/current/bpy.types.GeometryNodeSubdivisionSurface.html>`_
   
   .. code-block:: python
   
@@ -562,7 +599,9 @@ Geometry node [*Subdivision Surface*].
     nodes.SubdivisionSurface(mesh=self, level=level, edge_crease=edge_crease, vertex_crease=vertex_crease, boundary_smooth=boundary_smooth, uv_smooth=uv_smooth, label=node_label, node_color=node_color)
     
 
+```
 ## triangulate
+```{eval-rst}
 
 Geometry node [*Triangulate*].
 
@@ -583,7 +622,7 @@ Geometry node [*Triangulate*].
   Node :class:`~geonodes.nodes.nodes.Triangulate`
   
   
-  .. blid:: GeometryNodeTriangulate
+  Blender reference : `GeometryNodeTriangulate <https://docs.blender.org/api/current/bpy.types.GeometryNodeTriangulate.html>`_
   
   .. code-block:: python
   
@@ -591,7 +630,9 @@ Geometry node [*Triangulate*].
     nodes.Triangulate(mesh=self, selection=selection, minimum_vertices=minimum_vertices, ngon_method=ngon_method, quad_method=quad_method, label=node_label, node_color=node_color)
     
 
+```
 ## dual
+```{eval-rst}
 
 Geometry node [*Dual Mesh*].
 
@@ -609,7 +650,7 @@ Geometry node [*Dual Mesh*].
   Node :class:`~geonodes.nodes.nodes.DualMesh`
   
   
-  .. blid:: GeometryNodeDualMesh
+  Blender reference : `GeometryNodeDualMesh <https://docs.blender.org/api/current/bpy.types.GeometryNodeDualMesh.html>`_
   
   .. code-block:: python
   
@@ -617,7 +658,9 @@ Geometry node [*Dual Mesh*].
     nodes.DualMesh(mesh=self, keep_boundaries=keep_boundaries, label=node_label, node_color=node_color)
     
 
+```
 ## flip_faces
+```{eval-rst}
 
 Geometry node [*Flip Faces*].
 
@@ -635,7 +678,7 @@ Geometry node [*Flip Faces*].
   Node :class:`~geonodes.nodes.nodes.FlipFaces`
   
   
-  .. blid:: GeometryNodeFlipFaces
+  Blender reference : `GeometryNodeFlipFaces <https://docs.blender.org/api/current/bpy.types.GeometryNodeFlipFaces.html>`_
   
   .. code-block:: python
   
@@ -643,7 +686,9 @@ Geometry node [*Flip Faces*].
     nodes.FlipFaces(mesh=self, selection=selection, label=node_label, node_color=node_color)
     
 
+```
 ## duplicate_edges
+```{eval-rst}
 
 Geometry node [*Duplicate Elements*].
 
@@ -663,7 +708,7 @@ Geometry node [*Duplicate Elements*].
   
   - domain = 'EDGE'
     
-  .. blid:: GeometryNodeDuplicateElements
+  Blender reference : `GeometryNodeDuplicateElements <https://docs.blender.org/api/current/bpy.types.GeometryNodeDuplicateElements.html>`_
   
   .. code-block:: python
   
@@ -671,7 +716,9 @@ Geometry node [*Duplicate Elements*].
     nodes.DuplicateElements(geometry=self, selection=selection, amount=amount, domain='EDGE', label=node_label, node_color=node_color)
     
 
+```
 ## duplicate_faces
+```{eval-rst}
 
 Geometry node [*Duplicate Elements*].
 
@@ -691,7 +738,7 @@ Geometry node [*Duplicate Elements*].
   
   - domain = 'FACE'
     
-  .. blid:: GeometryNodeDuplicateElements
+  Blender reference : `GeometryNodeDuplicateElements <https://docs.blender.org/api/current/bpy.types.GeometryNodeDuplicateElements.html>`_
   
   .. code-block:: python
   
@@ -699,7 +746,9 @@ Geometry node [*Duplicate Elements*].
     nodes.DuplicateElements(geometry=self, selection=selection, amount=amount, domain='FACE', label=node_label, node_color=node_color)
     
 
+```
 ## extrude
+```{eval-rst}
 
 Geometry node [*Extrude Mesh*].
 
@@ -721,7 +770,7 @@ Geometry node [*Extrude Mesh*].
   Node :class:`~geonodes.nodes.nodes.ExtrudeMesh`
   
   
-  .. blid:: GeometryNodeExtrudeMesh
+  Blender reference : `GeometryNodeExtrudeMesh <https://docs.blender.org/api/current/bpy.types.GeometryNodeExtrudeMesh.html>`_
   
   .. code-block:: python
   
@@ -729,7 +778,9 @@ Geometry node [*Extrude Mesh*].
     nodes.ExtrudeMesh(mesh=self, selection=selection, offset=offset, offset_scale=offset_scale, individual=individual, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## to_curve
+```{eval-rst}
 
 Geometry node [*Mesh to Curve*].
 
@@ -747,7 +798,7 @@ Geometry node [*Mesh to Curve*].
   Node :class:`~geonodes.nodes.nodes.MeshToCurve`
   
   
-  .. blid:: GeometryNodeMeshToCurve
+  Blender reference : `GeometryNodeMeshToCurve <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshToCurve.html>`_
   
   .. code-block:: python
   
@@ -755,7 +806,9 @@ Geometry node [*Mesh to Curve*].
     nodes.MeshToCurve(mesh=self, selection=selection, label=node_label, node_color=node_color)
     
 
+```
 ## to_volume
+```{eval-rst}
 
 Geometry node [*Mesh to Volume*].
 
@@ -779,7 +832,7 @@ Geometry node [*Mesh to Volume*].
   Node :class:`~geonodes.nodes.nodes.MeshToVolume`
   
   
-  .. blid:: GeometryNodeMeshToVolume
+  Blender reference : `GeometryNodeMeshToVolume <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshToVolume.html>`_
   
   .. code-block:: python
   
@@ -787,7 +840,9 @@ Geometry node [*Mesh to Volume*].
     nodes.MeshToVolume(mesh=self, density=density, voxel_size=voxel_size, voxel_amount=voxel_amount, exterior_band_width=exterior_band_width, interior_band_width=interior_band_width, fill_volume=fill_volume, resolution_mode=resolution_mode, label=node_label, node_color=node_color)
     
 
+```
 ## to_points
+```{eval-rst}
 
 Geometry node [*Mesh to Points*].
 
@@ -808,7 +863,7 @@ Geometry node [*Mesh to Points*].
   Node :class:`~geonodes.nodes.nodes.MeshToPoints`
   
   
-  .. blid:: GeometryNodeMeshToPoints
+  Blender reference : `GeometryNodeMeshToPoints <https://docs.blender.org/api/current/bpy.types.GeometryNodeMeshToPoints.html>`_
   
   .. code-block:: python
   
@@ -816,7 +871,9 @@ Geometry node [*Mesh to Points*].
     nodes.MeshToPoints(mesh=self, selection=selection, position=position, radius=radius, mode=mode, label=node_label, node_color=node_color)
     
 
+```
 ## distribute_points_on_faces
+```{eval-rst}
 
 Geometry node [*Distribute Points on Faces*].
 
@@ -840,7 +897,7 @@ Geometry node [*Distribute Points on Faces*].
   Node :class:`~geonodes.nodes.nodes.DistributePointsOnFaces`
   
   
-  .. blid:: GeometryNodeDistributePointsOnFaces
+  Blender reference : `GeometryNodeDistributePointsOnFaces <https://docs.blender.org/api/current/bpy.types.GeometryNodeDistributePointsOnFaces.html>`_
   
   .. code-block:: python
   
@@ -848,7 +905,9 @@ Geometry node [*Distribute Points on Faces*].
     nodes.DistributePointsOnFaces(mesh=self, selection=selection, distance_min=distance_min, density_max=density_max, density=density, density_factor=density_factor, seed=seed, distribute_method=distribute_method, label=node_label, node_color=node_color)
     
 
+```
 ## edge_paths_to_curves
+```{eval-rst}
 
 Geometry node [*Edge Paths to Curves*].
 
@@ -867,10 +926,11 @@ Geometry node [*Edge Paths to Curves*].
   Node :class:`~geonodes.nodes.nodes.EdgePathsToCurves`
   
   
-  .. blid:: GeometryNodeEdgePathsToCurves
+  Blender reference : `GeometryNodeEdgePathsToCurves <https://docs.blender.org/api/current/bpy.types.GeometryNodeEdgePathsToCurves.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.EdgePathsToCurves(mesh=self, start_vertices=start_vertices, next_vertex_index=next_vertex_index, label=node_label, node_color=node_color)
     
+```

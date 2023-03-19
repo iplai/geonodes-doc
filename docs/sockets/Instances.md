@@ -27,6 +27,7 @@
 - [translate](#translate) : instances (Instances)
 
 ## InstanceOnPoints
+```{eval-rst}
 
 Geometry node [*Instance on Points*].
 
@@ -50,7 +51,7 @@ Geometry node [*Instance on Points*].
   Node :class:`~geonodes.nodes.nodes.InstanceOnPoints`
   
   
-  .. blid:: GeometryNodeInstanceOnPoints
+  Blender reference : `GeometryNodeInstanceOnPoints <https://docs.blender.org/api/current/bpy.types.GeometryNodeInstanceOnPoints.html>`_
   
   .. code-block:: python
   
@@ -58,7 +59,9 @@ Geometry node [*Instance on Points*].
     nodes.InstanceOnPoints(points=points, selection=selection, instance=instance, pick_instance=pick_instance, instance_index=instance_index, rotation=rotation, scale=scale, label=node_label, node_color=node_color)
     
 
+```
 ## FromGeometries
+```{eval-rst}
 
 Geometry node [*Geometry to Instance*].
 
@@ -76,7 +79,7 @@ Geometry node [*Geometry to Instance*].
   Node :class:`~geonodes.nodes.nodes.GeometryToInstance`
   
   
-  .. blid:: GeometryNodeGeometryToInstance
+  Blender reference : `GeometryNodeGeometryToInstance <https://docs.blender.org/api/current/bpy.types.GeometryNodeGeometryToInstance.html>`_
   
   .. code-block:: python
   
@@ -84,7 +87,9 @@ Geometry node [*Geometry to Instance*].
     nodes.GeometryToInstance(*geometry, label=node_label, node_color=node_color)
     
 
+```
 ## domain_size
+```{eval-rst}
 
 Geometry node [*Domain Size*].
 
@@ -99,7 +104,7 @@ Geometry node [*Domain Size*].
   
   - component = 'INSTANCES'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
@@ -107,7 +112,9 @@ Geometry node [*Domain Size*].
     nodes.DomainSize(geometry=self, component='INSTANCES', label=f"{self.node_chain_label}.domain_size")
     
 
+```
 ## instance_count
+```{eval-rst}
 
 Geometry node [*Domain Size*].
 
@@ -122,7 +129,7 @@ Geometry node [*Domain Size*].
   
   - component = 'INSTANCES'
     
-  .. blid:: GeometryNodeAttributeDomainSize
+  Blender reference : `GeometryNodeAttributeDomainSize <https://docs.blender.org/api/current/bpy.types.GeometryNodeAttributeDomainSize.html>`_
   
   .. code-block:: python
   
@@ -130,7 +137,9 @@ Geometry node [*Domain Size*].
     nodes.DomainSize(geometry=self, component='INSTANCES', label=f"{self.node_chain_label}.instance_count")
     
 
+```
 ## rotate
+```{eval-rst}
 
 Geometry node [*Rotate Instances*].
 
@@ -151,7 +160,7 @@ Geometry node [*Rotate Instances*].
   Node :class:`~geonodes.nodes.nodes.RotateInstances`
   
   
-  .. blid:: GeometryNodeRotateInstances
+  Blender reference : `GeometryNodeRotateInstances <https://docs.blender.org/api/current/bpy.types.GeometryNodeRotateInstances.html>`_
   
   .. code-block:: python
   
@@ -159,7 +168,9 @@ Geometry node [*Rotate Instances*].
     nodes.RotateInstances(instances=self, selection=selection, rotation=rotation, pivot_point=pivot_point, local_space=local_space, label=node_label, node_color=node_color)
     
 
+```
 ## scale
+```{eval-rst}
 
 Geometry node [*Scale Instances*].
 
@@ -180,7 +191,7 @@ Geometry node [*Scale Instances*].
   Node :class:`~geonodes.nodes.nodes.ScaleInstances`
   
   
-  .. blid:: GeometryNodeScaleInstances
+  Blender reference : `GeometryNodeScaleInstances <https://docs.blender.org/api/current/bpy.types.GeometryNodeScaleInstances.html>`_
   
   .. code-block:: python
   
@@ -188,7 +199,9 @@ Geometry node [*Scale Instances*].
     nodes.ScaleInstances(instances=self, selection=selection, scale=scale, center=center, local_space=local_space, label=node_label, node_color=node_color)
     
 
+```
 ## translate
+```{eval-rst}
 
 Geometry node [*Translate Instances*].
 
@@ -208,7 +221,7 @@ Geometry node [*Translate Instances*].
   Node :class:`~geonodes.nodes.nodes.TranslateInstances`
   
   
-  .. blid:: GeometryNodeTranslateInstances
+  Blender reference : `GeometryNodeTranslateInstances <https://docs.blender.org/api/current/bpy.types.GeometryNodeTranslateInstances.html>`_
   
   .. code-block:: python
   
@@ -216,7 +229,9 @@ Geometry node [*Translate Instances*].
     nodes.TranslateInstances(instances=self, selection=selection, translation=translation, local_space=local_space, label=node_label, node_color=node_color)
     
 
+```
 ## realize
+```{eval-rst}
 
 Geometry node [*Realize Instances*].
 
@@ -234,7 +249,7 @@ Geometry node [*Realize Instances*].
   Node :class:`~geonodes.nodes.nodes.RealizeInstances`
   
   
-  .. blid:: GeometryNodeRealizeInstances
+  Blender reference : `GeometryNodeRealizeInstances <https://docs.blender.org/api/current/bpy.types.GeometryNodeRealizeInstances.html>`_
   
   .. code-block:: python
   
@@ -242,7 +257,9 @@ Geometry node [*Realize Instances*].
     nodes.RealizeInstances(geometry=self, legacy_behavior=legacy_behavior, label=node_label, node_color=node_color)
     
 
+```
 ## to_points
+```{eval-rst}
 
 Geometry node [*Instances to Points*].
 
@@ -262,7 +279,7 @@ Geometry node [*Instances to Points*].
   Node :class:`~geonodes.nodes.nodes.InstancesToPoints`
   
   
-  .. blid:: GeometryNodeInstancesToPoints
+  Blender reference : `GeometryNodeInstancesToPoints <https://docs.blender.org/api/current/bpy.types.GeometryNodeInstancesToPoints.html>`_
   
   .. code-block:: python
   
@@ -270,7 +287,9 @@ Geometry node [*Instances to Points*].
     nodes.InstancesToPoints(instances=self, selection=selection, position=position, radius=radius, label=node_label, node_color=node_color)
     
 
+```
 ## duplicate_instances
+```{eval-rst}
 
 Geometry node [*Duplicate Elements*].
 
@@ -290,10 +309,11 @@ Geometry node [*Duplicate Elements*].
   
   - domain = 'INSTANCE'
     
-  .. blid:: GeometryNodeDuplicateElements
+  Blender reference : `GeometryNodeDuplicateElements <https://docs.blender.org/api/current/bpy.types.GeometryNodeDuplicateElements.html>`_
   
   .. code-block:: python
   
     from geonodes import nodes
     nodes.DuplicateElements(geometry=self, selection=selection, amount=amount, domain='INSTANCE', label=node_label, node_color=node_color)
     
+```
