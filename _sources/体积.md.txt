@@ -1,0 +1,41 @@
+# 体积
+
+## Examples
+
+### Initialization
+
+A **Volume** can be initialized:
+- by typecasting another geometry
+- or by using the constructor `Cube`
+
+```python
+from imare import *
+init_modules(__file__, "imare", "geonodes")
+flush_data()
+
+import geonodes as gn
+
+# Initialization
+with gn.Tree("Geometry Nodes", reroute=False, shift=False) as tree:
+
+    # ---- Parameters
+
+    size = gn.Float.Input(1, "Volume size", .1, 10)
+    density = gn.Float.Input(1, "Density", 0., 30)
+
+    # ---- Let's initialize the volume
+
+    volume = gn.Volume.Cube(min=-size / 2, max=size / 2, density=density)
+
+    tree.og = volume
+
+
+Tree({
+    O.cube: {
+        Mod.geometry_nodes: {
+            "node_group": "Geometry Nodes",
+        },
+    },
+}).load()
+
+```

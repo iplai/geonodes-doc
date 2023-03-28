@@ -1,0 +1,9 @@
+strong {
+    font-weight: bolder;
+    color: crimson;
+}
+
+code.literal {
+    border: 1px solid #dddddd;
+    color: #e83e8c;
+}

@@ -1,0 +1,46 @@
+# 实例
+
+## Examples
+
+### Initialization
+
+A **Instances** can be initialized:
+- by typecasting another geometry
+- or by using the constructor `InstanceOnPoints`
+
+```python
+from imare import *
+init_modules(__file__, "imare", "geonodes")
+flush_data()
+
+import geonodes as gn
+from geonodes.nodes import nodes
+
+with gn.Tree("Geometry Nodes", reroute=False, shift=False) as tree:
+
+    mesh = tree.ig
+    mesh.transform(scale=0.3)
+
+    # ----- Let's create the points
+
+    points = gn.Points.Points(count=100)
+    points.points.position = gn.random_vector(min=-5, max=5)
+
+    # ----- We can construct our instances
+
+    instances = gn.Instances.InstanceOnPoints(points=points, instance=mesh)
+
+    tree.og = instances
+
+
+Tree({
+    O.cube: {
+        Mod.geometry_nodes: {
+            "node_group": "Geometry Nodes",
+        },
+    },
+}).load()
+bpy.context.scene.frame_end = 90
+
+```
+

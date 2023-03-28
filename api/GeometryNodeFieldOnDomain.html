@@ -1,0 +1,855 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Node Fill Curve" href="GeometryNodeFillCurve.html" /><link rel="prev" title="Node Field at Index" href="GeometryNodeFieldAtIndex.html" />
+
+    <link rel="shortcut icon" href="../_static/favicon-light.png"/><!-- Generated with Sphinx 5.3.0 and Furo 2023.03.27 -->
+        <title>Node Interpolate Domain - 程序化几何节点 3.4.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=fad236701ea90a88636c2a8c73b44ae642ed2a53" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">程序化几何节点 3.4.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../_static/logo-light.png" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../_static/logo-dark.png" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html">快速入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E7%A8%8B%E5%BA%8F%E5%8C%96%E5%BB%BA%E6%A8%A1.html">程序化建模</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../%E6%95%99%E7%A8%8B.html">教程</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../%E8%8A%82%E7%82%B9.html">节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E8%8A%82%E7%82%B9.html#id3">安装</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E8%8A%82%E7%82%B9.html#id4">概览</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E8%8A%82%E7%82%B9.html#id5">源码</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E8%8A%82%E7%82%B9.html#id6">结构</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E9%A1%B6%E7%82%B9.html">顶点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E6%9B%B2%E7%BA%BF.html">曲线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E6%9B%B2%E9%9D%A2.html">曲面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E4%BD%93%E7%A7%AF.html">体积</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E5%B1%9E%E6%80%A7.html">属性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E5%AE%9E%E4%BE%8B.html">实例</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../%E6%B0%B4%E6%B3%A2.html">水波</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../API.html">API文档</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../classes.html">Classes</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Boolean.html">Class Boolean</a></li>
+<li class="toctree-l3"><a class="reference internal" href="CloudPoint.html">Class CloudPoint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Collection.html">Class Collection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Color.html">Class Color</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ControlPoint.html">Class ControlPoint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Corner.html">Class Corner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Curve.html">Class Curve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="DataSocket.html">Class DataSocket</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Domain.html">Class Domain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Edge.html">Class Edge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Face.html">Class Face</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Float.html">Class Float</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Frame.html">Class Frame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Geometry.html">Class Geometry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Group.html">Class Group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Image.html">Class Image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Instance.html">Class Instance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Instances.html">Class Instances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Integer.html">Class Integer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Material.html">Class Material</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Mesh.html">Class Mesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Object.html">Class Object</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Points.html">Class Points</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Spline.html">Class Spline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="String.html">Class String</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Texture.html">Class Texture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Tree.html">Class Tree</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Trees.html">Class Trees</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Vector.html">Class Vector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Vertex.html">Class Vertex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Volume.html">Class Volume</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../nodes.html">Nodes</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/AccumulateField.html">Node AccumulateField</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/AlignEulerToVector.html">Node AlignEulerToVector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Arc.html">Node Arc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/AttributeStatistic.html">Node AttributeStatistic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/BezierSegment.html">Node BezierSegment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Boolean.html">Node Boolean</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/BooleanMath.html">Node BooleanMath</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/BoundingBox.html">Node BoundingBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/BrickTexture.html">Node BrickTexture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CaptureAttribute.html">Node CaptureAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CheckerTexture.html">Node CheckerTexture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Clamp.html">Node Clamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CollectionInfo.html">Node CollectionInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Color.html">Node Color</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ColorRamp.html">Node ColorRamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CombineColor.html">Node CombineColor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CombineRgb.html">Node CombineRgb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CombineXyz.html">Node CombineXyz</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Compare.html">Node Compare</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Cone.html">Node Cone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ConvexHull.html">Node ConvexHull</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CornersOfFace.html">Node CornersOfFace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CornersOfVertex.html">Node CornersOfVertex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Cube.html">Node Cube</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CurveCircle.html">Node CurveCircle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CurveHandlePositions.html">Node CurveHandlePositions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CurveLength.html">Node CurveLength</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CurveLine.html">Node CurveLine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CurveOfPoint.html">Node CurveOfPoint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CurveTangent.html">Node CurveTangent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CurveTilt.html">Node CurveTilt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CurveToMesh.html">Node CurveToMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CurveToPoints.html">Node CurveToPoints</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/CustomGroup.html">Node CustomGroup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Cylinder.html">Node Cylinder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/DeformCurvesOnSurface.html">Node DeformCurvesOnSurface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/DeleteGeometry.html">Node DeleteGeometry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/DistributePointsInVolume.html">Node DistributePointsInVolume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/DistributePointsOnFaces.html">Node DistributePointsOnFaces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/DomainSize.html">Node DomainSize</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/DualMesh.html">Node DualMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/DuplicateElements.html">Node DuplicateElements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/EdgeAngle.html">Node EdgeAngle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/EdgeNeighbors.html">Node EdgeNeighbors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/EdgePathsToCurves.html">Node EdgePathsToCurves</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/EdgePathsToSelection.html">Node EdgePathsToSelection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/EdgeVertices.html">Node EdgeVertices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/EdgesOfCorner.html">Node EdgesOfCorner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/EdgesOfVertex.html">Node EdgesOfVertex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/EndpointSelection.html">Node EndpointSelection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ExtrudeMesh.html">Node ExtrudeMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FaceArea.html">Node FaceArea</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FaceIsPlanar.html">Node FaceIsPlanar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FaceNeighbors.html">Node FaceNeighbors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FaceOfCorner.html">Node FaceOfCorner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FaceSetBoundaries.html">Node FaceSetBoundaries</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FieldAtIndex.html">Node FieldAtIndex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FillCurve.html">Node FillCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FilletCurve.html">Node FilletCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FlipFaces.html">Node FlipFaces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FloatCurve.html">Node FloatCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/FloatToInteger.html">Node FloatToInteger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Frame.html">Node Frame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/GeometryProximity.html">Node GeometryProximity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/GeometryToInstance.html">Node GeometryToInstance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/GradientTexture.html">Node GradientTexture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Grid.html">Node Grid</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Group.html">Node Group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/GroupIO.html">Node GroupIO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/GroupInput.html">Node GroupInput</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/GroupOutput.html">Node GroupOutput</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/HandleTypeSelection.html">Node HandleTypeSelection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ID.html">Node ID</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/IcoSphere.html">Node IcoSphere</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ImageTexture.html">Node ImageTexture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Index.html">Node Index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/InstanceOnPoints.html">Node InstanceOnPoints</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/InstanceRotation.html">Node InstanceRotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/InstanceScale.html">Node InstanceScale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/InstancesToPoints.html">Node InstancesToPoints</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Integer.html">Node Integer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/InterpolateDomain.html">Node InterpolateDomain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/IsShadeSmooth.html">Node IsShadeSmooth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/IsSplineCyclic.html">Node IsSplineCyclic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/IsViewport.html">Node IsViewport</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/JoinGeometry.html">Node JoinGeometry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/JoinStrings.html">Node JoinStrings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MagicTexture.html">Node MagicTexture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MapRange.html">Node MapRange</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Material.html">Node Material</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MaterialIndex.html">Node MaterialIndex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MaterialSelection.html">Node MaterialSelection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Math.html">Node Math</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MergeByDistance.html">Node MergeByDistance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MeshBoolean.html">Node MeshBoolean</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MeshCircle.html">Node MeshCircle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MeshIsland.html">Node MeshIsland</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MeshLine.html">Node MeshLine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MeshToCurve.html">Node MeshToCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MeshToPoints.html">Node MeshToPoints</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MeshToVolume.html">Node MeshToVolume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Mix.html">Node Mix</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/MusgraveTexture.html">Node MusgraveTexture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/NamedAttribute.html">Node NamedAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/NodeGroup.html">Node NodeGroup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/NoiseTexture.html">Node NoiseTexture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Normal.html">Node Normal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ObjectInfo.html">Node ObjectInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/OffsetCornerInFace.html">Node OffsetCornerInFace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/OffsetPointInCurve.html">Node OffsetPointInCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/PackUvIslands.html">Node PackUvIslands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Points.html">Node Points</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/PointsOfCurve.html">Node PointsOfCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/PointsToVertices.html">Node PointsToVertices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/PointsToVolume.html">Node PointsToVolume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Position.html">Node Position</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/QuadraticBezier.html">Node QuadraticBezier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Quadrilateral.html">Node Quadrilateral</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Radius.html">Node Radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/RandomValue.html">Node RandomValue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Raycast.html">Node Raycast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/RealizeInstances.html">Node RealizeInstances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/RemoveNamedAttribute.html">Node RemoveNamedAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ReplaceMaterial.html">Node ReplaceMaterial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ReplaceString.html">Node ReplaceString</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ResampleCurve.html">Node ResampleCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ReverseCurve.html">Node ReverseCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/RgbCurves.html">Node RgbCurves</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/RotateEuler.html">Node RotateEuler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/RotateInstances.html">Node RotateInstances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SampleCurve.html">Node SampleCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SampleIndex.html">Node SampleIndex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SampleNearest.html">Node SampleNearest</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SampleNearestSurface.html">Node SampleNearestSurface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SampleUvSurface.html">Node SampleUvSurface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ScaleElements.html">Node ScaleElements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ScaleInstances.html">Node ScaleInstances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SceneTime.html">Node SceneTime</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SelfObject.html">Node SelfObject</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SeparateColor.html">Node SeparateColor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SeparateComponents.html">Node SeparateComponents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SeparateGeometry.html">Node SeparateGeometry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SeparateRgb.html">Node SeparateRgb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SeparateRgb%28legacy%29.html">Node SeparateRgb(legacy)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SeparateXyz.html">Node SeparateXyz</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetCurveNormal.html">Node SetCurveNormal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetCurveRadius.html">Node SetCurveRadius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetCurveTilt.html">Node SetCurveTilt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetHandlePositions.html">Node SetHandlePositions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetHandleType.html">Node SetHandleType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetID.html">Node SetID</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetMaterial.html">Node SetMaterial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetMaterialIndex.html">Node SetMaterialIndex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetPointRadius.html">Node SetPointRadius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetPosition.html">Node SetPosition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetShadeSmooth.html">Node SetShadeSmooth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetSplineCyclic.html">Node SetSplineCyclic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetSplineResolution.html">Node SetSplineResolution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SetSplineType.html">Node SetSplineType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ShortestEdgePaths.html">Node ShortestEdgePaths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SliceString.html">Node SliceString</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SpecialCharacters.html">Node SpecialCharacters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Spiral.html">Node Spiral</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SplineLength.html">Node SplineLength</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SplineParameter.html">Node SplineParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SplineResolution.html">Node SplineResolution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SplitEdges.html">Node SplitEdges</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Star.html">Node Star</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/StoreNamedAttribute.html">Node StoreNamedAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/String.html">Node String</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/StringLength.html">Node StringLength</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/StringToCurves.html">Node StringToCurves</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SubdivideCurve.html">Node SubdivideCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SubdivideMesh.html">Node SubdivideMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/SubdivisionSurface.html">Node SubdivisionSurface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Switch.html">Node Switch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/TransferAttribute.html">Node TransferAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Transform.html">Node Transform</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/TranslateInstances.html">Node TranslateInstances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Triangulate.html">Node Triangulate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/TrimCurve.html">Node TrimCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/UvSphere.html">Node UvSphere</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/UvUnwrap.html">Node UvUnwrap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Value.html">Node Value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/ValueToString.html">Node ValueToString</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Vector.html">Node Vector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/VectorCurves.html">Node VectorCurves</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/VectorMath.html">Node VectorMath</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/VectorRotate.html">Node VectorRotate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/VertexNeighbors.html">Node VertexNeighbors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/VertexOfCorner.html">Node VertexOfCorner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/Viewer.html">Node Viewer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/VolumeCube.html">Node VolumeCube</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/VolumeToMesh.html">Node VolumeToMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/VoronoiTexture.html">Node VoronoiTexture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/WaveTexture.html">Node WaveTexture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../nodes/WhiteNoiseTexture.html">Node WhiteNoiseTexture</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../sockets.html">Sockets</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Boolean.html">Data socket Boolean</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Collection.html">Data socket Collection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Color.html">Data socket Color</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Curve.html">Data socket Curve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Curves.html">Data socket Curves</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Float.html">Data socket Float</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Geometry.html">Data socket Geometry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Image.html">Data socket Image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Instances.html">Data socket Instances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Integer.html">Data socket Integer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Material.html">Data socket Material</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Mesh.html">Data socket Mesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Object.html">Data socket Object</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Points.html">Data socket Points</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/String.html">Data socket String</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Texture.html">Data socket Texture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Vector.html">Data socket Vector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/Volume.html">Data socket Volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sockets/functions.html">geonodes functions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="functions.html">Global functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes.html">Nodes in alphabetical order</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_menus.html">Nodes Menus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NodeFrame.html">Node <em>Frame</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="NodeReroute.html">Node <em>Reroute</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="NodeGroupInput.html">Node <em>Group Input</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="NodeGroupOutput.html">Node <em>Group Output</em></a></li>
+<li class="toctree-l2 current has-children"><a class="reference internal" href="../GeometryNodes.html">Geometry Nodes</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeAccumulateField.html">Node <em>Accumulate Field</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeAttributeDomainSize.html">Node <em>Domain Size</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeAttributeStatistic.html">Node <em>Attribute Statistic</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeBoundBox.html">Node <em>Bounding Box</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCaptureAttribute.html">Node <em>Capture Attribute</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCollectionInfo.html">Node <em>Collection Info</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeConvexHull.html">Node <em>Convex Hull</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCornersOfFace.html">Node <em>Corners of Face</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCornersOfVertex.html">Node <em>Corners of Vertex</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveArc.html">Node <em>Arc</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveEndpointSelection.html">Node <em>Endpoint Selection</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveHandleTypeSelection.html">Node <em>Handle Type Selection</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveLength.html">Node <em>Curve Length</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveOfPoint.html">Node <em>Curve of Point</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurvePrimitiveBezierSegment.html">Node <em>Bezier Segment</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurvePrimitiveCircle.html">Node <em>Curve Circle</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurvePrimitiveLine.html">Node <em>Curve Line</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurvePrimitiveQuadrilateral.html">Node <em>Quadrilateral</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveQuadraticBezier.html">Node <em>Quadratic Bezier</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveSetHandles.html">Node <em>Set Handle Type</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveSpiral.html">Node <em>Spiral</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveSplineType.html">Node <em>Set Spline Type</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveStar.html">Node <em>Star</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveToMesh.html">Node <em>Curve to Mesh</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeCurveToPoints.html">Node <em>Curve to Points</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeDeformCurvesOnSurface.html">Node <em>Deform Curves on Surface</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeDeleteGeometry.html">Node <em>Delete Geometry</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeDistributePointsInVolume.html">Node <em>Distribute Points in Volume</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeDistributePointsOnFaces.html">Node <em>Distribute Points on Faces</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeDualMesh.html">Node <em>Dual Mesh</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeDuplicateElements.html">Node <em>Duplicate Elements</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeEdgePathsToCurves.html">Node <em>Edge Paths to Curves</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeEdgePathsToSelection.html">Node <em>Edge Paths to Selection</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeEdgesOfCorner.html">Node <em>Edges of Corner</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeEdgesOfVertex.html">Node <em>Edges of Vertex</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeExtrudeMesh.html">Node <em>Extrude Mesh</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeFaceOfCorner.html">Node <em>Face of Corner</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeFieldAtIndex.html">Node <em>Field at Index</em></a></li>
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">Node <em>Interpolate Domain</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeFillCurve.html">Node <em>Fill Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeFilletCurve.html">Node <em>Fillet Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeFlipFaces.html">Node <em>Flip Faces</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeGeometryToInstance.html">Node <em>Geometry to Instance</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeGroup.html">Node <em>Group</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeImageTexture.html">Node <em>Image Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputCurveHandlePositions.html">Node <em>Curve Handle Positions</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputCurveTilt.html">Node <em>Curve Tilt</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputID.html">Node <em>ID</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputIndex.html">Node <em>Index</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputInstanceRotation.html">Node <em>Instance Rotation</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputInstanceScale.html">Node <em>Instance Scale</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMaterial.html">Node <em>Material</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMaterialIndex.html">Node <em>Material Index</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMeshEdgeAngle.html">Node <em>Edge Angle</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMeshEdgeNeighbors.html">Node <em>Edge Neighbors</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMeshEdgeVertices.html">Node <em>Edge Vertices</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMeshFaceArea.html">Node <em>Face Area</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMeshFaceIsPlanar.html">Node <em>Face is Planar</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMeshFaceNeighbors.html">Node <em>Face Neighbors</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMeshIsland.html">Node <em>Mesh Island</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputMeshVertexNeighbors.html">Node <em>Vertex Neighbors</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputNamedAttribute.html">Node <em>Named Attribute</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputNormal.html">Node <em>Normal</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputPosition.html">Node <em>Position</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputRadius.html">Node <em>Radius</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputSceneTime.html">Node <em>Scene Time</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputShadeSmooth.html">Node <em>Is Shade Smooth</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputShortestEdgePaths.html">Node <em>Shortest Edge Paths</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputSplineCyclic.html">Node <em>Is Spline Cyclic</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputSplineResolution.html">Node <em>Spline Resolution</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInputTangent.html">Node <em>Curve Tangent</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInstanceOnPoints.html">Node <em>Instance on Points</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeInstancesToPoints.html">Node <em>Instances to Points</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeIsViewport.html">Node <em>Is Viewport</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeJoinGeometry.html">Node <em>Join Geometry</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMaterialSelection.html">Node <em>Material Selection</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMergeByDistance.html">Node <em>Merge by Distance</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshBoolean.html">Node <em>Mesh Boolean</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshCircle.html">Node <em>Mesh Circle</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshCone.html">Node <em>Cone</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshCube.html">Node <em>Cube</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshCylinder.html">Node <em>Cylinder</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshFaceSetBoundaries.html">Node <em>Face Set Boundaries</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshGrid.html">Node <em>Grid</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshIcoSphere.html">Node <em>Ico Sphere</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshLine.html">Node <em>Mesh Line</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshToCurve.html">Node <em>Mesh to Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshToPoints.html">Node <em>Mesh to Points</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshToVolume.html">Node <em>Mesh to Volume</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeMeshUVSphere.html">Node <em>UV Sphere</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeObjectInfo.html">Node <em>Object Info</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeOffsetCornerInFace.html">Node <em>Offset Corner in Face</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeOffsetPointInCurve.html">Node <em>Offset Point in Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodePoints.html">Node <em>Points</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodePointsOfCurve.html">Node <em>Points of Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodePointsToVertices.html">Node <em>Points to Vertices</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodePointsToVolume.html">Node <em>Points to Volume</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeProximity.html">Node <em>Geometry Proximity</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeRaycast.html">Node <em>Raycast</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeRealizeInstances.html">Node <em>Realize Instances</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeRemoveAttribute.html">Node <em>Remove Named Attribute</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeReplaceMaterial.html">Node <em>Replace Material</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeResampleCurve.html">Node <em>Resample Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeReverseCurve.html">Node <em>Reverse Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeRotateInstances.html">Node <em>Rotate Instances</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSampleCurve.html">Node <em>Sample Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSampleIndex.html">Node <em>Sample Index</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSampleNearest.html">Node <em>Sample Nearest</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSampleNearestSurface.html">Node <em>Sample Nearest Surface</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSampleUVSurface.html">Node <em>Sample UV Surface</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeScaleElements.html">Node <em>Scale Elements</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeScaleInstances.html">Node <em>Scale Instances</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSelfObject.html">Node <em>Self Object</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSeparateComponents.html">Node <em>Separate Components</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSeparateGeometry.html">Node <em>Separate Geometry</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetCurveHandlePositions.html">Node <em>Set Handle Positions</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetCurveNormal.html">Node <em>Set Curve Normal</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetCurveRadius.html">Node <em>Set Curve Radius</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetCurveTilt.html">Node <em>Set Curve Tilt</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetID.html">Node <em>Set ID</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetMaterial.html">Node <em>Set Material</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetMaterialIndex.html">Node <em>Set Material Index</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetPointRadius.html">Node <em>Set Point Radius</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetPosition.html">Node <em>Set Position</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetShadeSmooth.html">Node <em>Set Shade Smooth</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetSplineCyclic.html">Node <em>Set Spline Cyclic</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSetSplineResolution.html">Node <em>Set Spline Resolution</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSplineLength.html">Node <em>Spline Length</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSplineParameter.html">Node <em>Spline Parameter</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSplitEdges.html">Node <em>Split Edges</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeStoreNamedAttribute.html">Node <em>Store Named Attribute</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeStringJoin.html">Node <em>Join Strings</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeStringToCurves.html">Node <em>String to Curves</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSubdivideCurve.html">Node <em>Subdivide Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSubdivideMesh.html">Node <em>Subdivide Mesh</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSubdivisionSurface.html">Node <em>Subdivision Surface</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeSwitch.html">Node <em>Switch</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeTransform.html">Node <em>Transform</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeTranslateInstances.html">Node <em>Translate Instances</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeTriangulate.html">Node <em>Triangulate</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeTrimCurve.html">Node <em>Trim Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeUVPackIslands.html">Node <em>Pack UV Islands</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeUVUnwrap.html">Node <em>UV Unwrap</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeVertexOfCorner.html">Node <em>Vertex of Corner</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeViewer.html">Node <em>Viewer</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeVolumeCube.html">Node <em>Volume Cube</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GeometryNodeVolumeToMesh.html">Node <em>Volume to Mesh</em></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../FunctionNodes.html">Function Nodes</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeAlignEulerToVector.html">Node <em>Align Euler to Vector</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeBooleanMath.html">Node <em>Boolean Math</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeCombineColor.html">Node <em>Combine Color</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeCompare.html">Node <em>Compare</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeFloatToInt.html">Node <em>Float to Integer</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeInputBool.html">Node <em>Boolean</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeInputColor.html">Node <em>Color</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeInputInt.html">Node <em>Integer</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeInputSpecialCharacters.html">Node <em>Special Characters</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeInputString.html">Node <em>String</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeInputVector.html">Node <em>Vector</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeRandomValue.html">Node <em>Random Value</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeReplaceString.html">Node <em>Replace String</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeRotateEuler.html">Node <em>Rotate Euler</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeSeparateColor.html">Node <em>Separate Color</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeSliceString.html">Node <em>Slice String</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeStringLength.html">Node <em>String Length</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="FunctionNodeValueToString.html">Node <em>Value to String</em></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../ShaderNodes.html">Shader Nodes</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeClamp.html">Node <em>Clamp</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeCombineXYZ.html">Node <em>Combine XYZ</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeFloatCurve.html">Node <em>Float Curve</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeMapRange.html">Node <em>Map Range</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeMath.html">Node <em>Math</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeMix.html">Node <em>Mix</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeRGBCurve.html">Node <em>RGB Curves</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeSeparateXYZ.html">Node <em>Separate XYZ</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeTexBrick.html">Node <em>Brick Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeTexChecker.html">Node <em>Checker Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeTexGradient.html">Node <em>Gradient Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeTexMagic.html">Node <em>Magic Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeTexMusgrave.html">Node <em>Musgrave Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeTexNoise.html">Node <em>Noise Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeTexVoronoi.html">Node <em>Voronoi Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeTexWave.html">Node <em>Wave Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeTexWhiteNoise.html">Node <em>White Noise Texture</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeValToRGB.html">Node <em>ColorRamp</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeValue.html">Node <em>Value</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeVectorCurve.html">Node <em>Vector Curves</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeVectorMath.html">Node <em>Vector Math</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ShaderNodeVectorRotate.html">Node <em>Vector Rotate</em></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../%E5%91%BD%E5%90%8D%E7%BA%A6%E5%AE%9A.html">命名约定</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://github.com/iplai/gn/edit/main/docs/api/GeometryNodeFieldOnDomain.md" title="Edit this page">
+    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section class="tex2jax_ignore mathjax_ignore" id="node-interpolate-domain">
+<h1>Node <em>Interpolate Domain</em><a class="headerlink" href="#node-interpolate-domain" title="Permalink to this heading">#</a></h1>
+<blockquote>
+<div><p><a class="reference internal" href="../index.html"><span class="std std-doc">main</span></a> - <a class="reference internal" href="nodes.html"><span class="std std-doc">nodes</span></a> - <a class="reference internal" href="nodes_menus.html"><span class="std std-doc">nodes menus</span></a></p>
+</div></blockquote>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/utilities/interpolate_domain.html">Blender reference</a></p></li>
+<li><p><a class="reference external" href="https://docs.blender.org/api/current/bpy.types.GeometryNodeFieldOnDomain.html">api reference</a></p></li>
+<li><p>geonodes name: <code class="docutils literal notranslate"><span class="pre">InterpolateDomain</span></code></p></li>
+<li><p>bl_idname: <code class="docutils literal notranslate"><span class="pre">GeometryNodeFieldOnDomain</span></code></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">geonodes</span> <span class="kn">import</span> <span class="n">nodes</span>
+
+<span class="n">node</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">InterpolateDomain</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="s1">&#39;FLOAT&#39;</span><span class="p">,</span> <span class="n">domain</span><span class="o">=</span><span class="s1">&#39;POINT&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><img alt="Blender Image" src="https://docs.blender.org/manual/en/latest/_images/node-types_GeometryNodeFieldOnDomain.webp" /></p>
+<section id="args">
+<h2>Args:<a class="headerlink" href="#args" title="Permalink to this heading">#</a></h2>
+<section id="input-socket-arguments">
+<h3>Input socket arguments:<a class="headerlink" href="#input-socket-arguments" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>value</strong>: <strong>data_type</strong> dependant</p></li>
+</ul>
+</section>
+<section id="node-parameter-arguments">
+<h3>Node parameter arguments:<a class="headerlink" href="#node-parameter-arguments" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>data_type</strong> (str): default = ‘FLOAT’ in (‘FLOAT’, ‘INT’, ‘FLOAT_VECTOR’, ‘FLOAT_COLOR’, ‘BOOLEAN’)</p></li>
+<li><p><strong>domain</strong> (str): default = ‘POINT’ in (‘POINT’, ‘EDGE’, ‘FACE’, ‘CORNER’, ‘CURVE’, ‘INSTANCE’)</p></li>
+</ul>
+</section>
+</section>
+<section id="output-sockets">
+<h2>Output sockets:<a class="headerlink" href="#output-sockets" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>value</strong> : <code class="docutils literal notranslate"><span class="pre">data_type</span></code> dependant</p></li>
+</ul>
+<section id="shared-sockets">
+<h3>Shared sockets:<a class="headerlink" href="#shared-sockets" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Driving parameter : <code class="docutils literal notranslate"><span class="pre">data_type</span></code> in (‘FLOAT’, ‘INT’, ‘FLOAT_VECTOR’, ‘FLOAT_COLOR’, ‘BOOLEAN’)</p></li>
+<li><p>Input sockets  : [‘value’]</p></li>
+<li><p>Output sockets : [‘value’]</p></li>
+</ul>
+</section>
+</section>
+<section id="implementation">
+<h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this heading">#</a></h2>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Class or method name</p></th>
+<th class="head"><p>Definition</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="Domain.html"><span class="std std-doc">Domain</span></a></strong></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="Domain.html#interpolate"><span class="std std-ref">interpolate</span></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">def</span> <span class="pre">interpolate(self,</span> <span class="pre">value=None):</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="Geometry.html"><span class="std std-doc">Geometry</span></a></strong></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="Geometry.html#interpolate-domain"><span class="std std-ref">interpolate_domain</span></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">def</span> <span class="pre">interpolate_domain(self,</span> <span class="pre">value=None,</span> <span class="pre">domain='POINT'):</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><sub>Go to <a class="reference internal" href="#node-interpolate-domain"><span class="xref myst">top</span></a> - <a class="reference internal" href="../index.html"><span class="std std-doc">main</span></a> - <a class="reference internal" href="nodes.html"><span class="std std-doc">nodes</span></a> - <a class="reference internal" href="nodes_menus.html"><span class="std std-doc">nodes menus</span></a></sub></p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="GeometryNodeFillCurve.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Node <em>Fill Curve</em></div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="GeometryNodeFieldAtIndex.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Node <em>Field at Index</em></div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, 赛博念咒师
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            <div class="icons">
+              <a class="muted-link " href="https://github.com/iplai/gn" aria-label="GitHub">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+            </a>
+              
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Node <em>Interpolate Domain</em></a><ul>
+<li><a class="reference internal" href="#args">Args:</a><ul>
+<li><a class="reference internal" href="#input-socket-arguments">Input socket arguments:</a></li>
+<li><a class="reference internal" href="#node-parameter-arguments">Node parameter arguments:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#output-sockets">Output sockets:</a><ul>
+<li><a class="reference internal" href="#shared-sockets">Shared sockets:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#implementation">Implementation</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/scripts/furo.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    </body>
+</html>
